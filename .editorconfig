@@ -16,3 +16,6 @@ indent_style = space
 
 [*.{props,targets}]
 indent_size = 2
+
+[*.sln]
+end_of_line = crlf
