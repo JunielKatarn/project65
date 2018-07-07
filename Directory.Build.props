@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+
+	<PropertyGroup>
+		<SolutionDir Condition="'$(SolutionDir)' == ''">$(MSBuildThisFileDirectory)</SolutionDir>
+
+		<Platform Condition="'$(Platform)' == ''">x86</Platform>
+		<Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
+	</PropertyGroup>
+
+	<PropertyGroup Label="Configuration">
+		<PlatformToolset>v141</PlatformToolset>
+		<OutDir Condition="'$(ProjectName)'==''">$(SolutionDir)target\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+		<IntDir Condition="'$(ProjectName)'==''">$(SolutionDir)build\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</IntDir>
+		<!--IntDir and OutDir's leaf directory can be overridden if ProjectName is set.-->
+		<OutDir Condition="'$(ProjectName)'!=''">$(SolutionDir)target\$(Platform)\$(Configuration)\$(ProjectName)\</OutDir>
+		<IntDir Condition="'$(ProjectName)'!=''">$(SolutionDir)build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+	</PropertyGroup>
+
+</Project>
