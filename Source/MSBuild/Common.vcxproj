@@ -10,6 +10,49 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SourceRoot)Common\CriticalSection.h" />
+    <ClInclude Include="$(SourceRoot)Common\DateTimeClass.h" />
+    <ClInclude Include="$(SourceRoot)Common\FileClass.h" />
+    <ClInclude Include="$(SourceRoot)Common\HighResTimeStamp.h" />
+    <ClInclude Include="$(SourceRoot)Common\IniFileClass.h" />
+    <ClInclude Include="$(SourceRoot)Common\LogClass.h" />
+    <ClInclude Include="$(SourceRoot)Common\md5.h" />
+    <ClInclude Include="$(SourceRoot)Common\MemoryManagement.h" />
+    <ClInclude Include="$(SourceRoot)Common\MemTest.h" />
+    <ClInclude Include="$(SourceRoot)Common\path.h" />
+    <ClInclude Include="$(SourceRoot)Common\Platform.h" />
+    <ClInclude Include="$(SourceRoot)Common\Random.h" />
+    <ClInclude Include="$(SourceRoot)Common\SmartPointer.h" />
+    <ClInclude Include="$(SourceRoot)Common\stdafx.h" />
+    <ClInclude Include="$(SourceRoot)Common\StdString.h" />
+    <ClInclude Include="$(SourceRoot)Common\stdtypes.h" />
+    <ClInclude Include="$(SourceRoot)Common\SyncEvent.h" />
+    <ClInclude Include="$(SourceRoot)Common\Thread.h" />
+    <ClInclude Include="$(SourceRoot)Common\Trace.h" />
+    <ClInclude Include="$(SourceRoot)Common\TraceModulesCommon.h" />
+    <ClInclude Include="$(SourceRoot)Common\Util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SourceRoot)Common\CriticalSection.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\DateTimeClass.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\FileClass.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\HighResTimeStamp.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\IniFileClass.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\LogClass.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\md5.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\MemoryManagement.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\MemTest.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\path.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\Platform.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\Random.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\stdafx.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\StdString.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\SyncEvent.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\Thread.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\Trace.cpp" />
+    <ClCompile Include="$(SourceRoot)Common\Util.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4323124B-B676-404E-BB9D-D6C301DC8FB5}</ProjectGuid>
     <RootNamespace>Project64</RootNamespace>
