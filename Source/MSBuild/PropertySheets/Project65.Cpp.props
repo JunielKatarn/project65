@@ -26,6 +26,13 @@
 		<ClCompile>
 			<LanguageStandard>stdcpp14</LanguageStandard>
 			<WarningLevel>Level3</WarningLevel>
+			<!--
+				_CRT_SECURE_NO_WARNINGS - C4996: ... This function or variable may be unsafe.
+			-->
+			<PreprocessorDefinitions>
+				_CRT_SECURE_NO_WARNINGS;
+				%(PreprocessorDefinitions)
+			</PreprocessorDefinitions>
 		</ClCompile>
 	</ItemDefinitionGroup>
 
