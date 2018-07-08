@@ -23,7 +23,9 @@
   </ImportGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-
+  <PropertyGroup>
+    <IncludePath>$(SourceRoot);$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <Target Name="Vars">
     <Message Text="sol: $(SolutionDir)" />
     <Message Text="src: $(SourceRoot)" />
@@ -31,5 +33,6 @@
     <Message Text="tgt: $(TargetRoot)" />
     <Message Text="plf: $(Platform)" />
     <Message Text="cfg: $(Configuration)" />
+    <Message Text="inc: $(IncludePath)" />
   </Target>
 </Project>

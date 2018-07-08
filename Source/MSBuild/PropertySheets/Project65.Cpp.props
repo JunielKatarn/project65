@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-  <PropertyGroup Label="Globals">
-    <DefaultLanguage>en-US</DefaultLanguage>
-  </PropertyGroup>
+	<PropertyGroup Label="Globals">
+		<DefaultLanguage>en-US</DefaultLanguage>
+		<WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+	</PropertyGroup>
 
-  <PropertyGroup Label="Configuration">
-    <PlatformToolset>v141</PlatformToolset>
-    <GenerateProjectSpecificOutputFolder>false</GenerateProjectSpecificOutputFolder>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
+	<PropertyGroup Label="Configuration">
+		<PlatformToolset>v141</PlatformToolset>
+		<GenerateProjectSpecificOutputFolder>false</GenerateProjectSpecificOutputFolder>
+		<CharacterSet>MultiByte</CharacterSet>
+	</PropertyGroup>
 
-  <ImportGroup Label="Defaults">
-    <Import Project="$(Platform).props" />
-    <Import Project="$(Configuration).props" />
-  </ImportGroup>
+	<ImportGroup Label="Defaults">
+		<Import Project="$(Platform).props" />
+		<Import Project="$(Configuration).props" />
+	</ImportGroup>
 
-  <ImportGroup Label="ConfigurationType">
-    <Import Project="$(ConfigurationType)\$(Platform).props" />
-    <Import Project="$(ConfigurationType)\$(Configuration).props" />
-  </ImportGroup>
+	<ImportGroup Label="ConfigurationType">
+		<Import Project="$(ConfigurationType)\$(Platform).props" />
+		<Import Project="$(ConfigurationType)\$(Configuration).props" />
+	</ImportGroup>
 
-  <ItemDefinitionGroup>
-    <ClCompile>
-      <LanguageStandard>stdcpp17</LanguageStandard>
-      <WarningLevel>Level3</WarningLevel>
-    </ClCompile>
-  </ItemDefinitionGroup>
+	<ItemDefinitionGroup>
+		<ClCompile>
+			<LanguageStandard>stdcpp14</LanguageStandard>
+			<WarningLevel>Level3</WarningLevel>
+		</ClCompile>
+	</ItemDefinitionGroup>
 
-  <ItemDefinitionGroup Condition="'$(ConfigurationType)' == 'Application' OR '$(ConfigurationType)' == 'DynamicLibrary'">
-    <Link>
-      <SubSystem>Console</SubSystem>
-    </Link>
-  </ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(ConfigurationType)' == 'Application' OR '$(ConfigurationType)' == 'DynamicLibrary'">
+		<Link>
+			<SubSystem>Console</SubSystem>
+		</Link>
+	</ItemDefinitionGroup>
 
 </Project>
