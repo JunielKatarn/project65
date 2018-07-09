@@ -9,3 +9,4 @@ Target/
 *.suo
 *.nupkg
 *.swp
+*.log

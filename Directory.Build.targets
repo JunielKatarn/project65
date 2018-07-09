@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+
+	<Target Name="Vars">
+		<Message Text="SolutionDir:   $(SolutionDir)" />
+		<Message Text="SourceRoot:    $(SourceRoot)" />
+		<Message Text="BuildRoot:     $(BuildRoot)" />
+		<Message Text="TargetRoot:    $(TargetRoot)" />
+		<Message Text="Platform:      $(Platform)" />
+		<Message Text="Configuration: $(Configuration)" />
+		<Message Text="VCTargetsPath: $(VCTargetsPath)" />
+		<Message Text="IncludePath:   $(IncludePath)" />
+	</Target>
+
+</Project>
