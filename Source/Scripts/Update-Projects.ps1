@@ -23,9 +23,8 @@ Add-Type -Path "$MSBuildHome\Bin\Microsoft.Build.dll"
 $options = $options = [Microsoft.Build.Definition.ProjectOptions]::new()
 
 #$projectPath = (Get-ChildItem .\modules\project64\Source\Common\Common.vcxproj).FullName
-$sourceProject = [Microsoft.Build.Evaluation.Project]::FromFile((Get-ChildItem $Source).FullName, $options)
-$headers = $sourceProject.Items | Where-Object { $_.ItemType -eq 'ClInclude' }
-$sources = $sourceProject.Items | Where-Object { $_.ItemType -eq 'ClCompile' }
+$importedProject = [Microsoft.Build.Evaluation.Project]::FromFile((Get-ChildItem $Source).FullName, $options)
+$importedItems = $importedProject.Items | Where-Object { $_.ItemType -in ('ClInclude', 'ClCompile') }
 
 #$projectPath = (Get-ChildItem .\Source\MSBuild\Common.vcxproj).FullName
 $targetProject = [Microsoft.Build.Evaluation.Project]::FromFile((Get-ChildItem $Target).FullName, $options)
@@ -34,10 +33,9 @@ $targetProject = [Microsoft.Build.Evaluation.Project]::FromFile((Get-ChildItem $
 $oldItems = $targetProject.Items | Where-Object { $_.ItemType -in ('ClInclude', 'ClCompile') }
 $oldItems | ForEach-Object { $targetProject.RemoveItem($_) }
 
-# foreach ($header in $headers) {
+# foreach ($item in $importedItems) {
 # 	$targetProject.AddItem($header.ItemType, "`$(SourceRoot)Common\$($header.UnevaluatedInclude)")
 # }
-$headers | ForEach-Object { $targetProject.AddItem($_.ItemType, "`$(SourceRoot)$ItemPath\$($_.UnevaluatedInclude)") }
-$sources | ForEach-Object { $targetProject.AddItem($_.ItemType, "`$(SourceRoot)$ItemPath\$($_.UnevaluatedInclude)") }
+$importedItems | ForEach-Object { $targetProject.AddItem($_.ItemType, "`$(SourceRoot)$ItemPath\$($_.UnevaluatedInclude)") }
 
 $targetProject.Save()
