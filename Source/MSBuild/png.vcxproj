@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SourceRoot)3rdParty\png\png.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngerror.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngget.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngmem.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngpread.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngread.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrio.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrtran.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrutil.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngset.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngtrans.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwio.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwrite.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwtran.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SourceRoot)3rdParty\png\png.h" />
+    <ClInclude Include="$(SourceRoot)3rdParty\png\pngconf.h" />
+    <ClInclude Include="$(SourceRoot)3rdParty\png\pngpriv.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F00AD871-4BB1-4368-B82E-D635961F54CF}</ProjectGuid>
+    <RootNamespace>Project64</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.props" />
+  </ImportGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <IncludePath>$(SourceRoot);$(SourceRoot)3rdParty;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+</Project>
