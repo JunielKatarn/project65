@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "duktape", "Source\MSBuild\d
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "png", "Source\MSBuild\png.vcxproj", "{F00AD871-4BB1-4368-B82E-D635961F54CF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WTL", "Source\MSBuild\WTL.vcxproj", "{C3015F05-B2AA-4243-A549-658A5195A2CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -39,6 +41,10 @@ Global
 		{F00AD871-4BB1-4368-B82E-D635961F54CF}.Debug|x86.Build.0 = Debug|Win32
 		{F00AD871-4BB1-4368-B82E-D635961F54CF}.Release|x86.ActiveCfg = Release|Win32
 		{F00AD871-4BB1-4368-B82E-D635961F54CF}.Release|x86.Build.0 = Release|Win32
+		{C3015F05-B2AA-4243-A549-658A5195A2CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{C3015F05-B2AA-4243-A549-658A5195A2CA}.Debug|x86.Build.0 = Debug|Win32
+		{C3015F05-B2AA-4243-A549-658A5195A2CA}.Release|x86.ActiveCfg = Release|Win32
+		{C3015F05-B2AA-4243-A549-658A5195A2CA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
