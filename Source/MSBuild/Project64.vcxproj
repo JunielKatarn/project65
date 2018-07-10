@@ -196,5 +196,12 @@
         %(PreprocessorDefinitions)
       </PreprocessorDefinitions>
     </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+    </Link>
+    <Manifest>
+      <EnableDPIAwareness>true</EnableDPIAwareness>
+    </Manifest>
   </ItemDefinitionGroup>
 </Project>
