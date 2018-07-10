@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WTL", "Source\MSBuild\WTL.v
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "Source\MSBuild\zlib.vcxproj", "{8E9DE926-B469-4773-9E2C-5399AA571671}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project64-core", "Source\MSBuild\Project64-core.vcxproj", "{2241655B-C987-4FBB-9F9C-9EF90C23BABC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -51,6 +53,10 @@ Global
 		{8E9DE926-B469-4773-9E2C-5399AA571671}.Debug|x86.Build.0 = Debug|Win32
 		{8E9DE926-B469-4773-9E2C-5399AA571671}.Release|x86.ActiveCfg = Release|Win32
 		{8E9DE926-B469-4773-9E2C-5399AA571671}.Release|x86.Build.0 = Release|Win32
+		{2241655B-C987-4FBB-9F9C-9EF90C23BABC}.Debug|x86.ActiveCfg = Debug|Win32
+		{2241655B-C987-4FBB-9F9C-9EF90C23BABC}.Debug|x86.Build.0 = Debug|Win32
+		{2241655B-C987-4FBB-9F9C-9EF90C23BABC}.Release|x86.ActiveCfg = Release|Win32
+		{2241655B-C987-4FBB-9F9C-9EF90C23BABC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
