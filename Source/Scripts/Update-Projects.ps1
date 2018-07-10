@@ -21,16 +21,17 @@ Add-Type -Path "$MSBuildHome\Bin\Microsoft.Build.dll"
 
 # Default options
 $options = $options = [Microsoft.Build.Definition.ProjectOptions]::new()
+$itemTypes = ('ClInclude', 'ClCompile', 'None', 'ResourceCompile')
 
 #$projectPath = (Get-ChildItem .\modules\project64\Source\Common\Common.vcxproj).FullName
 $importedProject = [Microsoft.Build.Evaluation.Project]::FromFile((Get-ChildItem $Source).FullName, $options)
-$importedItems = $importedProject.Items | Where-Object { $_.ItemType -in ('ClInclude', 'ClCompile') }
+$importedItems = $importedProject.Items | Where-Object { $_.ItemType -in $itemTypes }
 
 #$projectPath = (Get-ChildItem .\Source\MSBuild\Common.vcxproj).FullName
 $targetProject = [Microsoft.Build.Evaluation.Project]::FromFile((Get-ChildItem $Target).FullName, $options)
 
 # Clear items.
-$oldItems = $targetProject.Items | Where-Object { $_.ItemType -in ('ClInclude', 'ClCompile') }
+$oldItems = $targetProject.Items | Where-Object { $_.ItemType -in $itemTypes }
 $oldItems | ForEach-Object { $targetProject.RemoveItem($_) }
 
 # foreach ($item in $importedItems) {

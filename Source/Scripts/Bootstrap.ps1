@@ -14,7 +14,8 @@ Set-Location $rootDir
 # Restore Git submoudles.
 & $Git submodule update --init
 
-Set-Location $rootDir\ReactWindows
+# Copy static files
+Copy-Item .\Source\Cpp\Project64-core\Version.h .\modules\project64\Source\Project64-core\
 
 # Restore packages.
 & $NuGet restore

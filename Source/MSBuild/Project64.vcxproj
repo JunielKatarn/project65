@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SourceRoot)Project64\main.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\Multilanguage\LanguageSelector.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\Plugins\PluginList.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\Settings\GuiSettings.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\Settings\NotificationSettings.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\Settings\UISettings.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\stdafx.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\CheatClassUI.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Assembler.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Breakpoints.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddBreakpoint.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddSymbol.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Commands.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-DMALogView.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemoryDump.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemorySearch.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-RegisterTabs.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Scripts.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-StackTrace.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-StackView.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Symbols.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-TLB.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-ViewMemory.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\DMALog.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptHook.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptInstance.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptSystem.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Symbols.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\LoggingUI.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\MainMenu.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\MainWindow.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\MenuClass.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\MenuShortCuts.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Notification.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\RomBrowserClass.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\RomInformationClass.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\SettingsConfig.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-AdvancedOptions.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Directories.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-General.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Plugin.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Recompiler.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Status.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-GameBrowser.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-KeyboardShortcuts.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Options.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Plugin.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\SupportEnterCode.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\SupportWindow.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\WTLControls\EditNumber32.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\WTLControls\ModifiedEditBox.cpp" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\WTLControls\PartialGroupBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SourceRoot)Project64\Multilanguage\LanguageSelector.h" />
+    <ClInclude Include="$(SourceRoot)Project64\N64System.h" />
+    <ClInclude Include="$(SourceRoot)Project64\N64System\Debugger\OpInfo.h" />
+    <ClInclude Include="$(SourceRoot)Project64\Settings\GuiSettings.h" />
+    <ClInclude Include="$(SourceRoot)Project64\Settings\NotificationSettings.h" />
+    <ClInclude Include="$(SourceRoot)Project64\Settings\UISettings.h" />
+    <ClInclude Include="$(SourceRoot)Project64\stdafx.h" />
+    <ClInclude Include="$(SourceRoot)Project64\Support.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\CheatClassUI.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Assembler.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Breakpoints.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\DebugDialog.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddBreakpoint.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddSymbol.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Commands.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-DMALogView.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemoryDump.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemorySearch.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-RegisterTabs.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Scripts.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-StackTrace.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-StackView.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Symbols.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-TLB.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-ViewMemory.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\debugger.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\DebuggerUI.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\DMALog.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\OpInfo.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptHook.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptInstance.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptSystem.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\stdafx.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Symbols.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\LoggingUI.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\MainMenu.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\MainWindow.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\MenuClass.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\MenuShortCuts.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Notification.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\resource.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\RomBrowser.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\RomInformationClass.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\SettingsConfig.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-AdvancedOptions.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Directories.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-General.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Plugin.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Recompiler.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Status.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-GameBrowser.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-KeyboardShortcuts.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Options.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Plugin.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\SupportEnterCode.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\SupportWindow.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\EditNumber32.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\ModifiedCheckBox.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\ModifiedComboBox.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\ModifiedEditBox.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\PartialGroupBox.h" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\TooltipDialog.h" />
+    <ClInclude Include="$(SourceRoot)Project64\WTLApp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SourceRoot)Project64\res\divider.cur" />
+    <None Include="$(SourceRoot)Project64\res\hand.cur" />
+    <None Include="$(SourceRoot)Project64\UserInterface\API.js" />
+    <None Include="$(SourceRoot)Project64\UserInterface\icons\bin00001.bin" />
+    <None Include="$(SourceRoot)Project64\UserInterface\Icons\divider.cur" />
+    <None Include="$(SourceRoot)Project64\UserInterface\Icons\hand.cur" />
+    <None Include="$(SourceRoot)Project64\UserInterface\icons\javascri.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(SourceRoot)Project64\UserInterface\UIResources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="7zip.vcxproj">
+      <Project>{7158d420-5764-4d5f-aca9-2e5807c2e691}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Common.vcxproj">
+      <Project>{4323124b-b676-404e-bb9d-d6c301dc8fb5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="duktape.vcxproj">
+      <Project>{9986b3bf-032f-465e-bbaa-05197036da9c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Project64-core.vcxproj">
+      <Project>{2241655b-c987-4fbb-9f9c-9ef90c23babc}</Project>
+    </ProjectReference>
+    <ProjectReference Include="zlib.vcxproj">
+      <Project>{8e9de926-b469-4773-9e2c-5399aa571671}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A1A41759-71B6-4778-80E4-D9C5BB3FBAC2}</ProjectGuid>
+    <RootNamespace>Project64</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.props" />
+  </ImportGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <IncludePath>
+      $(SourceRoot);
+      $(SourceRoot)3rdParty;
+      $(SourceRoot)$(MSBuildProjectName);
+      $(SolutionDir)Source\Cpp;
+      $(IncludePath)
+    </IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <WarningLevel>Level3</WarningLevel>
+      <!--
+        WIN32_LEAN_AND_MEAN - C2375: 'getsockname': redefinition; different linkage
+      -->
+      <PreprocessorDefinitions>
+        WIN32_LEAN_AND_MEAN;
+        %(PreprocessorDefinitions)
+      </PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>
