@@ -11,26 +11,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlapp.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlcrack.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlctrls.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlctrlw.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlctrlx.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlddx.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atldlgs.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlfind.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlframe.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlgdi.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlmisc.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlprint.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlres.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlresce.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlscrl.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlsplit.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atltheme.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atluser.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlwince.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlwinx.h" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlapp.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlcrack.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlctrls.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlctrlw.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlctrlx.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlddx.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atldlgs.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlfind.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlframe.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlgdi.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlmisc.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlprint.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlres.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlresce.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlscrl.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlsplit.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atltheme.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atluser.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlwince.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlwinx.h" Label="Imported" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C3015F05-B2AA-4243-A549-658A5195A2CA}</ProjectGuid>

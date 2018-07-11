@@ -11,198 +11,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)Project64-core\3rdParty\7zip.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\AppInit.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Logging.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\MemoryExceptionFilter.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Multilanguage\LanguageClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\CheatClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\EmulationThread.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\FramePerSecondClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterCPU.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps32.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Audio.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Disk.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Dma.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Eeprom.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\FlashRam.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\GBCart.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\MemoryVirtualMem.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Mempak.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\OpcodeName.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\PifRam.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\RegisterClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Rumblepak.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Sram.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\SystemEvents.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\SystemTiming.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\TLBclass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Transferpak.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\N64Class.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\N64DiskClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\N64RomClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\ProfilingClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmOps.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRecompilerOps.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRegInfo.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeBlock.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeSection.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionInfo.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionMapClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\LoopAnalysis.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerCodeLog.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerMemory.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RegBase.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\SectionInfo.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86ops.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RecompilerOps.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RegInfo.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\SpeedLimiterClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\N64System\SystemGlobals.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\AudioPlugin.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\ControllerPlugin.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\GFXPlugin.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\PluginBase.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\PluginClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\RSPPlugin.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\RomList\RomList.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\DebugSettings.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\GameSettings.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\LoggingSettings.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\N64SystemSettings.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\RecompilerSettings.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Application.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationIndex.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationPath.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Cheats.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSetting.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSettingIndex.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBCpuType.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBOnOff.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBRamSize.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBSaveChip.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBYesNo.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RelativePath.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabase.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseIndex.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseSetting.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-SelectedDirectory.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempBool.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempNumber.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempString.cpp" />
-    <ClCompile Include="$(SourceRoot)Project64-core\stdafx.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\contrib\minizip\unzip.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\contrib\minizip\zip.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\zconf.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\zlib.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\3rdParty\7zip.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\3rdParty\zip.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\AppInit.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Debugger.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\ExceptionHandler.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Logging.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Multilanguage.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Multilanguage\LanguageClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\CheatClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\FramePerSecondClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterCPU.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps32.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Audio.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Disk.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Dma.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Eeprom.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\FlashRam.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\GBCart.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\MemoryVirtualMem.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Mempak.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\OpCode.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\OpcodeName.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\PifRam.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\RegisterClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Rumblepak.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Sram.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\SystemEvents.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\SystemTiming.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\TLBClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Transferpak.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\TranslateVaddr.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64Class.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64DiskClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64RomClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64Types.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\ProfilingClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmOpCode.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmOps.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRecompilerOps.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRegInfo.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeBlock.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeSection.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\ExitInfo.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionInfo.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionMapClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\JumpInfo.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\LoopAnalysis.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerCodeLog.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerMemory.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerOps.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RegBase.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RegInfo.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\SectionInfo.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x64-86\x64RegInfo.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86ops.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RecompilerOps.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RegInfo.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\SpeedLimiterClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\N64System\SystemGlobals.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Notification.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Plugin.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\AudioPlugin.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\ControllerPlugin.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\GFXPlugin.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\PluginBase.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\PluginClass.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\RSPPlugin.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\RomList\RomList.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\DebugSettings.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\GameSettings.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\LoggingSettings.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\N64SystemSettings.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\RecompilerSettings.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingsID.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Application.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationIndex.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationPath.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Base.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Cheats.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSetting.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSettingIndex.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBCpuType.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBOnOff.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBRamSize.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBSaveChip.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBYesNo.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RelativePath.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabase.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseIndex.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseSetting.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomSetting.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-SelectedDirectory.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempBool.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempNumber.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempString.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\stdafx.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\TraceModulesProject64.h" />
-    <ClInclude Include="$(SourceRoot)Project64-core\Version.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="7zip.vcxproj">
       <Project>{7158d420-5764-4d5f-aca9-2e5807c2e691}</Project>
     </ProjectReference>
@@ -212,6 +20,202 @@
     <ProjectReference Include="zlib.vcxproj">
       <Project>{8e9de926-b469-4773-9e2c-5399aa571671}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SourceRoot)Project64-core\3rdParty\7zip.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\AppInit.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Logging.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\MemoryExceptionFilter.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Multilanguage\LanguageClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\CheatClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\EmulationThread.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\FramePerSecondClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterCPU.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps32.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Audio.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Disk.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Dma.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Eeprom.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\FlashRam.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\GBCart.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\MemoryVirtualMem.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Mempak.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\OpcodeName.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\PifRam.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\RegisterClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Rumblepak.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Sram.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\SystemEvents.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\SystemTiming.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\TLBclass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Transferpak.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\N64Class.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\N64DiskClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\N64RomClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\ProfilingClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmOps.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRecompilerOps.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRegInfo.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeBlock.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeSection.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionInfo.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionMapClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\LoopAnalysis.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerCodeLog.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerMemory.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RegBase.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\SectionInfo.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86ops.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RecompilerOps.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RegInfo.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\SpeedLimiterClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\SystemGlobals.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\AudioPlugin.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\ControllerPlugin.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\GFXPlugin.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\PluginBase.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\PluginClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\RSPPlugin.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\RomList\RomList.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\DebugSettings.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\GameSettings.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\LoggingSettings.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\N64SystemSettings.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\RecompilerSettings.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Application.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationIndex.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationPath.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Cheats.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSetting.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSettingIndex.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBCpuType.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBOnOff.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBRamSize.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBSaveChip.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBYesNo.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RelativePath.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabase.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseIndex.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseSetting.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-SelectedDirectory.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempBool.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempNumber.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempString.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\stdafx.cpp" Label="Imported" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\contrib\minizip\unzip.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\contrib\minizip\zip.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\zconf.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\zlib.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\3rdParty\7zip.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\3rdParty\zip.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\AppInit.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Debugger.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\ExceptionHandler.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Logging.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Multilanguage.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Multilanguage\LanguageClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\CheatClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\FramePerSecondClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterCPU.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps32.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Audio.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Disk.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Dma.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Eeprom.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\FlashRam.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\GBCart.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\MemoryVirtualMem.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Mempak.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\OpCode.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\OpcodeName.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\PifRam.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\RegisterClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Rumblepak.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Sram.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\SystemEvents.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\SystemTiming.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\TLBClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Transferpak.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\TranslateVaddr.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64Class.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64DiskClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64RomClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64Types.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\ProfilingClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmOpCode.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmOps.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRecompilerOps.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRegInfo.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeBlock.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeSection.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\ExitInfo.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionInfo.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionMapClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\JumpInfo.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\LoopAnalysis.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerCodeLog.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerMemory.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerOps.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RegBase.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RegInfo.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\SectionInfo.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x64-86\x64RegInfo.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86ops.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RecompilerOps.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RegInfo.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\SpeedLimiterClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\SystemGlobals.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Notification.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugin.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\AudioPlugin.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\ControllerPlugin.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\GFXPlugin.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\PluginBase.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\PluginClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\RSPPlugin.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\RomList\RomList.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\DebugSettings.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\GameSettings.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\LoggingSettings.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\N64SystemSettings.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\RecompilerSettings.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingsID.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Application.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationIndex.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationPath.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Base.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Cheats.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSetting.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSettingIndex.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBCpuType.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBOnOff.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBRamSize.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBSaveChip.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBYesNo.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RelativePath.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabase.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseIndex.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseSetting.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomSetting.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-SelectedDirectory.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempBool.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempNumber.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempString.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\stdafx.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\TraceModulesProject64.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Version.h" Label="Imported" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SourceRoot)Project64-core\ClassDiagram.cd" Label="Imported" />
+    <None Include="$(SourceRoot)Project64-core\ClassDiagram1.cd" Label="Imported" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2241655B-C987-4FBB-9F9C-9EF90C23BABC}</ProjectGuid>

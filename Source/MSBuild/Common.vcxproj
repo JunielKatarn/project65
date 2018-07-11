@@ -11,47 +11,47 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)Common\CriticalSection.h" />
-    <ClInclude Include="$(SourceRoot)Common\DateTimeClass.h" />
-    <ClInclude Include="$(SourceRoot)Common\FileClass.h" />
-    <ClInclude Include="$(SourceRoot)Common\HighResTimeStamp.h" />
-    <ClInclude Include="$(SourceRoot)Common\IniFileClass.h" />
-    <ClInclude Include="$(SourceRoot)Common\LogClass.h" />
-    <ClInclude Include="$(SourceRoot)Common\md5.h" />
-    <ClInclude Include="$(SourceRoot)Common\MemoryManagement.h" />
-    <ClInclude Include="$(SourceRoot)Common\MemTest.h" />
-    <ClInclude Include="$(SourceRoot)Common\path.h" />
-    <ClInclude Include="$(SourceRoot)Common\Platform.h" />
-    <ClInclude Include="$(SourceRoot)Common\Random.h" />
-    <ClInclude Include="$(SourceRoot)Common\SmartPointer.h" />
-    <ClInclude Include="$(SourceRoot)Common\stdafx.h" />
-    <ClInclude Include="$(SourceRoot)Common\StdString.h" />
-    <ClInclude Include="$(SourceRoot)Common\stdtypes.h" />
-    <ClInclude Include="$(SourceRoot)Common\SyncEvent.h" />
-    <ClInclude Include="$(SourceRoot)Common\Thread.h" />
-    <ClInclude Include="$(SourceRoot)Common\Trace.h" />
-    <ClInclude Include="$(SourceRoot)Common\TraceModulesCommon.h" />
-    <ClInclude Include="$(SourceRoot)Common\Util.h" />
+    <ClCompile Include="$(SourceRoot)Common\CriticalSection.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\DateTimeClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\FileClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\HighResTimeStamp.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\IniFileClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\LogClass.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\md5.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\MemoryManagement.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\MemTest.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\path.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\Platform.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\Random.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\stdafx.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\StdString.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\SyncEvent.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\Thread.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\Trace.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Common\Util.cpp" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)Common\CriticalSection.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\DateTimeClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\FileClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\HighResTimeStamp.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\IniFileClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\LogClass.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\md5.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\MemoryManagement.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\MemTest.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\path.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\Platform.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\Random.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\stdafx.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\StdString.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\SyncEvent.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\Thread.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\Trace.cpp" />
-    <ClCompile Include="$(SourceRoot)Common\Util.cpp" />
+    <ClInclude Include="$(SourceRoot)Common\CriticalSection.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\DateTimeClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\FileClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\HighResTimeStamp.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\IniFileClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\LogClass.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\md5.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\MemoryManagement.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\MemTest.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\path.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\Platform.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\Random.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\SmartPointer.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\stdafx.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\StdString.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\stdtypes.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\SyncEvent.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\Thread.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\Trace.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\TraceModulesCommon.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Common\Util.h" Label="Imported" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4323124B-B676-404E-BB9D-D6C301DC8FB5}</ProjectGuid>

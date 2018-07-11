@@ -11,26 +11,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\png.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngerror.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngget.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngmem.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngpread.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngread.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrio.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrtran.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrutil.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngset.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngtrans.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwio.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwrite.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwtran.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwutil.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\png.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngerror.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngget.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngmem.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngpread.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngread.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrio.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrtran.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrutil.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngset.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngtrans.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwio.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwrite.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwtran.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwutil.c" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)3rdParty\png\png.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\png\pngconf.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\png\pngpriv.h" />
+    <ClInclude Include="$(SourceRoot)3rdParty\png\png.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\png\pngconf.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\png\pngpriv.h" Label="Imported" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F00AD871-4BB1-4368-B82E-D635961F54CF}</ProjectGuid>

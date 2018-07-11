@@ -11,11 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)3rdParty\duktape\duktape.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\duktape\duk_config.h" />
+    <ClInclude Include="$(SourceRoot)3rdParty\duktape\duktape.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\duktape\duk_config.h" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)3rdParty\duktape\duktape.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\duktape\duktape.c" Label="Imported" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9986B3BF-032F-465E-BBAA-05197036DA9C}</ProjectGuid>

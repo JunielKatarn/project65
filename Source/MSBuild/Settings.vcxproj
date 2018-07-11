@@ -11,10 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)Settings\Settings.h" />
+    <ClCompile Include="$(SourceRoot)Settings\Settings.cpp" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)Settings\Settings.cpp" />
+    <ClInclude Include="$(SourceRoot)Settings\Settings.h" Label="Imported" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{00CA748C-B8C4-4246-8D6A-96E21F8FA4DC}</ProjectGuid>

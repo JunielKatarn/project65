@@ -11,75 +11,75 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7z.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zAlloc.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zBuf.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zCrc.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zFile.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zTypes.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zVersion.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Alloc.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Bcj2.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Bra.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\CpuArch.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Delta.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzFind.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzFindMt.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzHash.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Lzma2Dec.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Lzma2Enc.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Lzma86.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzmaDec.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzmaEnc.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzmaLib.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\MtCoder.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Ppmd.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Ppmd7.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\RotateDefs.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Sha256.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Threads.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Types.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Xz.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\XzCrc64.h" />
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\XzEnc.h" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7z.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zAlloc.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zBuf.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zCrc.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zFile.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zTypes.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zVersion.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Alloc.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Bcj2.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Bra.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\CpuArch.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Delta.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzFind.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzFindMt.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzHash.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Lzma2Dec.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Lzma2Enc.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Lzma86.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzmaDec.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzmaEnc.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzmaLib.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\MtCoder.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Ppmd.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Ppmd7.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\RotateDefs.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Sha256.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Threads.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Types.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Xz.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\XzCrc64.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)3rdParty\7zip\XzEnc.h" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zAlloc.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zBuf.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zBuf2.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zCrc.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zCrcOpt.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zDec.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zFile.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zIn.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zStream.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Alloc.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Bcj2.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Bra.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Bra86.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\BraIA64.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\CpuArch.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Delta.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzFind.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzFindMt.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma2Dec.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma2Enc.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma86Dec.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma86Enc.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzmaDec.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzmaEnc.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzmaLib.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\MtCoder.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Ppmd7.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Ppmd7Dec.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Ppmd7Enc.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Sha256.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Threads.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Xz.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzCrc64.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzDec.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzEnc.c" />
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzIn.c" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zAlloc.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zBuf.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zBuf2.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zCrc.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zCrcOpt.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zDec.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zFile.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zIn.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zStream.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Alloc.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Bcj2.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Bra.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Bra86.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\BraIA64.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\CpuArch.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Delta.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzFind.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzFindMt.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma2Dec.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma2Enc.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma86Dec.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma86Enc.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzmaDec.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzmaEnc.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzmaLib.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\MtCoder.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Ppmd7.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Ppmd7Dec.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Ppmd7Enc.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Sha256.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Threads.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Xz.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzCrc64.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzDec.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzEnc.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzIn.c" Label="Imported" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7158D420-5764-4D5F-ACA9-2E5807C2E691}</ProjectGuid>

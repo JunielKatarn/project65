@@ -9,6 +9,7 @@
 		<Message Text="Platform:         $(Platform)" />
 		<Message Text="Configuration:    $(Configuration)" />
 		<Message Text="VCTargetsPath:    $(VCTargetsPath)" />
+		<Message Text="VCInstallDir:     $(VCInstallDir)" />
 		<Message Text="MSBuildToolsPath: $(MSBuildToolsPath)" />
 		<Message Text="IncludePath:      $(IncludePath)" />
 	</Target>
