@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Common.vcxproj">
+      <Project>{4323124b-b676-404e-bb9d-d6c301dc8fb5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="png.vcxproj">
+      <Project>{f00ad871-4bb1-4368-b82e-d635961f54cf}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Settings.vcxproj">
+      <Project>{00ca748c-b8c4-4246-8d6a-96e21f8fa4dc}</Project>
+    </ProjectReference>
+    <ProjectReference Include="zlib.vcxproj">
+      <Project>{8e9de926-b469-4773-9e2c-5399aa571671}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SourceRoot)Project64-video\3dmath.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\Combine.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\Config.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\CRC.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\cursor.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\Debugger.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\DepthBufferRender.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\Ext_TxFilter.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\F3DTEXA.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\FBtoScreen.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\font.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\Gfx_1.3.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\MiClWr16b.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\MiClWr32b.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\MiClWr8b.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\rdp.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\Renderer\glitchmain.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\Renderer\Renderer.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\Renderer\types.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\resource.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ScreenResolution.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\Settings.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\SettingsID.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TexBuffer.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TexCache.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TexConv.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TexLoad.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TexLoad16b.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TexLoad32b.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TexLoad4b.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TexLoad8b.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TexMod.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TexModCI.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\Ext_TxFilter.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\dxtn.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\fxt1.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\internal.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\types.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_2xsai.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_hq2x.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_hq4x.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_lq2x.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxCache.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxDbg.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxFilter.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxHiResCache.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxImage.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxInternal.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxQuantize.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxReSample.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxTexCache.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxUtil.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\trace.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\turbo3D.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode00.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode01.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode02.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode03.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode04.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode05.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode06.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode07.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode08.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode09.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode09rdp.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\ucodeFB.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\Util.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-video\Version.h" Label="Imported" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SourceRoot)Project64-video\3dmath.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Android.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Combine.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Config.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\CRC.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Debugger.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\DepthBufferRender.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Ext_TxFilter.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\F3DTEXA.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\FBtoScreen.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Main.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\rdp.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLcombiner.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLgeometry.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLglitchmain.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLtextures.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\Renderer.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ScreenResolution.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Settings.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TexBuffer.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TexCache.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\dxtn.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\fxt1.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\texstore.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\wrapper.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_2xsai.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_hq2x.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_hq4x.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxCache.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxDbg.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxFilter.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxFilterExport.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxHiResCache.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxImage.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxQuantize.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxReSample.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxTexCache.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxUtil.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\trace.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\turbo3D.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode00.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode01.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode02.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode03.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode04.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode05.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode06.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode07.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode08.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode09.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode09rdp.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\ucodeFB.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Util.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESwrappers.cpp" Label="Imported">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLEStextures.cpp" Label="Imported">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESglitchmain.cpp" Label="Imported">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESgeometry.cpp" Label="Imported">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLEScombiner.cpp" Label="Imported">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(SourceRoot)Project64-video\Project64-video.rc" Label="Imported" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E43BA93F-2493-4784-BA7E-1F7DDD1B0A82}</ProjectGuid>
+    <RootNamespace>Project64</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.props" />
+  </ImportGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <IncludePath>$(SourceRoot);$(SourceRoot)3rdParty;$(SolutionDir)Source\Cpp\$(MSBuildProjectName);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <!-- <PreprocessorDefinitions>__MSC__;%(PreprocessorDefinitions)</PreprocessorDefinitions> -->
+      <PreprocessorDefinitions Condition="'$(Configuration)'=='Debug'">RDP_LOGGING;RDP_ERROR_LOG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>

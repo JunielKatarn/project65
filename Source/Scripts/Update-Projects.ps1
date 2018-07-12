@@ -33,7 +33,11 @@ $oldItems = $targetProject.Items | Where-Object { $_.ItemType -in $itemTypes -an
 $oldItems | ForEach-Object { $targetProject.RemoveItem($_) }
 
 $importedItems | ForEach-Object {
-	$item = $targetProject.AddItem($_.ItemType, "`$(SourceRoot)$ItemPath\$($_.UnevaluatedInclude)")
+	$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
+	$_.DirectMetadata | Where-Object { $_.Name -in ('ExcludedFromBuild') } | ForEach-Object { $metadata[$_.Name] = $_.UnevaluatedValue }
+
+	#TODO: When metadata is not empty, Include gets evaluated.
+	$item = $targetProject.AddItem($_.ItemType, "`$(SourceRoot)$ItemPath\$($_.UnevaluatedInclude)", $metadata)
 	$item.Xml.Label = 'Imported'
 }
 
