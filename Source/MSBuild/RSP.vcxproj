@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SourceRoot)RSP\breakpoint.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\Cpu.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\dma.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\Interpreter CPU.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\Interpreter Ops.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\log.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\Main.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\memory.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\Mmx.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\Profiling.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\Recompiler Analysis.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\Recompiler CPU.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\Recompiler Ops.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\Recompiler Sections.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\RSP Command.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\RSP Register.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\Sse.c" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)RSP\X86.c" Label="Imported" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SourceRoot)RSP\breakpoint.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\Cpu.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\dma.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\Interpreter CPU.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\Interpreter Ops.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\log.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\memory.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\OpCode.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\Profiling.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\Recompiler CPU.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\Recompiler Ops.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\resource.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\RSP Command.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\RSP Registers.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\Rsp.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\Types.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\Version.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)RSP\X86.h" Label="Imported" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(SourceRoot)RSP\RSP.rc" Label="Imported" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Common.vcxproj">
+      <Project>{4323124b-b676-404e-bb9d-d6c301dc8fb5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Settings.vcxproj">
+      <Project>{00ca748c-b8c4-4246-8d6a-96e21f8fa4dc}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4013585D-A956-42C2-87B4-A7CB89642BBD}</ProjectGuid>
+    <RootNamespace>Project64</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.props" />
+  </ImportGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <IncludePath>$(SourceRoot);$(SolutionDir)Source\Cpp\$(MSBuildProjectName);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <!-- <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Bscmake> -->
+  </ItemDefinitionGroup>
+</Project>
