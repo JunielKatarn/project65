@@ -32,6 +32,16 @@ $targetProject = [Microsoft.Build.Evaluation.Project]::FromFile((Get-ChildItem $
 $oldItems = $targetProject.Items | Where-Object { $_.ItemType -in $itemTypes -and $_.Xml.Label -eq 'Imported' }
 $oldItems | ForEach-Object { $targetProject.RemoveItem($_) }
 
+$filtersProject = New-Object -TypeName 'Microsoft.Build.Evaluation.Project'
+$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
+$metadata['UniqueIdentifier'] = "{$([Guid]::NewGuid())}"
+$metadata['Extensions'] = 'cpp;c;cxx;rc;def;r;odl;idl;hpj;bat'
+$filtersProject.AddItem('Filter', 'Source Files', $metadata)
+$metadata['UniqueIdentifier'] = "{$([Guid]::NewGuid())}"
+$metadata['Extensions'] = 'h;hpp;hxx;hm;inl'
+$filtersProject.AddItem('Filter', 'Header Files', $metadata)
+$filtersProject.Save("$Target.filters")
+
 $importedItems | ForEach-Object {
 	$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
 	$_.DirectMetadata | Where-Object { $_.Name -in ('ExcludedFromBuild') } | ForEach-Object { $metadata[$_.Name] = $_.UnevaluatedValue }
