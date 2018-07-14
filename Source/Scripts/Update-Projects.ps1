@@ -33,22 +33,67 @@ $oldItems = $targetProject.Items | Where-Object { $_.ItemType -in $itemTypes -an
 $oldItems | ForEach-Object { $targetProject.RemoveItem($_) }
 
 $filtersProject = New-Object -TypeName 'Microsoft.Build.Evaluation.Project'
-$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
-$metadata['UniqueIdentifier'] = "{$([Guid]::NewGuid())}"
-$metadata['Extensions'] = 'cpp;c;cxx;rc;def;r;odl;idl;hpj;bat'
-$filtersProject.AddItem('Filter', 'Source Files', $metadata)
-$metadata['UniqueIdentifier'] = "{$([Guid]::NewGuid())}"
-$metadata['Extensions'] = 'h;hpp;hxx;hm;inl'
-$filtersProject.AddItem('Filter', 'Header Files', $metadata)
-$filtersProject.Save("$Target.filters")
+
+# Filter roots by item type
+$filterRoots = @{
+	'ClInclude'			= 'Header Files'
+	'ClCompile'			= 'Source Files'
+	'None'				= 'Resource Files'
+	'ResourceCompile'	= 'Resource Files'
+}
+$filterNames = @{
+	'Header Files'	= $true
+	'Source Files'	= $true
+	'Resource Files'= $true
+}
+$filterExtensions = @{
+	'Header Files'	= 'h;hpp;hxx;hm;inl'
+	'Source Files'	= 'cpp;c;cxx;rc;def;r;odl;idl;hpj;bat'
+	'Resource Files'= 'ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe'
+}
+
+$filterNames.Keys | ForEach-Object {
+	$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
+	$metadata['UniqueIdentifier'] = "{$([Guid]::NewGuid())}"
+	$metadata['Extensions'] = $filterExtensions[$_]
+	$filtersProject.AddItem('Filter', $_, $metadata)
+}
 
 $importedItems | ForEach-Object {
+	$path = $_.UnevaluatedInclude
+
+	# Copy item path for manipulation.
+	$filterPath = $path
+	$lastIndex = $filterPath.LastIndexOfAny('/\')
+	while ($lastIndex -gt 0) {
+		$filterPath = $filterPath.Substring(0, $lastIndex)
+
+		if (! $filterNames[$filterPath]) {
+			$filterNames[$filterPath] = $true
+			$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
+			$metadata['UniqueIdentifier'] = "{$([Guid]::NewGuid())}"
+			$filtersProject.AddItem('Filter', "$($filterRoots[$_.ItemType])\$filterPath", $metadata)
+		}
+		$lastIndex = $filterPath.LastIndexOfAny('/\')
+	}
+
 	$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
 	$_.DirectMetadata | Where-Object { $_.Name -in ('ExcludedFromBuild') } | ForEach-Object { $metadata[$_.Name] = $_.UnevaluatedValue }
 
 	#TODO: When metadata is not empty, Include gets evaluated.
-	$item = $targetProject.AddItem($_.ItemType, "`$(SourceRoot)$ItemPath\$($_.UnevaluatedInclude)", $metadata)
+	echo "`$(SourceRoot)$ItemPath\$path"
+	$item = $targetProject.AddItem($_.ItemType, "`$(SourceRoot)$ItemPath\$path", $metadata)
 	$item.Xml.Label = 'Imported'
+
+	# Add items with filter.
+	$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
+	$metadata['Filter'] = $filterRoots[$_.ItemType]
+	$lastIndex = $path.LastIndexOfAny('/\')
+	if ($lastIndex -gt 0) {
+		$metadata['Filter'] += "\$($path.Substring(0, $lastIndex))"
+	}
+	$filtersProject.AddItem($_.ItemType, "`$(SourceRoot)$path", $metadata)
 }
 
 $targetProject.Save()
+$filtersProject.Save("$Target.filters")
