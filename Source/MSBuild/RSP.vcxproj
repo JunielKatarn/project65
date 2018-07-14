@@ -11,6 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Common.vcxproj">
+      <Project>{4323124b-b676-404e-bb9d-d6c301dc8fb5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Settings.vcxproj">
+      <Project>{00ca748c-b8c4-4246-8d6a-96e21f8fa4dc}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="$(SourceRoot)RSP\breakpoint.c" Label="Imported" />
     <ClCompile Include="$(SourceRoot)RSP\Cpu.c" Label="Imported" />
     <ClCompile Include="$(SourceRoot)RSP\dma.c" Label="Imported" />
@@ -52,14 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(SourceRoot)RSP\RSP.rc" Label="Imported" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Common.vcxproj">
-      <Project>{4323124b-b676-404e-bb9d-d6c301dc8fb5}</Project>
-    </ProjectReference>
-    <ProjectReference Include="Settings.vcxproj">
-      <Project>{00ca748c-b8c4-4246-8d6a-96e21f8fa4dc}</Project>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4013585D-A956-42C2-87B4-A7CB89642BBD}</ProjectGuid>

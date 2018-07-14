@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{da7eb07a-b24d-4246-9ed4-9626a6807908}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{20f04766-4789-41b4-a22a-e8393b63b0d1}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9534a883-2b6b-4420-922a-96a922c8e4a5}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\contrib">
+      <UniqueIdentifier>{97d65d74-8917-4f66-8e97-eecd1c258c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\contrib\minizip">
+      <UniqueIdentifier>{4c44af83-2145-4274-8974-831298f799d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\ioapi.c">
+      <Filter>Source Files\contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\iowin32.c">
+      <Filter>Source Files\contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\miniunz.c">
+      <Filter>Source Files\contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\minizip.c">
+      <Filter>Source Files\contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\mztools.c">
+      <Filter>Source Files\contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\unzip.c">
+      <Filter>Source Files\contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\zip.c">
+      <Filter>Source Files\contrib\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)3rdParty\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\crypt.h">
+      <Filter>Header Files\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\ioapi.h">
+      <Filter>Header Files\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\iowin32.h">
+      <Filter>Header Files\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\mztools.h">
+      <Filter>Header Files\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\unzip.h">
+      <Filter>Header Files\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\zip.h">
+      <Filter>Header Files\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)3rdParty\zlib\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6bc13dd7-3fcf-442f-90dd-f2fc4065d6ea}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{dac45107-16c1-422b-951a-89382d5911e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TextureEnhancer">
+      <UniqueIdentifier>{3ff10ca4-a2e4-41d0-9d41-ff539607f08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TextureEnhancer\tc-1.1+">
+      <UniqueIdentifier>{2fc0466b-bfb0-4f48-b112-fd7bae28adeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ebfd4ad7-72f5-4f88-8b8a-cc65323c57d2}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b08ab1f0-d5b1-46da-97d1-285e7352f821}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SourceRoot)Project64-video\3dmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\Combine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\CRC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\cursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\Debugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\DepthBufferRender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\Ext_TxFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\F3DTEXA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\FBtoScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\Gfx_1.3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\MiClWr16b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\MiClWr32b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\MiClWr8b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\rdp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\Renderer\glitchmain.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\Renderer\Renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\Renderer\types.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ScreenResolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\SettingsID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TexCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TexConv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TexLoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TexLoad16b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TexLoad32b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TexLoad4b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TexLoad8b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TexMod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TexModCI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\Ext_TxFilter.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\dxtn.h">
+      <Filter>Header Files\TextureEnhancer\tc-1.1+</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\fxt1.h">
+      <Filter>Header Files\TextureEnhancer\tc-1.1+</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\internal.h">
+      <Filter>Header Files\TextureEnhancer\tc-1.1+</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\types.h">
+      <Filter>Header Files\TextureEnhancer\tc-1.1+</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_2xsai.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_hq2x.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_hq4x.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_lq2x.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxCache.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxDbg.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxFilter.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxHiResCache.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxImage.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxInternal.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxQuantize.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxReSample.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxTexCache.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\TextureEnhancer\TxUtil.h">
+      <Filter>Header Files\TextureEnhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\trace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\turbo3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode00.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode02.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode03.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode04.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode05.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode06.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode07.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode08.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode09.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucode09rdp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\ucodeFB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-video\Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SourceRoot)Project64-video\3dmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Android.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Combine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\CRC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Debugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\DepthBufferRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Ext_TxFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\F3DTEXA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\FBtoScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\rdp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLcombiner.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLEScombiner.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESgeometry.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESglitchmain.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLEStextures.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESwrappers.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLgeometry.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLglitchmain.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLtextures.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ScreenResolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TexCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\dxtn.c">
+      <Filter>Source Files\TextureEnhancer\tc-1.1+</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\fxt1.c">
+      <Filter>Source Files\TextureEnhancer\tc-1.1+</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\texstore.c">
+      <Filter>Source Files\TextureEnhancer\tc-1.1+</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\tc-1.1+\wrapper.c">
+      <Filter>Source Files\TextureEnhancer\tc-1.1+</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_2xsai.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_hq2x.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TextureFilters_hq4x.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxCache.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxDbg.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxFilter.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxFilterExport.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxHiResCache.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxImage.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxQuantize.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxReSample.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxTexCache.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\TextureEnhancer\TxUtil.cpp">
+      <Filter>Source Files\TextureEnhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\trace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\turbo3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode00.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode04.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode05.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode06.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode07.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode08.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode09.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucode09rdp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\ucodeFB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(SourceRoot)Project64-video\Project64-video.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

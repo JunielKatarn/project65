@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b0c0b1ba-d914-4cfe-98f1-4be749b57aa1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\..">
+      <UniqueIdentifier>{5b79c91b-35a8-4280-be52-41ec54dc428e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\3rdParty">
+      <UniqueIdentifier>{8c4d84da-28af-45db-b216-a0b4a838a940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\3rdParty\zlib">
+      <UniqueIdentifier>{ac494089-4c63-4f95-8f86-3aac646febb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\3rdParty\zlib\contrib">
+      <UniqueIdentifier>{70124bc5-f68f-4cc7-b7a2-b87ff5cab141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\3rdParty\zlib\contrib\minizip">
+      <UniqueIdentifier>{b0e8dfc7-5e10-47aa-b250-a24e513f5e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\N64System\Recompiler\x64-86">
+      <UniqueIdentifier>{a889200c-7e19-485d-8f8e-b3c5c29ea9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0fb9f7b4-7130-42e8-8921-046846468789}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b73f0268-29c5-4e0e-8ea3-a25f240ca020}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\3rdParty">
+      <UniqueIdentifier>{796a6147-2f90-4cd8-ac4c-bd39023e9ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Multilanguage">
+      <UniqueIdentifier>{02118dc2-5399-4e5a-bf88-c8c0a2d5dccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\N64System">
+      <UniqueIdentifier>{bf0f0ed8-5486-43e9-9bd1-c857950a8be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\N64System\Interpreter">
+      <UniqueIdentifier>{5e8b0759-204e-4e12-8558-5f93640cb96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\N64System\Mips">
+      <UniqueIdentifier>{3de9ecdb-2ae1-4840-b0bf-ec1884e8ac09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\N64System\Recompiler">
+      <UniqueIdentifier>{00187a04-1f26-4a3f-96a2-08ba7503724a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\N64System\Recompiler\Arm">
+      <UniqueIdentifier>{e81600bd-4cf3-4c3f-a1d0-ada23f2f9055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\N64System\Recompiler\x86">
+      <UniqueIdentifier>{4825b5c5-1f9c-425a-81f8-f8310b5e7310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Plugins">
+      <UniqueIdentifier>{f73b5530-943b-4d1c-8ae9-e788eed99716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RomList">
+      <UniqueIdentifier>{2cdd0aa6-a5e3-4f67-8bee-26db1d49eda8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Settings">
+      <UniqueIdentifier>{15c07a87-e452-45be-9739-b77969b75d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Settings\SettingType">
+      <UniqueIdentifier>{7bd8931b-1de0-448e-8348-84265d1ee0f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SourceRoot)Project64-core\3rdParty\7zip.cpp">
+      <Filter>Source Files\3rdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\AppInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\MemoryExceptionFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Multilanguage\LanguageClass.cpp">
+      <Filter>Source Files\Multilanguage</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\CheatClass.cpp">
+      <Filter>Source Files\N64System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\EmulationThread.cpp">
+      <Filter>Source Files\N64System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\FramePerSecondClass.cpp">
+      <Filter>Source Files\N64System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterCPU.cpp">
+      <Filter>Source Files\N64System\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps.cpp">
+      <Filter>Source Files\N64System\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps32.cpp">
+      <Filter>Source Files\N64System\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Audio.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Disk.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Dma.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Eeprom.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\FlashRam.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\GBCart.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\MemoryVirtualMem.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Mempak.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\OpcodeName.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\PifRam.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\RegisterClass.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Rumblepak.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Sram.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\SystemEvents.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\SystemTiming.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\TLBclass.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Mips\Transferpak.cpp">
+      <Filter>Source Files\N64System\Mips</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\N64Class.cpp">
+      <Filter>Source Files\N64System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\N64DiskClass.cpp">
+      <Filter>Source Files\N64System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\N64RomClass.cpp">
+      <Filter>Source Files\N64System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\ProfilingClass.cpp">
+      <Filter>Source Files\N64System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmOps.cpp">
+      <Filter>Source Files\N64System\Recompiler\Arm</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRecompilerOps.cpp">
+      <Filter>Source Files\N64System\Recompiler\Arm</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRegInfo.cpp">
+      <Filter>Source Files\N64System\Recompiler\Arm</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeBlock.cpp">
+      <Filter>Source Files\N64System\Recompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeSection.cpp">
+      <Filter>Source Files\N64System\Recompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionInfo.cpp">
+      <Filter>Source Files\N64System\Recompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionMapClass.cpp">
+      <Filter>Source Files\N64System\Recompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\LoopAnalysis.cpp">
+      <Filter>Source Files\N64System\Recompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerClass.cpp">
+      <Filter>Source Files\N64System\Recompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerCodeLog.cpp">
+      <Filter>Source Files\N64System\Recompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerMemory.cpp">
+      <Filter>Source Files\N64System\Recompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\RegBase.cpp">
+      <Filter>Source Files\N64System\Recompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\SectionInfo.cpp">
+      <Filter>Source Files\N64System\Recompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86ops.cpp">
+      <Filter>Source Files\N64System\Recompiler\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RecompilerOps.cpp">
+      <Filter>Source Files\N64System\Recompiler\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RegInfo.cpp">
+      <Filter>Source Files\N64System\Recompiler\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\SpeedLimiterClass.cpp">
+      <Filter>Source Files\N64System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\N64System\SystemGlobals.cpp">
+      <Filter>Source Files\N64System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\AudioPlugin.cpp">
+      <Filter>Source Files\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\ControllerPlugin.cpp">
+      <Filter>Source Files\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\GFXPlugin.cpp">
+      <Filter>Source Files\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\PluginBase.cpp">
+      <Filter>Source Files\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\PluginClass.cpp">
+      <Filter>Source Files\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Plugins\RSPPlugin.cpp">
+      <Filter>Source Files\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\RomList\RomList.cpp">
+      <Filter>Source Files\RomList</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\DebugSettings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\GameSettings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\LoggingSettings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\N64SystemSettings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\RecompilerSettings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Application.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationIndex.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationPath.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Cheats.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSetting.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSettingIndex.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBCpuType.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBOnOff.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBRamSize.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBSaveChip.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBYesNo.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RelativePath.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabase.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseIndex.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseSetting.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-SelectedDirectory.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempBool.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempNumber.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempString.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\contrib\minizip\unzip.h">
+      <Filter>Header Files\..\3rdParty\zlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\contrib\minizip\zip.h">
+      <Filter>Header Files\..\3rdParty\zlib\contrib\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\zconf.h">
+      <Filter>Header Files\..\3rdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\zlib.h">
+      <Filter>Header Files\..\3rdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\3rdParty\7zip.h">
+      <Filter>Header Files\3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\3rdParty\zip.h">
+      <Filter>Header Files\3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\AppInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Debugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\ExceptionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Multilanguage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Multilanguage\LanguageClass.h">
+      <Filter>Header Files\Multilanguage</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\CheatClass.h">
+      <Filter>Header Files\N64System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\FramePerSecondClass.h">
+      <Filter>Header Files\N64System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterCPU.h">
+      <Filter>Header Files\N64System\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps.h">
+      <Filter>Header Files\N64System\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Interpreter\InterpreterOps32.h">
+      <Filter>Header Files\N64System\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Audio.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Disk.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Dma.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Eeprom.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\FlashRam.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\GBCart.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\MemoryVirtualMem.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Mempak.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\OpCode.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\OpcodeName.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\PifRam.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\RegisterClass.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Rumblepak.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Sram.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\SystemEvents.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\SystemTiming.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\TLBClass.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\Transferpak.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Mips\TranslateVaddr.h">
+      <Filter>Header Files\N64System\Mips</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64Class.h">
+      <Filter>Header Files\N64System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64DiskClass.h">
+      <Filter>Header Files\N64System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64RomClass.h">
+      <Filter>Header Files\N64System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\N64Types.h">
+      <Filter>Header Files\N64System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\ProfilingClass.h">
+      <Filter>Header Files\N64System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmOpCode.h">
+      <Filter>Header Files\N64System\Recompiler\Arm</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmOps.h">
+      <Filter>Header Files\N64System\Recompiler\Arm</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRecompilerOps.h">
+      <Filter>Header Files\N64System\Recompiler\Arm</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\Arm\ArmRegInfo.h">
+      <Filter>Header Files\N64System\Recompiler\Arm</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeBlock.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\CodeSection.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\ExitInfo.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionInfo.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\FunctionMapClass.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\JumpInfo.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\LoopAnalysis.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerClass.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerCodeLog.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerMemory.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RecompilerOps.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RegBase.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\RegInfo.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\SectionInfo.h">
+      <Filter>Header Files\N64System\Recompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x64-86\x64RegInfo.h">
+      <Filter>Header Files\N64System\Recompiler\x64-86</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86ops.h">
+      <Filter>Header Files\N64System\Recompiler\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RecompilerOps.h">
+      <Filter>Header Files\N64System\Recompiler\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\Recompiler\x86\x86RegInfo.h">
+      <Filter>Header Files\N64System\Recompiler\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\SpeedLimiterClass.h">
+      <Filter>Header Files\N64System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\N64System\SystemGlobals.h">
+      <Filter>Header Files\N64System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Notification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\AudioPlugin.h">
+      <Filter>Header Files\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\ControllerPlugin.h">
+      <Filter>Header Files\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\GFXPlugin.h">
+      <Filter>Header Files\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\PluginBase.h">
+      <Filter>Header Files\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\PluginClass.h">
+      <Filter>Header Files\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Plugins\RSPPlugin.h">
+      <Filter>Header Files\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\RomList\RomList.h">
+      <Filter>Header Files\RomList</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\DebugSettings.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\GameSettings.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\LoggingSettings.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\N64SystemSettings.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\RecompilerSettings.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingsID.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Application.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationIndex.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationPath.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Base.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Cheats.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSetting.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSettingIndex.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBCpuType.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBOnOff.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBRamSize.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBSaveChip.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBYesNo.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RelativePath.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabase.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseIndex.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomDatabaseSetting.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RomSetting.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-SelectedDirectory.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempBool.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempNumber.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-TempString.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\TraceModulesProject64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SourceRoot)Project64-core\ClassDiagram.cd">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="$(SourceRoot)Project64-core\ClassDiagram1.cd">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

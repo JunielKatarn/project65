@@ -110,6 +110,21 @@
     <ClCompile Include="$(SourceRoot)Project64-video\Main.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64-video\rdp.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLcombiner.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLEScombiner.cpp" Label="Imported">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESgeometry.cpp" Label="Imported">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESglitchmain.cpp" Label="Imported">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLEStextures.cpp" Label="Imported">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESwrappers.cpp" Label="Imported">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLgeometry.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLglitchmain.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLtextures.cpp" Label="Imported" />
@@ -152,21 +167,6 @@
     <ClCompile Include="$(SourceRoot)Project64-video\ucode09rdp.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64-video\ucodeFB.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64-video\Util.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESwrappers.cpp" Label="Imported">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLEStextures.cpp" Label="Imported">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESglitchmain.cpp" Label="Imported">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLESgeometry.cpp" Label="Imported">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64-video\Renderer\OGLEScombiner.cpp" Label="Imported">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(SourceRoot)Project64-video\Project64-video.rc" Label="Imported" />
