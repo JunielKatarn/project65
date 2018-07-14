@@ -27,12 +27,14 @@ $importedProject = [Microsoft.Build.Evaluation.Project]::FromFile((Get-ChildItem
 $importedItems = $importedProject.Items | Where-Object { $_.ItemType -in $itemTypes }
 
 $targetProject = [Microsoft.Build.Evaluation.Project]::FromFile((Get-ChildItem $Target).FullName, $options)
+$targetProject.SkipEvaluation = $true
 
-# Clear items.
+# Clear items from target project.
 $oldItems = $targetProject.Items | Where-Object { $_.ItemType -in $itemTypes -and $_.Xml.Label -eq 'Imported' }
 $oldItems | ForEach-Object { $targetProject.RemoveItem($_) }
 
 $filtersProject = New-Object -TypeName 'Microsoft.Build.Evaluation.Project'
+$filtersProject.SkipEvaluation = $true
 
 # Filter roots by item type
 $filterRoots = @{
@@ -60,10 +62,8 @@ $filterNames.Keys | ForEach-Object {
 }
 
 $importedItems | ForEach-Object {
-	$path = $_.UnevaluatedInclude
-
 	# Copy item path for manipulation.
-	$filterPath = $path
+	$filterPath = $_.UnevaluatedInclude
 	$lastIndex = $filterPath.LastIndexOfAny('/\')
 	while ($lastIndex -gt 0) {
 		$filterPath = $filterPath.Substring(0, $lastIndex)
@@ -80,19 +80,23 @@ $importedItems | ForEach-Object {
 	$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
 	$_.DirectMetadata | Where-Object { $_.Name -in ('ExcludedFromBuild') } | ForEach-Object { $metadata[$_.Name] = $_.UnevaluatedValue }
 
-	#TODO: When metadata is not empty, Include gets evaluated.
-	echo "`$(SourceRoot)$ItemPath\$path"
-	$item = $targetProject.AddItem($_.ItemType, "`$(SourceRoot)$ItemPath\$path", $metadata)
+	$unevaluatedInclude = "`$(SourceRoot)$ItemPath\$($_.UnevaluatedInclude)"
+
+	$item = $targetProject.AddItem($_.ItemType, $unevaluatedInclude, $metadata)
 	$item.Xml.Label = 'Imported'
+	# When metadata is not empty, Include gets evaluated.
+	$item | ForEach-Object { $_.UnevaluatedInclude = $unevaluatedInclude }
 
 	# Add items with filter.
 	$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
 	$metadata['Filter'] = $filterRoots[$_.ItemType]
-	$lastIndex = $path.LastIndexOfAny('/\')
+	$lastIndex = $_.UnevaluatedInclude.LastIndexOfAny('/\')
 	if ($lastIndex -gt 0) {
-		$metadata['Filter'] += "\$($path.Substring(0, $lastIndex))"
+		$metadata['Filter'] += "\$($_.UnevaluatedInclude.Substring(0, $lastIndex))"
 	}
-	$filtersProject.AddItem($_.ItemType, "`$(SourceRoot)$path", $metadata)
+	$filterItem = $filtersProject.AddItem($_.ItemType, $unevaluatedInclude, $metadata)
+	# When metadata is not empty, Include gets evaluated.
+	$filterItem | ForEach-Object { $_.UnevaluatedInclude = $unevaluatedInclude }
 }
 
 $targetProject.Save()
