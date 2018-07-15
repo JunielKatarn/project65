@@ -1,7 +1,7 @@
 #
-# Update-Project.ps1
+# Import-Project.ps1
 #
-# Updates the sources and headers based in the Project64 code base.
+# Imports the sources and headers based from the source project into the target project.
 #
 param (
 	[Parameter(Mandatory=$true)]

@@ -1,3 +1,9 @@
+#
+# Import-Solution.ps1
+#
+# Imports all projects in the source solution.
+#
+
 $importRoot = "$($PSScriptRoot | Split-Path | Split-Path)\modules\project64\Source"
 $exportRoot = "$($PSScriptRoot | Split-Path)\MSBuild"
 
@@ -17,16 +23,15 @@ $projectMap = @{
 	'Settings\Settings.vcxproj'					= 'Settings.vcxproj'
 }
 
-$basePathMap = @{}
 $projectMap.Keys | ForEach-Object {
+	$basePath = ''
 	$lastIndex = $_.LastIndexOfAny('/\')
 	if ($lastIndex -gt 0) {
-		$basePathMap[$_] = $_.Substring(0, $lastIndex)
-	} else {
-		$basePathMap[$_] = ''
+		$basePath = $_.Substring(0, $lastIndex)
 	}
-}
 
-$projectMap.Keys | ForEach-Object {
-	& $PSScriptRoot\Import-Project.ps1 -Source "$importRoot\$_" -Target "$exportRoot\$($projectMap[$_])" -ItemPath $basePathMap[$_]
+	& $PSScriptRoot\Import-Project.ps1 `
+		-Source "$importRoot\$_" `
+		-Target "$exportRoot\$($projectMap[$_])" `
+		-ItemPath $basePath
 }
