@@ -63,7 +63,7 @@ $filterNames.Keys | ForEach-Object {
 
 $importedItems | ForEach-Object {
 	# Copy item path for manipulation.
-	$filterPath = $_.UnevaluatedInclude
+	$filterPath = $filterRoots[$_.ItemType] + '\' + ($_.UnevaluatedInclude -replace '\.\.\\','')
 	$lastIndex = $filterPath.LastIndexOfAny('/\')
 	while ($lastIndex -gt 0) {
 		$filterPath = $filterPath.Substring(0, $lastIndex)
@@ -72,7 +72,7 @@ $importedItems | ForEach-Object {
 			$filterNames[$filterPath] = $true
 			$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
 			$metadata['UniqueIdentifier'] = "{$([Guid]::NewGuid())}"
-			$filtersProject.AddItem('Filter', "$($filterRoots[$_.ItemType])\$filterPath", $metadata)
+			$filtersProject.AddItem('Filter', $filterPath, $metadata)
 		}
 		$lastIndex = $filterPath.LastIndexOfAny('/\')
 	}
@@ -92,7 +92,7 @@ $importedItems | ForEach-Object {
 	$metadata['Filter'] = $filterRoots[$_.ItemType]
 	$lastIndex = $_.UnevaluatedInclude.LastIndexOfAny('/\')
 	if ($lastIndex -gt 0) {
-		$metadata['Filter'] += "\$($_.UnevaluatedInclude.Substring(0, $lastIndex))"
+		$metadata['Filter'] += "\$($_.UnevaluatedInclude.Substring(0, $lastIndex))" -replace '\.\.\\',''
 	}
 	$filterItem = $filtersProject.AddItem($_.ItemType, $unevaluatedInclude, $metadata)
 	# When metadata is not empty, Include gets evaluated.

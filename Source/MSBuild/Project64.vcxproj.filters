@@ -2,49 +2,70 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{abf9478f-cf4d-48a8-bdd0-fcaff25ea46d}</UniqueIdentifier>
+      <UniqueIdentifier>{3384cd55-702a-4efb-876d-64828774901e}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
+    <Filter Include="Header Files\Multilanguage">
+      <UniqueIdentifier>{4a06ec0b-6d1b-4083-bdec-f3d8836e36e8}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Header Files\N64System">
-      <UniqueIdentifier>{b9eacd7d-8f49-4b5b-9574-ada7c90ad742}</UniqueIdentifier>
+      <UniqueIdentifier>{d2fb44ae-3db4-4e82-b607-56359eb389df}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\N64System\Debugger">
-      <UniqueIdentifier>{4e503792-8e93-4337-b3ac-926c066bbb3a}</UniqueIdentifier>
+      <UniqueIdentifier>{0af43664-a45d-45f4-aa14-38099d51baf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Settings">
+      <UniqueIdentifier>{c6b4f8b6-cfd7-4a12-bf01-ebe3a0e3b8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UserInterface">
+      <UniqueIdentifier>{a978be2e-6b50-4947-a3a9-6dc42d4a692a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UserInterface\Debugger">
+      <UniqueIdentifier>{822d000d-94f9-4dc8-90f0-ab3803484dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UserInterface\Settings">
+      <UniqueIdentifier>{3ab6864e-11af-496c-9454-70f4d490a506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UserInterface\WTLControls">
+      <UniqueIdentifier>{593fb240-1e27-495f-92f6-62dbe53abbe4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{d34e123d-60d9-47af-baec-12fa064c5170}</UniqueIdentifier>
+      <UniqueIdentifier>{2993f7e3-4765-43c0-94ed-fd842a3c6dd9}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
     <Filter Include="Resource Files\res">
-      <UniqueIdentifier>{c9e7247c-458b-4a26-8e9c-999028926b47}</UniqueIdentifier>
+      <UniqueIdentifier>{57b84b6c-f867-4ae2-a171-146d3fbb9242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UserInterface">
+      <UniqueIdentifier>{96afb6c8-9c21-42f2-a954-89a74bdf5341}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files\UserInterface\icons">
-      <UniqueIdentifier>{de02d433-f383-4100-aea5-d7eaf124b971}</UniqueIdentifier>
+      <UniqueIdentifier>{f924592a-118c-4273-9cfe-329528005212}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{4fcfdba0-1622-445f-bdb8-db0ae904466e}</UniqueIdentifier>
+      <UniqueIdentifier>{91988eb9-3a73-48a5-8e03-4c3bfad3a515}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Source Files\Multilanguage">
-      <UniqueIdentifier>{b9ec84eb-fa53-4712-b8ec-2db863546fed}</UniqueIdentifier>
+      <UniqueIdentifier>{15e7f791-701a-48a3-ba78-83fa24cf3d70}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Plugins">
-      <UniqueIdentifier>{28c9419c-8855-4c7c-9ff4-37f87fecc519}</UniqueIdentifier>
+      <UniqueIdentifier>{762ff1ee-8d4e-4576-b7ed-ec05eb2eff04}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Settings">
-      <UniqueIdentifier>{5a5399d0-21ec-42eb-a1c0-9c21228939f9}</UniqueIdentifier>
+      <UniqueIdentifier>{290c54e2-31fc-40bf-b080-aaf4b72e1410}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\UserInterface">
-      <UniqueIdentifier>{4e422a33-8a50-4e2d-9225-4a8e674018de}</UniqueIdentifier>
+      <UniqueIdentifier>{01694c79-80b1-4f51-b6a0-fe863af20b0e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\UserInterface\Debugger">
-      <UniqueIdentifier>{486bfa5b-bfd1-4fc0-bbbe-2e4a7e251ff8}</UniqueIdentifier>
+      <UniqueIdentifier>{b6a021d6-b3e0-4c56-b453-1b5b29409bc0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\UserInterface\Settings">
-      <UniqueIdentifier>{f525ee00-8756-47da-b9f6-7f0af0c369f5}</UniqueIdentifier>
+      <UniqueIdentifier>{684a0faf-2500-4b58-90e1-05b498880b2e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\UserInterface\WTLControls">
-      <UniqueIdentifier>{e7cc73f7-c29b-4c81-885d-f88d243e801c}</UniqueIdentifier>
+      <UniqueIdentifier>{87d4ea70-437f-4339-8862-0047b85e276e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

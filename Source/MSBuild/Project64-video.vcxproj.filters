@@ -2,25 +2,34 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{6bc13dd7-3fcf-442f-90dd-f2fc4065d6ea}</UniqueIdentifier>
+      <UniqueIdentifier>{fdd7c082-5fcf-4abd-bbaf-fefb3ae49c61}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Header Files\Renderer">
-      <UniqueIdentifier>{dac45107-16c1-422b-951a-89382d5911e6}</UniqueIdentifier>
+      <UniqueIdentifier>{00372033-21dc-4936-a089-2cdfe07a8372}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\TextureEnhancer">
-      <UniqueIdentifier>{3ff10ca4-a2e4-41d0-9d41-ff539607f08c}</UniqueIdentifier>
+      <UniqueIdentifier>{a45c7b52-a423-4bd7-9422-c7118c700ce5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\TextureEnhancer\tc-1.1+">
-      <UniqueIdentifier>{2fc0466b-bfb0-4f48-b112-fd7bae28adeb}</UniqueIdentifier>
+      <UniqueIdentifier>{a9a57686-a944-404c-93f6-7b736e352d28}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{ebfd4ad7-72f5-4f88-8b8a-cc65323c57d2}</UniqueIdentifier>
+      <UniqueIdentifier>{1bf76c36-7f63-4bbc-b0f3-8b4caa076f5a}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{b08ab1f0-d5b1-46da-97d1-285e7352f821}</UniqueIdentifier>
+      <UniqueIdentifier>{8397c9ce-b3e7-40b1-bc94-9f97287c9a3a}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{ad69babd-aaf4-4372-acdb-277d149c7a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextureEnhancer">
+      <UniqueIdentifier>{3346704c-1f72-449a-ac53-cd697041e158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextureEnhancer\tc-1.1+">
+      <UniqueIdentifier>{48c6c35e-233d-4109-86f5-9038901bc0ce}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

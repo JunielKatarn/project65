@@ -2,70 +2,100 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{b0c0b1ba-d914-4cfe-98f1-4be749b57aa1}</UniqueIdentifier>
+      <UniqueIdentifier>{2b5f05b6-b258-49b3-920f-330317f493a0}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
-    <Filter Include="Header Files\..">
-      <UniqueIdentifier>{5b79c91b-35a8-4280-be52-41ec54dc428e}</UniqueIdentifier>
+    <Filter Include="Header Files\3rdParty">
+      <UniqueIdentifier>{4084409d-c3c9-4e8c-9772-f6ac499ac9ec}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\..\3rdParty">
-      <UniqueIdentifier>{8c4d84da-28af-45db-b216-a0b4a838a940}</UniqueIdentifier>
+    <Filter Include="Header Files\3rdParty\zlib">
+      <UniqueIdentifier>{c217a778-f9b0-4036-a33d-0e55fc3ed4c4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\..\3rdParty\zlib">
-      <UniqueIdentifier>{ac494089-4c63-4f95-8f86-3aac646febb2}</UniqueIdentifier>
+    <Filter Include="Header Files\3rdParty\zlib\contrib">
+      <UniqueIdentifier>{bccf167e-32aa-462c-9d6c-47940a6c7788}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\..\3rdParty\zlib\contrib">
-      <UniqueIdentifier>{70124bc5-f68f-4cc7-b7a2-b87ff5cab141}</UniqueIdentifier>
+    <Filter Include="Header Files\3rdParty\zlib\contrib\minizip">
+      <UniqueIdentifier>{fcba8cc2-efff-4f6e-a97c-8ec8aa2c4149}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\..\3rdParty\zlib\contrib\minizip">
-      <UniqueIdentifier>{b0e8dfc7-5e10-47aa-b250-a24e513f5e8a}</UniqueIdentifier>
+    <Filter Include="Header Files\Multilanguage">
+      <UniqueIdentifier>{3a12eaf2-5437-4118-82f5-9f28916a3f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\N64System">
+      <UniqueIdentifier>{8f3a5e52-da5d-4f4c-a53c-dd4202f68717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\N64System\Interpreter">
+      <UniqueIdentifier>{86070c3f-5a3f-44ce-842f-ec43e350c22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\N64System\Mips">
+      <UniqueIdentifier>{5d2a5232-510f-4f92-a7c6-8bce3bdf7a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\N64System\Recompiler">
+      <UniqueIdentifier>{de89e2ee-b615-47df-aa50-41176372db0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\N64System\Recompiler\Arm">
+      <UniqueIdentifier>{5487518d-f7fa-46af-a44a-f2a87993add3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\N64System\Recompiler\x64-86">
-      <UniqueIdentifier>{a889200c-7e19-485d-8f8e-b3c5c29ea9e9}</UniqueIdentifier>
+      <UniqueIdentifier>{d5ad3c8e-5de0-4357-8d24-640fe7831d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\N64System\Recompiler\x86">
+      <UniqueIdentifier>{068fe1bb-d0c3-4750-bc81-5dad49a7e1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plugins">
+      <UniqueIdentifier>{0dba89b8-d1b1-4386-9eb9-cd7161ca8e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RomList">
+      <UniqueIdentifier>{593718bf-cbd9-410a-a775-814b0cd9279e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Settings">
+      <UniqueIdentifier>{d5cf5fef-df41-4ac0-afe9-1f82a3d09902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Settings\SettingType">
+      <UniqueIdentifier>{67c049cf-9747-4423-a08a-c3ec9d07cdb9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{0fb9f7b4-7130-42e8-8921-046846468789}</UniqueIdentifier>
+      <UniqueIdentifier>{991607aa-b6c0-4e0c-8192-232954a05b70}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{b73f0268-29c5-4e0e-8ea3-a25f240ca020}</UniqueIdentifier>
+      <UniqueIdentifier>{dea1e963-9f5e-4728-9921-0f5b71acf740}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Source Files\3rdParty">
-      <UniqueIdentifier>{796a6147-2f90-4cd8-ac4c-bd39023e9ac9}</UniqueIdentifier>
+      <UniqueIdentifier>{a8b3b525-fea0-4d32-b4d2-39fa59cc81ff}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Multilanguage">
-      <UniqueIdentifier>{02118dc2-5399-4e5a-bf88-c8c0a2d5dccd}</UniqueIdentifier>
+      <UniqueIdentifier>{afbe24bd-760f-446b-ba9d-41dcb2d230db}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\N64System">
-      <UniqueIdentifier>{bf0f0ed8-5486-43e9-9bd1-c857950a8be1}</UniqueIdentifier>
+      <UniqueIdentifier>{2919e42f-c1bf-4bf5-8b62-d0b66be509f6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\N64System\Interpreter">
-      <UniqueIdentifier>{5e8b0759-204e-4e12-8558-5f93640cb96b}</UniqueIdentifier>
+      <UniqueIdentifier>{6dc3ee0c-b50e-451c-b7c6-afd54e2865da}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\N64System\Mips">
-      <UniqueIdentifier>{3de9ecdb-2ae1-4840-b0bf-ec1884e8ac09}</UniqueIdentifier>
+      <UniqueIdentifier>{5ec27138-7832-4b59-999c-9d7a2fbed82d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\N64System\Recompiler">
-      <UniqueIdentifier>{00187a04-1f26-4a3f-96a2-08ba7503724a}</UniqueIdentifier>
+      <UniqueIdentifier>{e98c6cef-248c-4299-be2b-3d3b78b33e64}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\N64System\Recompiler\Arm">
-      <UniqueIdentifier>{e81600bd-4cf3-4c3f-a1d0-ada23f2f9055}</UniqueIdentifier>
+      <UniqueIdentifier>{10d8a688-8ae1-4329-9fdb-b406ce76fe24}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\N64System\Recompiler\x86">
-      <UniqueIdentifier>{4825b5c5-1f9c-425a-81f8-f8310b5e7310}</UniqueIdentifier>
+      <UniqueIdentifier>{725231e6-bc2f-4932-87fc-efe14582207e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Plugins">
-      <UniqueIdentifier>{f73b5530-943b-4d1c-8ae9-e788eed99716}</UniqueIdentifier>
+      <UniqueIdentifier>{268727ed-57f2-4fc3-b56e-02a5acb992f5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\RomList">
-      <UniqueIdentifier>{2cdd0aa6-a5e3-4f67-8bee-26db1d49eda8}</UniqueIdentifier>
+      <UniqueIdentifier>{7189941a-3035-4830-ab38-1f5bdb1a7ecc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Settings">
-      <UniqueIdentifier>{15c07a87-e452-45be-9739-b77969b75d09}</UniqueIdentifier>
+      <UniqueIdentifier>{18863a46-1b86-418e-91e7-a5c6b667b738}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Settings\SettingType">
-      <UniqueIdentifier>{7bd8931b-1de0-448e-8348-84265d1ee0f8}</UniqueIdentifier>
+      <UniqueIdentifier>{29bf20f9-0d2d-4b9e-a6b7-422088e35664}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -321,16 +351,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\contrib\minizip\unzip.h">
-      <Filter>Header Files\..\3rdParty\zlib\contrib\minizip</Filter>
+      <Filter>Header Files\3rdParty\zlib\contrib\minizip</Filter>
     </ClInclude>
     <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\contrib\minizip\zip.h">
-      <Filter>Header Files\..\3rdParty\zlib\contrib\minizip</Filter>
+      <Filter>Header Files\3rdParty\zlib\contrib\minizip</Filter>
     </ClInclude>
     <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\zconf.h">
-      <Filter>Header Files\..\3rdParty\zlib</Filter>
+      <Filter>Header Files\3rdParty\zlib</Filter>
     </ClInclude>
     <ClInclude Include="$(SourceRoot)Project64-core\..\3rdParty\zlib\zlib.h">
-      <Filter>Header Files\..\3rdParty\zlib</Filter>
+      <Filter>Header Files\3rdParty\zlib</Filter>
     </ClInclude>
     <ClInclude Include="$(SourceRoot)Project64-core\3rdParty\7zip.h">
       <Filter>Header Files\3rdParty</Filter>

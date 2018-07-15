@@ -2,19 +2,22 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{c971969c-6884-4d6c-a185-fa13e0b1a8fe}</UniqueIdentifier>
+      <UniqueIdentifier>{8d9ecb0c-f521-4207-a0f3-e3fbebc30ad2}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
+    <Filter Include="Header Files\Driver">
+      <UniqueIdentifier>{182f663c-d204-4f1d-a99f-e66f6502ded9}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{192b8c16-ab37-4a91-be2f-a303fcaec51b}</UniqueIdentifier>
+      <UniqueIdentifier>{1ebc7e96-3b71-49fb-9c78-9fc81e360bbc}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{78274416-9076-4fd6-b705-8e37f2d31727}</UniqueIdentifier>
+      <UniqueIdentifier>{6642f87c-7aed-4ba4-91e8-92791486bc1e}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Source Files\Driver">
-      <UniqueIdentifier>{9f225eb3-5bcd-4f6a-80e7-1b251b53eb3f}</UniqueIdentifier>
+      <UniqueIdentifier>{2231f131-8f1c-4c32-9bff-70bef37861ad}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
