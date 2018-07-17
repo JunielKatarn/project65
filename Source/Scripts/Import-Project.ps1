@@ -13,7 +13,8 @@ param (
 	$MSBuildHome = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0"
 )
 
-Add-Type -Path "$MSBuildHome\Bin\Microsoft.Build.dll"
+#Add-Type -Path "$MSBuildHome\Bin\Microsoft.Build.dll"
+Add-Type -Path "$($PSScriptRoot | Split-Path | Split-Path)\Build\lib\Microsoft.Build.dll"
 
 #TODO: Process VCXPROJ projects in order.
 # $project64Sln = (Get-ChildItem .\modules\project64\Project64.sln).FullName
@@ -31,7 +32,7 @@ $targetProject.SkipEvaluation = $true
 
 # Clear items from target project.
 $oldItems = $targetProject.Items | Where-Object { $_.ItemType -in $itemTypes -and $_.Xml.Label -eq 'Imported' }
-$oldItems | ForEach-Object { $targetProject.RemoveItem($_) }
+$oldItems | ForEach-Object { $targetProject.RemoveItem($_) } | Out-Null
 
 $filtersProject = New-Object -TypeName 'Microsoft.Build.Evaluation.Project'
 $filtersProject.SkipEvaluation = $true
@@ -58,7 +59,7 @@ $filterNames.Keys | ForEach-Object {
 	$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
 	$metadata['UniqueIdentifier'] = "{$([Guid]::NewGuid())}"
 	$metadata['Extensions'] = $filterExtensions[$_]
-	$filtersProject.AddItem('Filter', $_, $metadata)
+	$filtersProject.AddItem('Filter', $_, $metadata) | Out-Null
 }
 
 $importedItems | ForEach-Object {
@@ -72,7 +73,7 @@ $importedItems | ForEach-Object {
 			$filterNames[$filterPath] = $true
 			$metadata = New-Object -TypeName 'System.Collections.Generic.Dictionary[System.String, System.String]'
 			$metadata['UniqueIdentifier'] = "{$([Guid]::NewGuid())}"
-			$filtersProject.AddItem('Filter', $filterPath, $metadata)
+			$filtersProject.AddItem('Filter', $filterPath, $metadata) | Out-Null
 		}
 		$lastIndex = $filterPath.LastIndexOfAny('/\')
 	}
