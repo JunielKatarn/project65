@@ -4,6 +4,10 @@
 # Imports all projects in the source solution.
 #
 
+#TODO: Process VCXPROJ projects in order.
+# $project64Sln = (Get-ChildItem .\modules\project64\Project64.sln).FullName
+# $sln = [Microsoft.Build.Construction.SolutionFile]::Parse($project64Sln)
+
 $importRoot = "$($PSScriptRoot | Split-Path | Split-Path)\modules\project64\Source"
 $exportRoot = "$($PSScriptRoot | Split-Path)\MSBuild"
 

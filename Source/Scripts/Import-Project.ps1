@@ -10,15 +10,11 @@ param (
 	[string] $Target,
 	[string] $ItemPath,
 	[string]
-	$MSBuildHome = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0"
+	$MSBuildHome = "$($PSScriptRoot | Split-Path | Split-Path)\Build"
 )
 
-#Add-Type -Path "$MSBuildHome\Bin\Microsoft.Build.dll"
-Add-Type -Path "$($PSScriptRoot | Split-Path | Split-Path)\Build\lib\Microsoft.Build.dll"
-
-#TODO: Process VCXPROJ projects in order.
-# $project64Sln = (Get-ChildItem .\modules\project64\Project64.sln).FullName
-# $sln = [Microsoft.Build.Construction.SolutionFile]::Parse($project64Sln)
+#$MSBuildHome = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0"
+Add-Type -Path "$MSBuildHome\Bin\Microsoft.Build.dll"
 
 # Default options
 $options = [Microsoft.Build.Definition.ProjectOptions]::new()
