@@ -9,6 +9,9 @@ insert_final_newline = false
 indent_size = 4
 indent_style = tab
 
+[*.{c,h,cpp,hpp,ipp}]
+indent_style = space
+
 [*.{config,csproj,psproj,vcxproj}]
 end_of_line = crlf
 indent_size = 2
