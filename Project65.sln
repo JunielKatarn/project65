@@ -29,6 +29,39 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project64-video", "Source\M
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSP", "Source\MSBuild\RSP.vcxproj", "{4013585D-A956-42C2-87B4-A7CB89642BBD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PropertySheets", "PropertySheets", "{20C6963B-5E4E-423E-80AB-FCD0D9C36BC8}"
+	ProjectSection(SolutionItems) = preProject
+		Source\MSBuild\PropertySheets\Debug.props = Source\MSBuild\PropertySheets\Debug.props
+		Source\MSBuild\PropertySheets\Project65.Cpp.props = Source\MSBuild\PropertySheets\Project65.Cpp.props
+		Source\MSBuild\PropertySheets\Release.props = Source\MSBuild\PropertySheets\Release.props
+		Source\MSBuild\PropertySheets\Win32.props = Source\MSBuild\PropertySheets\Win32.props
+		Source\MSBuild\PropertySheets\x86.props = Source\MSBuild\PropertySheets\x86.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StaticLibrary", "StaticLibrary", "{F16AA2B1-13C3-492B-88D3-02D51FEBC520}"
+	ProjectSection(SolutionItems) = preProject
+		Source\MSBuild\PropertySheets\StaticLibrary\Debug.props = Source\MSBuild\PropertySheets\StaticLibrary\Debug.props
+		Source\MSBuild\PropertySheets\StaticLibrary\Release.props = Source\MSBuild\PropertySheets\StaticLibrary\Release.props
+		Source\MSBuild\PropertySheets\StaticLibrary\Win32.props = Source\MSBuild\PropertySheets\StaticLibrary\Win32.props
+		Source\MSBuild\PropertySheets\StaticLibrary\x86.props = Source\MSBuild\PropertySheets\StaticLibrary\x86.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicLibrary", "DynamicLibrary", "{57A8E646-614B-40CD-8750-A9EC3FD9BC07}"
+	ProjectSection(SolutionItems) = preProject
+		Source\MSBuild\PropertySheets\DynamicLibrary\Debug.props = Source\MSBuild\PropertySheets\DynamicLibrary\Debug.props
+		Source\MSBuild\PropertySheets\DynamicLibrary\Release.props = Source\MSBuild\PropertySheets\DynamicLibrary\Release.props
+		Source\MSBuild\PropertySheets\DynamicLibrary\Win32.props = Source\MSBuild\PropertySheets\DynamicLibrary\Win32.props
+		Source\MSBuild\PropertySheets\DynamicLibrary\x86.props = Source\MSBuild\PropertySheets\DynamicLibrary\x86.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{9022497F-5764-49FC-8B93-8D24A25BD192}"
+	ProjectSection(SolutionItems) = preProject
+		Source\MSBuild\PropertySheets\Application\Debug.props = Source\MSBuild\PropertySheets\Application\Debug.props
+		Source\MSBuild\PropertySheets\Application\Release.props = Source\MSBuild\PropertySheets\Application\Release.props
+		Source\MSBuild\PropertySheets\Application\Win32.props = Source\MSBuild\PropertySheets\Application\Win32.props
+		Source\MSBuild\PropertySheets\Application\x86.props = Source\MSBuild\PropertySheets\Application\x86.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -90,6 +123,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F16AA2B1-13C3-492B-88D3-02D51FEBC520} = {20C6963B-5E4E-423E-80AB-FCD0D9C36BC8}
+		{57A8E646-614B-40CD-8750-A9EC3FD9BC07} = {20C6963B-5E4E-423E-80AB-FCD0D9C36BC8}
+		{9022497F-5764-49FC-8B93-8D24A25BD192} = {20C6963B-5E4E-423E-80AB-FCD0D9C36BC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE48BFC1-58E1-48A5-893E-1218E1DABF8F}
