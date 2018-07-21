@@ -62,6 +62,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 		Source\MSBuild\PropertySheets\Application\x86.props = Source\MSBuild\PropertySheets\Application\x86.props
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project65.ClickOnce", "Source\Net\Project65.ClickOnce\Project65.ClickOnce.csproj", "{B0D89CFB-9EA5-4881-B9EB-502E3212BED4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -120,6 +122,10 @@ Global
 		{4013585D-A956-42C2-87B4-A7CB89642BBD}.Debug|x86.Build.0 = Debug|Win32
 		{4013585D-A956-42C2-87B4-A7CB89642BBD}.Release|x86.ActiveCfg = Release|Win32
 		{4013585D-A956-42C2-87B4-A7CB89642BBD}.Release|x86.Build.0 = Release|Win32
+		{B0D89CFB-9EA5-4881-B9EB-502E3212BED4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B0D89CFB-9EA5-4881-B9EB-502E3212BED4}.Debug|x86.Build.0 = Debug|Any CPU
+		{B0D89CFB-9EA5-4881-B9EB-502E3212BED4}.Release|x86.ActiveCfg = Release|Any CPU
+		{B0D89CFB-9EA5-4881-B9EB-502E3212BED4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
