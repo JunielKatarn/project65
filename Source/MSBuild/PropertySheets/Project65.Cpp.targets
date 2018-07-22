@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<PropertyGroup>
+		<BuildDependsOn>
+			BeforeBuild;
+			$(BuildDependsOn);
+		</BuildDependsOn>
+	</PropertyGroup>
+
+	<UsingTask TaskName="SetVersion" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll">
+		<ParameterGroup>
+			<Version ParameterType="System.String" Required="true" />
+			<Result ParameterType="System.String[]" Output="true" />
+		</ParameterGroup>
+		<Task>
+			<Using Namespace="Microsoft.Build.Utilities" />
+			<Using Namespace="System.Text.RegularExpressions" />
+			<Code Type="Fragment" Language="cs">
+<![CDATA[
+				var v = new System.Version(Version);
+				Result = new string[]
+				{
+					"VERSION_MAJOR="		+ v.Major,
+					"VERSION_MINOR="		+ v.Minor,
+					"VERSION_BUILD="		+ v.Build,
+					"VERSION_REVISION="	+ v.Revision,
+					"GIT_VERSION="			+ ""
+				};
+]]>
+			</Code>
+		</Task>
+	</UsingTask>
+
+	<Target Name="BeforeBuild" Condition="'$(Version)' != ''">
+		<SetVersion Version="$(Version)">
+			<Output TaskParameter="Result" PropertyName="PreprocessorDefinitions" />
+		</SetVersion>
+		<Message Text="Setting version [$(Version)]" />
+		<ItemGroup>
+			<ClCompile>
+				<PreprocessorDefinitions>$(PreprocessorDefinitions);%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+			</ClCompile>
+		</ItemGroup>
+
+		<Message Text="%(ClCompile.PreprocessorDefinitions)" />
+	</Target>
+
+</Project>

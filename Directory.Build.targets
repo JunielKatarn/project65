@@ -12,6 +12,7 @@
 		<Message Text="VCInstallDir:     $(VCInstallDir)" />
 		<Message Text="MSBuildToolsPath: $(MSBuildToolsPath)" />
 		<Message Text="IncludePath:      $(IncludePath)" />
+		<Message Text="BuildDependsOn:   $(BuildDependsOn)" />
 	</Target>
 
 </Project>
