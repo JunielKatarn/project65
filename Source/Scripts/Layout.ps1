@@ -22,7 +22,7 @@ New-Item -ItemType Directory -Force $InstallDir | Out-Null
 Copy-Item -Recurse -Force $root\Source\Config $InstallDir
 
 # Copy binaries
-Copy-Item $targetRoot\Project64\Project64.exe $InstallDir\ -ErrorAction Ignore
+Copy-Item $targetRoot\Project64\Project64.exe $InstallDir\ -ErrorAction Ignore # Ignore if source dir == target dir.
 Copy-Item $targetRoot\Project64-audio\Project64-audio.dll $InstallDir\Plugin\Audio\
 Copy-Item $targetRoot\Project64-input\Project64-input.dll $InstallDir\Plugin\Input\
 Copy-Item $targetRoot\Project64-video\Project64-video.dll $InstallDir\Plugin\GFX\
