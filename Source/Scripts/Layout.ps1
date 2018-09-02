@@ -4,8 +4,8 @@
 # Updates the sources and headers based in the Project64 code base.
 #
 param (
-	[ValidateSet('Win32')]
-	[string] $Platform = 'Win32',
+	[ValidateSet('x86')]
+	[string] $Platform = 'x86',
 	[ValidateSet('Debug', 'Release')]
 	[string] $Configuration = 'Release',
 	[string] $InstallDir = "$($PSScriptRoot | Split-Path | Split-Path)\Target\$Platform\$Configuration\Project64"
