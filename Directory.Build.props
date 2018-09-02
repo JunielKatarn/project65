@@ -6,17 +6,15 @@
 		<SourceRoot Condition="'$(SourceRoot)' == ''">$(SolutionDir)modules\project64\Source\</SourceRoot>
 		<BuildRoot Condition="'$(BuildRoot)' == ''">$(SolutionDir)Build\</BuildRoot>
 		<TargetRoot Condition="'$(TargetRoot)' == ''">$(SolutionDir)Target\</TargetRoot>
-
-		<Platform Condition="'$(Platform)' == ''">x86</Platform>
-		<Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
 	</PropertyGroup>
 
 	<PropertyGroup Label="Configuration">
-		<OutDir Condition="'$(ProjectName)'==''">$(SolutionDir)Target\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
-		<IntDir Condition="'$(ProjectName)'==''">$(SolutionDir)Build\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</IntDir>
-		<!--IntDir and OutDir's leaf directory can be overridden if ProjectName is set.-->
-		<OutDir Condition="'$(ProjectName)'!=''">$(SolutionDir)Target\$(Platform)\$(Configuration)\$(ProjectName)\</OutDir>
-		<IntDir Condition="'$(ProjectName)'!=''">$(SolutionDir)Build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+		<Platform Condition="'$(Platform)' == 'Win32'">x86</Platform>
+		<Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
+		<ProjectName Condition="'$(ProjectName)'==''">$(MSBuildProjectName)</ProjectName>
+
+		<OutDir Condition="'$(ProjectName)' != ''">$(SolutionDir)Target\$(Platform)\$(Configuration)\$(ProjectName)\</OutDir>
+		<IntDir Condition="'$(ProjectName)' != ''">$(SolutionDir)Build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
 	</PropertyGroup>
 
 </Project>
