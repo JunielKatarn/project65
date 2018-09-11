@@ -4,8 +4,8 @@
 	<PropertyGroup>
 		<SolutionDir Condition="'$(SolutionDir)' == ''">$(MSBuildThisFileDirectory)</SolutionDir>
 		<SourceRoot Condition="'$(SourceRoot)' == ''">$(SolutionDir)modules\project64\Source\</SourceRoot>
-		<BuildRoot Condition="'$(BuildRoot)' == ''">$(SolutionDir)Build\</BuildRoot>
-		<TargetRoot Condition="'$(TargetRoot)' == ''">$(SolutionDir)Target\</TargetRoot>
+		<BuildRoot Condition="'$(BuildRoot)' == ''">$(SolutionDir)Build</BuildRoot>
+		<TargetRoot Condition="'$(TargetRoot)' == ''">$(SolutionDir)Target</TargetRoot>
 	</PropertyGroup>
 
 	<PropertyGroup Label="Configuration">
@@ -13,8 +13,8 @@
 		<Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
 		<ProjectName Condition="'$(ProjectName)'==''">$(MSBuildProjectName)</ProjectName>
 
-		<OutDir Condition="'$(ProjectName)' != ''">$(SolutionDir)Target\$(Platform)\$(Configuration)\$(ProjectName)\</OutDir>
-		<IntDir Condition="'$(ProjectName)' != ''">$(SolutionDir)Build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+		<OutDir Condition="'$(ProjectName)' != ''">$(BuildRoot)\$(Platform)\$(Configuration)\$(ProjectName)\</OutDir>
+		<IntDir Condition="'$(ProjectName)' != ''">$(TargetRoot)\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
 	</PropertyGroup>
 
 </Project>
