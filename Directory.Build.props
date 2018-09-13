@@ -13,8 +13,8 @@
 		<Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
 		<ProjectName Condition="'$(ProjectName)'==''">$(MSBuildProjectName)</ProjectName>
 
-		<OutDir Condition="'$(ProjectName)' != ''">$(BuildRoot)\$(Platform)\$(Configuration)\$(ProjectName)\</OutDir>
-		<IntDir Condition="'$(ProjectName)' != ''">$(TargetRoot)\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+		<IntDir Condition="'$(ProjectName)' != ''">$(BuildRoot)\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+		<OutDir Condition="'$(ProjectName)' != ''">$(TargetRoot)\$(Platform)\$(Configuration)\$(ProjectName)\</OutDir>
 	</PropertyGroup>
 
 </Project>
