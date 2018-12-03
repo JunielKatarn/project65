@@ -186,6 +186,9 @@
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-AdvancedOptions.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Defaults.cpp">
+      <Filter>Source Files\UserInterface\Settings</Filter>
+    </ClCompile>
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Directories.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>

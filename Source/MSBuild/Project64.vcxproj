@@ -75,6 +75,7 @@
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\RomInformationClass.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\SettingsConfig.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-AdvancedOptions.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Defaults.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Directories.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-General.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Plugin.cpp" Label="Imported" />
