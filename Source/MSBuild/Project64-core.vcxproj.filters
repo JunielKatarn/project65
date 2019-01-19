@@ -300,6 +300,9 @@
     <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Cheats.cpp">
       <Filter>Source Files\Settings\SettingType</Filter>
     </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Enhancements.cpp">
+      <Filter>Source Files\Settings\SettingType</Filter>
+    </ClCompile>
     <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSetting.cpp">
       <Filter>Source Files\Settings\SettingType</Filter>
     </ClCompile>
@@ -606,6 +609,9 @@
       <Filter>Header Files\Settings\SettingType</Filter>
     </ClInclude>
     <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Cheats.h">
+      <Filter>Header Files\Settings\SettingType</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Enhancements.h">
       <Filter>Header Files\Settings\SettingType</Filter>
     </ClInclude>
     <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSetting.h">

@@ -99,6 +99,9 @@
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Breakpoints.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\CPULog.cpp">
+      <Filter>Source Files\UserInterface\Debugger</Filter>
+    </ClCompile>
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddBreakpoint.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
@@ -155,6 +158,9 @@
     </ClCompile>
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Symbols.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\EnhancementConfig.cpp">
+      <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\LoggingUI.cpp">
       <Filter>Source Files\UserInterface</Filter>
@@ -272,6 +278,9 @@
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Breakpoints.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\CPULog.h">
+      <Filter>Header Files\UserInterface\Debugger</Filter>
+    </ClInclude>
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\DebugDialog.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
@@ -342,6 +351,9 @@
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\LoggingUI.h">
+      <Filter>Header Files\UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\EnhancementConfig.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\MainMenu.h">

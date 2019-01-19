@@ -46,10 +46,13 @@
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\CheatClassUI.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Assembler.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Breakpoints.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\CPULog.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddBreakpoint.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddSymbol.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Commands.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-CPULogView.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-DMALogView.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-ExceptionBreakpoints.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemoryDump.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemorySearch.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-RegisterTabs.cpp" Label="Imported" />
@@ -65,6 +68,7 @@
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptInstance.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptSystem.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Symbols.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\EnhancementConfig.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\LoggingUI.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\MainMenu.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\MainWindow.cpp" Label="Imported" />
@@ -105,11 +109,14 @@
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\CheatClassUI.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Assembler.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Breakpoints.h" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\CPULog.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\DebugDialog.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddBreakpoint.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddSymbol.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Commands.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-CPULogView.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-DMALogView.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-ExceptionBreakpoints.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemoryDump.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemorySearch.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-RegisterTabs.h" Label="Imported" />
@@ -129,6 +136,7 @@
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\stdafx.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Symbols.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\LoggingUI.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\EnhancementConfig.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\MainMenu.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\MainWindow.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\MenuClass.h" Label="Imported" />

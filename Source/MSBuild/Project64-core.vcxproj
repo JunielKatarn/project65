@@ -97,6 +97,7 @@
     <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationIndex.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationPath.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Cheats.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Enhancements.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSetting.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSettingIndex.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBCpuType.cpp" Label="Imported" />
@@ -201,6 +202,7 @@
     <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-ApplicationPath.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Base.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Cheats.h" Label="Imported" />
+    <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-Enhancements.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSetting.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-GameSettingIndex.h" Label="Imported" />
     <ClInclude Include="$(SourceRoot)Project64-core\Settings\SettingType\SettingsType-RDBCpuType.h" Label="Imported" />
