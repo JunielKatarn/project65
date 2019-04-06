@@ -299,6 +299,9 @@
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Commands.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
+    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-CPULogView.h">
+      <Filter>Header Files\UserInterface\Debugger</Filter>
+    </ClInclude>
     <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-DMALogView.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
