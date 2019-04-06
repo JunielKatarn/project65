@@ -64,6 +64,7 @@
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-ViewMemory.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\DMALog.cpp" Label="Imported" />
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\MemoryScanner.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptHook.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptInstance.cpp" Label="Imported" />
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptSystem.cpp" Label="Imported" />

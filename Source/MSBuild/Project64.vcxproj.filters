@@ -111,6 +111,9 @@
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Commands.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-CPULogView.cpp">
+      <Filter>Source Files\UserInterface\Debugger</Filter>
+    </ClCompile>
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-DMALogView.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
@@ -145,6 +148,9 @@
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\DMALog.cpp">
+      <Filter>Source Files\UserInterface\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\MemoryScanner.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
     <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptHook.cpp">
