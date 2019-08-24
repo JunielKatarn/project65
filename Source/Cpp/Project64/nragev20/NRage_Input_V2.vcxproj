@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{73F4F256-E6D5-4DAD-A843-BD59A67E51E7}</ProjectGuid>
+    <ProjectGuid>{FD617E80-9E40-4138-85DA-B94633972E6A}</ProjectGuid>
     <RootNamespace>Project64</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
@@ -24,28 +24,27 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <PropertyGroup>
-    <IncludePath>$(MSBuildThisFileDirectory);$(Pj64SourceRoot);$(Pj64SourceRoot)\$(MSBuildProjectName);$(Pj64SourceRoot)\3rdParty;$(IncludePath)</IncludePath>
+    <!-- <TargetName>PJ64_NRage</TargetName>
+    <TargetName Condition="'$(Configuration)'=='Debug'">PJ64_NRage_d</TargetName> -->
+    <IncludePath>$(MSBuildThisFileDirectory);$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
-      <AdditionalDependencies>dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>xinput.lib;dinput8.lib;dxguid.lib;Comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <!-- <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers> -->
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup Label="Imported">
-    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
   </ItemGroup>
   <ItemGroup  Label="Imported">
-    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
   </ItemGroup>
-  <ItemGroup  Label="Imported">
-    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.rc" />
+  <ItemGroup Label="Imported">
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.rc" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Common\Common.vcxproj">
-      <Project>{4323124b-b676-404e-bb9d-d6c301dc8fb5}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Settings\Settings.vcxproj">
-      <Project>{00ca748c-b8c4-4246-8d6a-96e21f8fa4dc}</Project>
-    </ProjectReference>
+  <ItemGroup Label="Imported">
+    <None Include="$(Pj64SourceRoot)\nragev20\configs\Controller1.cpf" />
+    <None Include="$(Pj64SourceRoot)\nragev20\configs\Shortcuts.sc" />
   </ItemGroup>
 </Project>
