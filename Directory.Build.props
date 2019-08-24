@@ -12,10 +12,10 @@
     <ProjectName Condition="'$(ProjectName)'==''">$(MSBuildProjectName)</ProjectName>
 
     <!-- Visual Studio forces using 'Win32' for the 'x86' platform. -->
-    <BaseIntDir Condition="'$(Platform)' != 'Win32'">$(ReactNativeWindowsDir)Build\$(Platform)\$(Configuration)</BaseIntDir>
-    <BaseIntDir Condition="'$(Platform)' == 'Win32'">$(ReactNativeWindowsDir)Build\x86\$(Configuration)</BaseIntDir>
-    <BaseOutDir Condition="'$(Platform)' != 'Win32'">$(ReactNativeWindowsDir)Target\$(Platform)\$(Configuration)</BaseOutDir>
-    <BaseOutDir Condition="'$(Platform)' == 'Win32'">$(ReactNativeWindowsDir)Target\x86\$(Configuration)</BaseOutDir>
+    <BaseIntDir Condition="'$(Platform)' != 'Win32'">$(MSBuildThisFileDirectory)Build\$(Platform)\$(Configuration)</BaseIntDir>
+    <BaseIntDir Condition="'$(Platform)' == 'Win32'">$(MSBuildThisFileDirectory)Build\x86\$(Configuration)</BaseIntDir>
+    <BaseOutDir Condition="'$(Platform)' != 'Win32'">$(MSBuildThisFileDirectory)Target\$(Platform)\$(Configuration)</BaseOutDir>
+    <BaseOutDir Condition="'$(Platform)' == 'Win32'">$(MSBuildThisFileDirectory)Target\x86\$(Configuration)</BaseOutDir>
 
     <IntDir>$(BaseIntDir)\$(ProjectName)\</IntDir>
     <OutDir>$(BaseOutDir)\$(ProjectName)\</OutDir>

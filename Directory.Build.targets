@@ -6,14 +6,18 @@
     <Message Text="SourceRoot        [$(SourceRoot)]" />
     <Message Text="BuildRoot         [$(BuildRoot)]" />
     <Message Text="TargetRoot        [$(TargetRoot)]" />
+    <Message Text="BaseIntDir        [$(BaseIntDir)]" />
+    <Message Text="BaseOutDir        [$(BaseOutDir)]" />
 
     <Message Text="================== MSBuild misc macros ===================" />
-    <Message Text="VCTargetsPath     [$(VCTargetsPath)]" />
     <Message Text="MSBuildToolsPath  [$(MSBuildToolsPath)]" />
     <Message Text="BuildDependsOn    [$(BuildDependsOn)]" />
+
+    <Message Text="================== C++ misc macros ===================" />
+    <Message Text="VCTargetsPath     [$(VCTargetsPath)]" />
     <Message Text="IncludePath       [$(IncludePath)]" />
 
-    <Message Text="================== Common macros ===================" />
+    <Message Text="================== C++ Common macros ===================" />
     <Message Text="Configuration     [$(Configuration)]" />
     <Message Text="DevEnvDir         [$(DevEnvDir)]" />
     <Message Text="FrameworkDir      [$(FrameworkDir)]" />
@@ -47,7 +51,12 @@
     <Message Text="WebDeployPath     [$(WebDeployPath)]" />
     <Message Text="WebDeployRoot     [$(WebDeployRoot)]" />
 
-    <Message Text="================== Obsolete macros ===================" />
+    <Message Text="================== .NET Common macros ===================" />
+    <Message Text="IntermediateOutputPath [$(IntermediateOutputPath)]" />
+    <Message Text="BaseOutputPath         [$(BaseOutputPath)]" />
+    <Message Text="OutputPath             [$(OutputPath)]" />
+
+    <!-- <Message Text="================== Obsolete macros ===================" />
     <Message Text="InputDir          [$(InputDir)]" />
     <Message Text="InputExt          [$(InputExt)]" />
     <Message Text="InputFileName     [$(InputFileName)]" />
@@ -56,7 +65,7 @@
     <Message Text="ParentName        [$(ParentName)]" />
     <Message Text="SafeInputName     [$(SafeInputName)]" />
     <Message Text="SafeParentName    [$(SafeParentName)]" />
-    <Message Text="SafeRootNamespace [$(SafeRootNamespace)]" />
+    <Message Text="SafeRootNamespace [$(SafeRootNamespace)]" /> -->
   </Target>
 
 </Project>

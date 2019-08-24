@@ -13,7 +13,7 @@
   <PropertyGroup>
     <PlatformTarget>x86</PlatformTarget>
     <IntermediateOutputPath>$(BaseIntDir)\$(MSBuildProjectName)\</IntermediateOutputPath>
-    <BaseOutputPath>$(BaseOutDir)</BaseOutputPath>
+    <BaseOutputPath>$(BaseOutDir)\</BaseOutputPath>
     <OutputPath>$(BaseOutputPath)$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
