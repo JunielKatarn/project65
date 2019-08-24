@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4323124B-B676-404E-BB9D-D6C301DC8FB5}</ProjectGuid>
-    <RootNamespace>Project65</RootNamespace>
+    <ProjectGuid>{7158D420-5764-4D5F-ACA9-2E5807C2E691}</ProjectGuid>
+    <RootNamespace>Project64</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -27,9 +27,9 @@
     <IncludePath>$(Pj64SourceRoot);$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemGroup Label="Imported">
-    <ClCompile Include="$(Pj64SourceRoot)\Common\**\*.cpp" />
+    <ClInclude Include="$(Pj64SourceRoot)\3rdParty\7zip\**\*.h" />
   </ItemGroup>
-  <ItemGroup  Label="Imported">
-    <ClInclude Include="$(Pj64SourceRoot)\Common\**\*.h" />
+  <ItemGroup Label="Imported">
+    <ClCompile Include="$(Pj64SourceRoot)\3rdParty\7zip\**\*.c" />
   </ItemGroup>
 </Project>

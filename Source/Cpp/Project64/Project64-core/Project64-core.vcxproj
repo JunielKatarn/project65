@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4323124B-B676-404E-BB9D-D6C301DC8FB5}</ProjectGuid>
-    <RootNamespace>Project65</RootNamespace>
+    <ProjectGuid>{2241655B-C987-4FBB-9F9C-9EF90C23BABC}</ProjectGuid>
+    <RootNamespace>Project64</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -24,12 +24,23 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <PropertyGroup>
-    <IncludePath>$(Pj64SourceRoot);$(IncludePath)</IncludePath>
+    <IncludePath>$(MSBuildThisFileDirectory);$(Pj64SourceRoot);$(Pj64SourceRoot)\3rdParty;$(IncludePath)</IncludePath>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\3rdParty\7zip\7zip.vcxproj">
+      <Project>{7158d420-5764-4d5f-aca9-2e5807c2e691}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.vcxproj">
+      <Project>{4323124b-b676-404e-bb9d-d6c301dc8fb5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\3rdParty\zlib\zlib.vcxproj">
+      <Project>{8e9de926-b469-4773-9e2c-5399aa571671}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup Label="Imported">
-    <ClCompile Include="$(Pj64SourceRoot)\Common\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-core\**\*.cpp" />
   </ItemGroup>
   <ItemGroup  Label="Imported">
-    <ClInclude Include="$(Pj64SourceRoot)\Common\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-core\**\*.h" />
   </ItemGroup>
 </Project>
