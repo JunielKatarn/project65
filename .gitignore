@@ -1,8 +1,9 @@
+/Build/
+/Target/
+
 # Visual Studio
 .vs/
 .vscode/
-Build/
-Target/
 *.VC.opendb
 *.VC.db
 *.vcxproj.user
