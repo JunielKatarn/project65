@@ -3,9 +3,9 @@
 
   <PropertyGroup>
     <SolutionDir Condition="'$(SolutionDir)' == ''">$(MSBuildThisFileDirectory)</SolutionDir>
-    <SourceRoot  Condition="'$(SourceRoot)' == ''">$(SolutionDir)modules\project64\Source\</SourceRoot>
-    <BuildRoot   Condition="'$(BuildRoot)' == ''">$(SolutionDir)Build</BuildRoot>
-    <TargetRoot  Condition="'$(TargetRoot)' == ''">$(SolutionDir)Target</TargetRoot>
+    <SourceRoot  Condition="'$(SourceRoot)'  == ''">$(SolutionDir)modules\project64\Source\</SourceRoot>
+    <BuildRoot   Condition="'$(BuildRoot)'   == ''">$(SolutionDir)Build</BuildRoot>
+    <TargetRoot  Condition="'$(TargetRoot)'  == ''">$(SolutionDir)Target</TargetRoot>
   </PropertyGroup>
 
   <PropertyGroup Label="Configuration">

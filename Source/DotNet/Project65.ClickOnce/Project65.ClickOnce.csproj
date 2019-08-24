@@ -12,9 +12,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <PlatformTarget>x86</PlatformTarget>
-    <BaseIntermediateOutputPath>$(SolutionDir)Build\</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>$(BaseIntermediateOutputPath)AnyCPU\$(Configuration)\$(MSBuildProjectName)\</IntermediateOutputPath>
-    <OutputPath>$(SolutionDir)Target\AnyCPU\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
+    <IntermediateOutputPath>$(BaseIntDir)\$(MSBuildProjectName)\</IntermediateOutputPath>
+    <BaseOutputPath>$(BaseOutDir)</BaseOutputPath>
+    <OutputPath>$(BaseOutputPath)$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
