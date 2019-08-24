@@ -9,7 +9,7 @@
 	<PropertyGroup Label="Configuration">
 		<PlatformToolset>v142</PlatformToolset>
 		<GenerateProjectSpecificOutputFolder>false</GenerateProjectSpecificOutputFolder>
-		<CharacterSet>MultiByte</CharacterSet>
+		<CharacterSet>Unicode</CharacterSet>
 	</PropertyGroup>
 
 	<ImportGroup Label="Defaults">
