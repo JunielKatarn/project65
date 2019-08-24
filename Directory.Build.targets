@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
 
-	<Target Name="Vars">
-		<Message Text="================== Project65 macros ===================" />
-		<Message Text="SourceRoot        [$(SourceRoot)]" />
-		<Message Text="BuildRoot         [$(BuildRoot)]" />
-		<Message Text="TargetRoot        [$(TargetRoot)]" />
+  <Target Name="Vars">
+    <Message Text="================== Project65 macros ===================" />
+    <Message Text="SourceRoot        [$(SourceRoot)]" />
+    <Message Text="BuildRoot         [$(BuildRoot)]" />
+    <Message Text="TargetRoot        [$(TargetRoot)]" />
 
-		<Message Text="================== MSBuild misc macros ===================" />
-		<Message Text="VCTargetsPath     [$(VCTargetsPath)]" />
-		<Message Text="MSBuildToolsPath  [$(MSBuildToolsPath)]" />
-		<Message Text="BuildDependsOn    [$(BuildDependsOn)]" />
-		<Message Text="IncludePath       [$(IncludePath)]" />
+    <Message Text="================== MSBuild misc macros ===================" />
+    <Message Text="VCTargetsPath     [$(VCTargetsPath)]" />
+    <Message Text="MSBuildToolsPath  [$(MSBuildToolsPath)]" />
+    <Message Text="BuildDependsOn    [$(BuildDependsOn)]" />
+    <Message Text="IncludePath       [$(IncludePath)]" />
 
-		<Message Text="================== Common macros ===================" />
-		<Message Text="Configuration     [$(Configuration)]" />
-		<Message Text="DevEnvDir         [$(DevEnvDir)]" />
-		<Message Text="FrameworkDir      [$(FrameworkDir)]" />
-		<Message Text="FrameworkSDKDir   [$(FrameworkSDKDir)]" />
-		<Message Text="FrameworkVersion  [$(FrameworkVersion)]" />
-		<Message Text="FxCopDir          [$(FxCopDir)]" />
-		<Message Text="IntDir            [$(IntDir)]" />
-		<Message Text="OutDir            [$(OutDir)]" />
-		<Message Text="Platform          [$(Platform)]" />
-		<Message Text="PlatformShortName [$(PlatformShortName)]" />
-		<Message Text="ProjectDir        [$(ProjectDir)]" />
-		<Message Text="ProjectExt        [$(ProjectExt)]" />
-		<Message Text="ProjectFileName   [$(ProjectFileName)]" />
-		<Message Text="ProjectName       [$(ProjectName)]" />
-		<Message Text="ProjectPath       [$(ProjectPath)]" />
-		<Message Text="PublishDir        [$(PublishDir)]" />
-		<Message Text="RemoteMachine     [$(RemoteMachine)]" />
-		<Message Text="RootNameSpace     [$(RootNameSpace)]" />
-		<Message Text="SolutionDir       [$(SolutionDir)]" />
-		<Message Text="SolutionExt       [$(SolutionExt)]" />
-		<Message Text="SolutionFileName  [$(SolutionFileName)]" />
-		<Message Text="SolutionName      [$(SolutionName)]" />
-		<Message Text="SolutionPath      [$(SolutionPath)]" />
-		<Message Text="TargetDir         [$(TargetDir)]" />
-		<Message Text="TargetExt         [$(TargetExt)]" />
-		<Message Text="TargetFileName    [$(TargetFileName)]" />
-		<Message Text="TargetName        [$(TargetName)]" />
-		<Message Text="TargetPath        [$(TargetPath)]" />
-		<Message Text="VCInstallDir      [$(VCInstallDir)]" />
-		<Message Text="VSInstallDir      [$(VSInstallDir)]" />
-		<Message Text="WebDeployPath     [$(WebDeployPath)]" />
-		<Message Text="WebDeployRoot     [$(WebDeployRoot)]" />
+    <Message Text="================== Common macros ===================" />
+    <Message Text="Configuration     [$(Configuration)]" />
+    <Message Text="DevEnvDir         [$(DevEnvDir)]" />
+    <Message Text="FrameworkDir      [$(FrameworkDir)]" />
+    <Message Text="FrameworkSDKDir   [$(FrameworkSDKDir)]" />
+    <Message Text="FrameworkVersion  [$(FrameworkVersion)]" />
+    <Message Text="FxCopDir          [$(FxCopDir)]" />
+    <Message Text="IntDir            [$(IntDir)]" />
+    <Message Text="OutDir            [$(OutDir)]" />
+    <Message Text="Platform          [$(Platform)]" />
+    <Message Text="PlatformShortName [$(PlatformShortName)]" />
+    <Message Text="ProjectDir        [$(ProjectDir)]" />
+    <Message Text="ProjectExt        [$(ProjectExt)]" />
+    <Message Text="ProjectFileName   [$(ProjectFileName)]" />
+    <Message Text="ProjectName       [$(ProjectName)]" />
+    <Message Text="ProjectPath       [$(ProjectPath)]" />
+    <Message Text="PublishDir        [$(PublishDir)]" />
+    <Message Text="RemoteMachine     [$(RemoteMachine)]" />
+    <Message Text="RootNameSpace     [$(RootNameSpace)]" />
+    <Message Text="SolutionDir       [$(SolutionDir)]" />
+    <Message Text="SolutionExt       [$(SolutionExt)]" />
+    <Message Text="SolutionFileName  [$(SolutionFileName)]" />
+    <Message Text="SolutionName      [$(SolutionName)]" />
+    <Message Text="SolutionPath      [$(SolutionPath)]" />
+    <Message Text="TargetDir         [$(TargetDir)]" />
+    <Message Text="TargetExt         [$(TargetExt)]" />
+    <Message Text="TargetFileName    [$(TargetFileName)]" />
+    <Message Text="TargetName        [$(TargetName)]" />
+    <Message Text="TargetPath        [$(TargetPath)]" />
+    <Message Text="VCInstallDir      [$(VCInstallDir)]" />
+    <Message Text="VSInstallDir      [$(VSInstallDir)]" />
+    <Message Text="WebDeployPath     [$(WebDeployPath)]" />
+    <Message Text="WebDeployRoot     [$(WebDeployRoot)]" />
 
-		<Message Text="================== Obsolete macros ===================" />
-		<Message Text="InputDir          [$(InputDir)]" />
-		<Message Text="InputExt          [$(InputExt)]" />
-		<Message Text="InputFileName     [$(InputFileName)]" />
-		<Message Text="InputName         [$(InputName)]" />
-		<Message Text="InputPath         [$(InputPath)]" />
-		<Message Text="ParentName        [$(ParentName)]" />
-		<Message Text="SafeInputName     [$(SafeInputName)]" />
-		<Message Text="SafeParentName    [$(SafeParentName)]" />
-		<Message Text="SafeRootNamespace [$(SafeRootNamespace)]" />
-	</Target>
+    <Message Text="================== Obsolete macros ===================" />
+    <Message Text="InputDir          [$(InputDir)]" />
+    <Message Text="InputExt          [$(InputExt)]" />
+    <Message Text="InputFileName     [$(InputFileName)]" />
+    <Message Text="InputName         [$(InputName)]" />
+    <Message Text="InputPath         [$(InputPath)]" />
+    <Message Text="ParentName        [$(ParentName)]" />
+    <Message Text="SafeInputName     [$(SafeInputName)]" />
+    <Message Text="SafeParentName    [$(SafeParentName)]" />
+    <Message Text="SafeRootNamespace [$(SafeRootNamespace)]" />
+  </Target>
 
 </Project>

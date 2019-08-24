@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
 
-	<PropertyGroup>
-		<SolutionDir Condition="'$(SolutionDir)' == ''">$(MSBuildThisFileDirectory)</SolutionDir>
-		<SourceRoot Condition="'$(SourceRoot)' == ''">$(SolutionDir)modules\project64\Source\</SourceRoot>
-		<BuildRoot Condition="'$(BuildRoot)' == ''">$(SolutionDir)Build</BuildRoot>
-		<TargetRoot Condition="'$(TargetRoot)' == ''">$(SolutionDir)Target</TargetRoot>
-	</PropertyGroup>
+  <PropertyGroup>
+    <SolutionDir Condition="'$(SolutionDir)' == ''">$(MSBuildThisFileDirectory)</SolutionDir>
+    <SourceRoot Condition="'$(SourceRoot)' == ''">$(SolutionDir)modules\project64\Source\</SourceRoot>
+    <BuildRoot Condition="'$(BuildRoot)' == ''">$(SolutionDir)Build</BuildRoot>
+    <TargetRoot Condition="'$(TargetRoot)' == ''">$(SolutionDir)Target</TargetRoot>
+  </PropertyGroup>
 
-	<PropertyGroup Label="Configuration">
-		<ProjectName Condition="'$(ProjectName)'==''">$(MSBuildProjectName)</ProjectName>
+  <PropertyGroup Label="Configuration">
+    <ProjectName Condition="'$(ProjectName)'==''">$(MSBuildProjectName)</ProjectName>
 
-		<!-- Visual Studio forces using 'Win32' for the 'x86' platform. -->
-		<BaseIntDir Condition="'$(Platform)' != 'Win32'">$(ReactNativeWindowsDir)build\$(Platform)\$(Configuration)</BaseIntDir>
-		<BaseIntDir Condition="'$(Platform)' == 'Win32'">$(ReactNativeWindowsDir)build\x86\$(Configuration)</BaseIntDir>
-		<BaseOutDir Condition="'$(Platform)' != 'Win32'">$(ReactNativeWindowsDir)target\$(Platform)\$(Configuration)</BaseOutDir>
-		<BaseOutDir Condition="'$(Platform)' == 'Win32'">$(ReactNativeWindowsDir)target\x86\$(Configuration)</BaseOutDir>
+    <!-- Visual Studio forces using 'Win32' for the 'x86' platform. -->
+    <BaseIntDir Condition="'$(Platform)' != 'Win32'">$(ReactNativeWindowsDir)build\$(Platform)\$(Configuration)</BaseIntDir>
+    <BaseIntDir Condition="'$(Platform)' == 'Win32'">$(ReactNativeWindowsDir)build\x86\$(Configuration)</BaseIntDir>
+    <BaseOutDir Condition="'$(Platform)' != 'Win32'">$(ReactNativeWindowsDir)target\$(Platform)\$(Configuration)</BaseOutDir>
+    <BaseOutDir Condition="'$(Platform)' == 'Win32'">$(ReactNativeWindowsDir)target\x86\$(Configuration)</BaseOutDir>
 
-		<IntDir>$(BaseIntDir)\$(ProjectName)\</IntDir>
-		<OutDir>$(BaseOutDir)\$(ProjectName)\</OutDir>
-	</PropertyGroup>
+    <IntDir>$(BaseIntDir)\$(ProjectName)\</IntDir>
+    <OutDir>$(BaseOutDir)\$(ProjectName)\</OutDir>
+  </PropertyGroup>
 
 </Project>
