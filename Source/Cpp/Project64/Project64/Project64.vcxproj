@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A1A41759-71B6-4778-80E4-D9C5BB3FBAC2}</ProjectGuid>
+    <RootNamespace>Project64</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.props" />
+  </ImportGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.targets" />
+  <PropertyGroup>
+    <IncludePath>$(MSBuildThisFileDirectory)..;$(Pj64SourceRoot);$(Pj64SourceRoot)\$(MSBuildProjectName);$(Pj64SourceRoot)\3rdParty;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <!--
+        WIN32_LEAN_AND_MEAN - C2375: 'getsockname': redefinition; different linkage
+      -->
+      <PreprocessorDefinitions>
+        WIN32_LEAN_AND_MEAN;
+        %(PreprocessorDefinitions)
+      </PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+    </Link>
+    <Manifest>
+      <EnableDPIAwareness>true</EnableDPIAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup Label="Imported">
+    <ClCompile Include="$(Pj64SourceRoot)\Project64\**\*.cpp" />
+  </ItemGroup>
+  <ItemGroup  Label="Imported">
+    <ClInclude Include="$(Pj64SourceRoot)\Project64\**\*.h" />
+  </ItemGroup>
+  <ItemGroup Label="Imported">
+    <ResourceCompile Include="$(Pj64SourceRoot)\Project64\UserInterface\UIResources.rc" />
+  </ItemGroup>
+  <ItemGroup Label="Imported">
+    <None Include="$(Pj64SourceRoot)\Project64\res\divider.cur" />
+    <None Include="$(Pj64SourceRoot)\Project64\res\hand.cur" />
+    <None Include="$(Pj64SourceRoot)\Project64\UserInterface\API.js" />
+    <None Include="$(Pj64SourceRoot)\Project64\UserInterface\icons\bin00001.bin" />
+    <None Include="$(Pj64SourceRoot)\Project64\UserInterface\Icons\divider.cur" />
+    <None Include="$(Pj64SourceRoot)\Project64\UserInterface\Icons\hand.cur" />
+    <None Include="$(Pj64SourceRoot)\Project64\UserInterface\icons\javascri.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\3rdParty\7zip\7zip.vcxproj">
+      <Project>{7158d420-5764-4d5f-aca9-2e5807c2e691}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.vcxproj">
+      <Project>{4323124b-b676-404e-bb9d-d6c301dc8fb5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\3rdParty\duktape\duktape.vcxproj">
+      <Project>{9986b3bf-032f-465e-bbaa-05197036da9c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Project64-core\Project64-core.vcxproj">
+      <Project>{2241655b-c987-4fbb-9f9c-9ef90c23babc}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\3rdParty\zlib\zlib.vcxproj">
+      <Project>{8e9de926-b469-4773-9e2c-5399aa571671}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
