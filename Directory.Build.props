@@ -9,12 +9,16 @@
 	</PropertyGroup>
 
 	<PropertyGroup Label="Configuration">
-		<Platform Condition="'$(Platform)' == 'Win32'">x86</Platform>
-		<Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
 		<ProjectName Condition="'$(ProjectName)'==''">$(MSBuildProjectName)</ProjectName>
 
-		<IntDir Condition="'$(ProjectName)' != ''">$(BuildRoot)\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-		<OutDir Condition="'$(ProjectName)' != ''">$(TargetRoot)\$(Platform)\$(Configuration)\$(ProjectName)\</OutDir>
+		<!-- Visual Studio forces using 'Win32' for the 'x86' platform. -->
+		<BaseIntDir Condition="'$(Platform)' != 'Win32'">$(ReactNativeWindowsDir)build\$(Platform)\$(Configuration)</BaseIntDir>
+		<BaseIntDir Condition="'$(Platform)' == 'Win32'">$(ReactNativeWindowsDir)build\x86\$(Configuration)</BaseIntDir>
+		<BaseOutDir Condition="'$(Platform)' != 'Win32'">$(ReactNativeWindowsDir)target\$(Platform)\$(Configuration)</BaseOutDir>
+		<BaseOutDir Condition="'$(Platform)' == 'Win32'">$(ReactNativeWindowsDir)target\x86\$(Configuration)</BaseOutDir>
+
+		<IntDir>$(BaseIntDir)\$(ProjectName)\</IntDir>
+		<OutDir>$(BaseOutDir)\$(ProjectName)\</OutDir>
 	</PropertyGroup>
 
 </Project>
