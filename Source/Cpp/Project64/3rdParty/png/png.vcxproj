@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F00AD871-4BB1-4368-B82E-D635961F54CF}</ProjectGuid>
+    <RootNamespace>Project64</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.props" />
+  </ImportGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <IncludePath>$(Pj64SourceRoot)\3rdParty\$(MSBuildProjectName);$(Pj64SourceRoot)\3rdParty;$(Pj64SourceRoot);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemGroup Label="Imported">
+    <ClCompile Include="$(Pj64SourceRoot)\3rdParty\png\*.c" />
+  </ItemGroup>
+  <ItemGroup  Label="Imported">
+    <ClInclude Include="$(Pj64SourceRoot)\3rdParty\png\**\*.h" />
+  </ItemGroup>
+</Project>
