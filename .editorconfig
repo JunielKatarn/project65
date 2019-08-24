@@ -10,7 +10,7 @@ indent_size = 4
 indent_style = tab
 
 [*.{c,h,cpp,hpp,ipp}]
-indent_style = space
+insert_final_newline = true
 
 [*.{config,csproj,psproj,vcxproj}]
 end_of_line = crlf
@@ -22,3 +22,7 @@ indent_size = 2
 
 [*.sln]
 end_of_line = crlf
+
+# Project64-specific
+[/modules/project64/**.{c,h,cpp,hpp,ipp}]
+indent_style = space
