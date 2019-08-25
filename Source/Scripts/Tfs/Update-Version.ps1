@@ -43,11 +43,11 @@ $getResponse = & $PSScriptRoot\Get-Version.ps1 `
 	-Token $Token `
 	-ApiVersion $ApiVersion
 
+# Only update $VariableName. Keep other variables.
+$getResponse.variables."$VariableName" = "$Value"
+
 $body = @{
-	'variables' = @{
-		$VariableName = "$Value"
-	};
-	
+	'variables' = $getResponse.variables
 	'type' = $getResponse.type
 	'name' = $getResponse.name
 	'description' = $getResponse.description
