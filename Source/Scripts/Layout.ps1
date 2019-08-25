@@ -11,7 +11,10 @@ param (
 	[string] $Configuration = 'Release',
 
 	[string]
-	$Path = "$($PSScriptRoot | Split-Path | Split-Path)\Target\$Platform\$Configuration\Project64"
+	$Path = "$($PSScriptRoot | Split-Path | Split-Path)\Target\$Platform\$Configuration\Project64",
+
+	[switch]
+	$ClickOnce
 )
 
 $root = $PSScriptRoot | Split-Path | Split-Path
@@ -39,5 +42,8 @@ Copy-Item $targetRoot\NRage_Input_V2\NRage_Input_V2.dll $Path\Plugin\Input\
 Copy-Item $targetRoot\NRage_Input_V2\NRage_Input_V2.pdb $Path\Plugin\Input\
 Copy-Item $targetRoot\RSP\RSP.dll $Path\Plugin\RSP\
 Copy-Item $targetRoot\RSP\RSP.pdb $Path\Plugin\RSP\
+
 # ClickOnce binaries
-Copy-Item $targetRoot\Project65.ClickOnce\*.exe $Path -ErrorAction Ignore # Ignore if source dir == target dir.
+if ($ClickOnce) {
+	Copy-Item $targetRoot\Project65.ClickOnce\*.exe $Path -ErrorAction Ignore # Ignore if source dir == target dir.
+}
