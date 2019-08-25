@@ -15,7 +15,7 @@ namespace Project65.ClickOnce
 				Environment.SpecialFolder folder = Environment.SpecialFolder.LocalApplicationData;
 				string localPath = Environment.GetFolderPath(folder);
 				string localAppPath = Path.Combine(localPath, "Hyvart Software", "Project65 CI");
-				string configPath = Path.Combine(localPath, "Config");
+				string configPath = Path.Combine(localAppPath, "Config");
 
 				// If local config folder exists, offer to overwrite.
 				if (ApplicationDeployment.CurrentDeployment.IsFirstRun && Directory.Exists(configPath))
@@ -33,7 +33,7 @@ namespace Project65.ClickOnce
 				}
 
 				string cfgPath = Path.Combine(localAppPath, "Config", "Project64.cfg");
-				File.WriteAllText(Path.Combine("Config", "Project64.cfg"), string.Format("[default]\r\nConfigFile={0}\r\n", cfgPath));
+				File.WriteAllText(Path.Combine("Config", "Project64.cfg"), string.Format("[Settings]\r\nConfigFile={0}\r\n", cfgPath));
 
 				Process.Start("Project64.exe");
 			}
