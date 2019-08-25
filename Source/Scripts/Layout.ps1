@@ -39,3 +39,5 @@ Copy-Item $targetRoot\NRage_Input_V2\NRage_Input_V2.dll $Path\Plugin\Input\
 Copy-Item $targetRoot\NRage_Input_V2\NRage_Input_V2.pdb $Path\Plugin\Input\
 Copy-Item $targetRoot\RSP\RSP.dll $Path\Plugin\RSP\
 Copy-Item $targetRoot\RSP\RSP.pdb $Path\Plugin\RSP\
+# ClickOnce binaries
+Copy-Item $targetRoot\Project65.ClickOnce\*.exe $Path
