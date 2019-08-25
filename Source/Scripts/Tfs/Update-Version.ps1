@@ -22,8 +22,9 @@ param (
 	[string]
 	$User,
 
+	[Parameter(Mandatory=$true)]
 	[string]
-	$Token = $env:SYSTEM_ACCESSTOKEN,
+	$Token,
 
 	[Parameter(HelpMessage="Persist in build session.")]
 	[switch]
