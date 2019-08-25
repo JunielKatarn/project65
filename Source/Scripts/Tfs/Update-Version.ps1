@@ -1,6 +1,11 @@
 param (
 	[Parameter(Mandatory=$true)]
-	[string] $VariableName,
+	[string]
+	$VariableName,
+
+	[Parameter(Mandatory=$true)]
+	[version]
+	$Value,
 
 	[Parameter(Mandatory=$true)]
 	[string]
@@ -29,12 +34,33 @@ param (
 	$ApiVersion = 'api-version=5.1-preview.1'
 )
 
+$getResponse = & $PSScriptRoot\Get-Version.ps1 `
+	-VariableName $VariableName `
+	-Organization $Organization `
+	-Project $Project `
+	-VariableGroupId $VariableGroupId `
+	-User $User `
+	-Token $Token `
+	-ApiVersion $ApiVersion
+
+$body = @{
+	'variables' = @{
+		$VariableName = "$Value"
+	};
+	
+	'type' = $getResponse.type
+	'name' = $getResponse.name
+	'description' = $getResponse.description
+}
+
 $auth = [convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes("${User}:${Token}"))
 
 $response = Invoke-RestMethod `
 	-Uri https://dev.azure.com/${Organization}/${Project}/_apis/distributedtask/variablegroups/${VariableGroupId}?${ApiVersion} `
 	-Headers @{ Authorization="Basic $auth" } `
-	-Method Get
+	-Method Put `
+	-ContentType 'application/json' `
+	-Body (ConvertTo-Json $body)
 
 if ($KeepInSession) {
 	Write-Host "##vso[task.setvariable variable=$VariableName;issecret=false]$($response.variables.$VariableName.value)"
