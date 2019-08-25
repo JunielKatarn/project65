@@ -34,11 +34,12 @@
   <ItemGroup Label="Imported">
     <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
   </ItemGroup>
-  <ItemGroup  Label="Imported">
+  <ItemGroup Label="Imported">
     <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="Version.h" />
   </ItemGroup>
-  <ItemGroup  Label="Imported">
-    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.rc" />
+  <ItemGroup Label="Imported">
+    <ResourceCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.rc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.vcxproj">

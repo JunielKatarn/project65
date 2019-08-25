@@ -37,11 +37,12 @@
   <ItemGroup Label="Imported">
     <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
   </ItemGroup>
-  <ItemGroup  Label="Imported">
+  <ItemGroup Label="Imported">
     <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="Version.h" />
   </ItemGroup>
   <ItemGroup Label="Imported">
-    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.rc" />
+    <ResourceCompile Include="$(Pj64SourceRoot)\nragev20\**\*.rc" />
   </ItemGroup>
   <ItemGroup Label="Imported">
     <None Include="$(Pj64SourceRoot)\nragev20\configs\Controller1.cpf" />

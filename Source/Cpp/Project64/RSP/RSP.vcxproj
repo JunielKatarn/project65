@@ -33,8 +33,9 @@
     <ClCompile Include="$(Pj64SourceRoot)\RSP\**\*.c" />
     <ClCompile Include="$(Pj64SourceRoot)\RSP\**\*.cpp" />
   </ItemGroup>
-  <ItemGroup  Label="Imported">
+  <ItemGroup Label="Imported">
     <ClInclude Include="$(Pj64SourceRoot)\RSP\**\*.h" />
+    <ClInclude Include="Version.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.vcxproj">

@@ -40,7 +40,8 @@
   <ItemGroup Label="Imported">
     <ClCompile Include="$(Pj64SourceRoot)\Project64-core\**\*.cpp" />
   </ItemGroup>
-  <ItemGroup  Label="Imported">
+  <ItemGroup Label="Imported">
     <ClInclude Include="$(Pj64SourceRoot)\Project64-core\**\*.h" />
+    <ClInclude Include="Version.h" />
   </ItemGroup>
 </Project>

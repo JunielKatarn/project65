@@ -35,8 +35,9 @@
     <ClCompile Include="$(Pj64SourceRoot)\Project64-video\**\*.c" />
     <ClCompile Include="$(Pj64SourceRoot)\Project64-video\**\*.cpp" Exclude="$(Pj64SourceRoot)\Project64-video\**\OGLES*.cpp" />
   </ItemGroup>
-  <ItemGroup  Label="Imported">
+  <ItemGroup Label="Imported">
     <ClInclude Include="$(Pj64SourceRoot)\Project64-video\**\*.h" />
+    <ClInclude Include="Version.h" />
   </ItemGroup>
   <ItemGroup Label="Imported">
     <ResourceCompile Include="$(Pj64SourceRoot)\Project64-video\Project64-video.rc" />

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{888ea9bb-36a4-4fe5-9a83-7566b38a3fc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
