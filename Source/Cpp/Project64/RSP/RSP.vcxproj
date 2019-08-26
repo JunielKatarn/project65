@@ -10,9 +10,6 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="$(SourceRoot)RSP\RSP.rc" Label="Imported" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4013585D-A956-42C2-87B4-A7CB89642BBD}</ProjectGuid>
     <RootNamespace>Project64</RootNamespace>
@@ -23,6 +20,7 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <ImportGroup Label="PropertySheets">
     <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.props" />
+    <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Versionable.props" />
   </ImportGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
@@ -36,6 +34,9 @@
   <ItemGroup Label="Imported">
     <ClInclude Include="$(Pj64SourceRoot)\RSP\**\*.h" />
     <ClInclude Include="Version.h" />
+  </ItemGroup>
+  <ItemGroup Label="Imported">
+    <ResourceCompile Include="$(SourceRoot)RSP\RSP.rc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.vcxproj">

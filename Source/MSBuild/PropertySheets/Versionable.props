@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <!-- Project64 uses Revision.Build order incorrectly. -->
+      <PreprocessorDefinitions Condition="'$(BuildVersion)' != ''">
+        VERSION_MAJOR=$([System.Version]::new($(BuildVersion)).Major);
+        VERSION_MINOR=$([System.Version]::new($(BuildVersion)).Minor);
+        VERSION_BUILD=$([System.Version]::new($(BuildVersion)).Build);
+        VERSION_REVISION=$([System.Version]::new($(BuildVersion)).Revision);
+        %(PreprocessorDefinitions)
+      </PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+</Project>

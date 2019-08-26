@@ -36,7 +36,7 @@
 #endif //VERSION_BUILD
 
 #ifndef GIT_VERSION
-#define GIT_VERSION                 ""
+#define GIT_VERSION                 "00000000"
 #endif //GIT_VERSION
 
 #define VER_FILE_DESCRIPTION_STR    "Project64"
@@ -45,7 +45,6 @@
                                     "." STRINGIZE(VERSION_MINOR)    \
                                     "." STRINGIZE(VERSION_BUILD)    \
                                     "." STRINGIZE(VERSION_REVISION)
-//                                    "-" GIT_VERSION
 
 #define VER_PRODUCTNAME_STR         "Project64"
 #define VER_PRODUCT_VERSION         VER_FILE_VERSION

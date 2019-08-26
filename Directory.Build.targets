@@ -8,6 +8,7 @@
     <Message Text="TargetRoot        [$(TargetRoot)]" />
     <Message Text="BaseIntDir        [$(BaseIntDir)]" />
     <Message Text="BaseOutDir        [$(BaseOutDir)]" />
+    <Message Text="BuildVersion      [$(BuildVersion)]" />
 
     <Message Text="================== MSBuild misc macros ===================" />
     <Message Text="MSBuildToolsPath  [$(MSBuildToolsPath)]" />
