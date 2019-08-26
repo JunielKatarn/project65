@@ -30,6 +30,9 @@ New-Item -ItemType Directory -Force $Path | Out-Null
 	Copy-Item -Recurse -Force $pj64Root\$_ $Path\
 }
 Copy-Item -Recurse -Force $root\Source\Config $Path
+if ($Platform -eq 'x86') {
+	Copy-Item $pj64Root\Plugin\GFX\Jabo_Direct3D8.dll $Path\Plugin\GFX\
+}
 
 # Copy binaries
 Copy-Item $targetRoot\Project64\Project64.exe $Path\ -ErrorAction Ignore # Ignore if source dir == target dir.
