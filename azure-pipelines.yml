@@ -6,7 +6,15 @@ pool:
 
 steps:
 
-
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your PowerShell commands here.
+      
+      Write-Host "[" + $env:VCTargetsPath + "]"
+      ls -Name -Recurse 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\'
+    pwsh: true
 
 - task: MSBuild@1
   inputs:
