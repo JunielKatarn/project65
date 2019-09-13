@@ -5,6 +5,9 @@ pool:
   vmImage: $(VmImage)
 
 steps:
+
+
+
 - task: MSBuild@1
   inputs:
     platform: x86
