@@ -1,0 +1,13 @@
+trigger:
+- master
+
+pool:
+  vmImage: $(VmImage)
+
+steps:
+- task: MSBuild@1
+  inputs:
+    platform: x86
+    configuration: Debug
+    solution: $(Build.SourcesDirectory)\Source\Cpp\Project64\3rdParty\duktape\duktape.vcxproj
+    msbuildArguments: /p:PlatformToolset=v141
