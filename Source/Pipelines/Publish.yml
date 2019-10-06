@@ -136,40 +136,40 @@ jobs:
           ArtifactName: drop
           publishLocation: Container
 
-      # - task: PowerShell@2
-      #   displayName: Commit revision update
-      #   inputs:
-      #     targetType: filePath
-      #     filePath: $(Build.SourcesDirectory)\Source\Scripts\Tfs\Update-Version.ps1
-      #     arguments: |
-      #       -VariableName BuildVersion
-      #       -Organization $(Organization)
-      #       -VariableGroupId $(BuildVarGroupId)
-      #       -User $(TfsUser)
-      #       -Value $(BuildVersion)
-      #       -Token $(VarGroupPass)
+      - task: PowerShell@2
+        displayName: Commit revision update
+        inputs:
+          targetType: filePath
+          filePath: $(Build.SourcesDirectory)\Source\Scripts\Tfs\Update-Version.ps1
+          arguments: |
+            -VariableName BuildVersion
+            -Organization $(Organization)
+            -VariableGroupId $(BuildVarGroupId)
+            -User $(TfsUser)
+            -Value $(BuildVersion)
+            -Token $(VarGroupPass)
 
-      # - task: FtpUpload@2
-      #   displayName: Deploy ZIP
-      #   inputs:
-      #     credentialsOption: inputs
-      #     serverUrl: $(FtpHost)
-      #     username: $(FtpUser)
-      #     password: $(pj64ftppass)
-      #     rootDirectory: $(Build.ArtifactStagingDirectory)\ci
-      #     remoteDirectory: /ci/
-      #     filePatterns: '**'
-      #     preservePaths: true
+      - task: FtpUpload@2
+        displayName: Deploy ZIP
+        inputs:
+          credentialsOption: inputs
+          serverUrl: $(FtpHost)
+          username: $(FtpUser)
+          password: $(pj64ftppass)
+          rootDirectory: $(Build.ArtifactStagingDirectory)\ci
+          remoteDirectory: /ci/
+          filePatterns: '**'
+          preservePaths: true
 
-      # - task: FtpUpload@2
-      #   displayName: Deploy ClickOnce
-      #   inputs:
-      #     credentialsOption: inputs
-      #     serverUrl: $(FtpHost)
-      #     username: $(FtpUser)
-      #     password: $(pj64ftppass)
-      #     rootDirectory: $(Build.ArtifactStagingDirectory)\clickonce\ci
-      #     remoteDirectory: /clickonce/ci/
-      #     filePatterns: '**'
-      #     preservePaths: true
-      #     cleanContents: true
+      - task: FtpUpload@2
+        displayName: Deploy ClickOnce
+        inputs:
+          credentialsOption: inputs
+          serverUrl: $(FtpHost)
+          username: $(FtpUser)
+          password: $(pj64ftppass)
+          rootDirectory: $(Build.ArtifactStagingDirectory)\clickonce\ci
+          remoteDirectory: /clickonce/ci/
+          filePatterns: '**'
+          preservePaths: true
+          cleanContents: true
