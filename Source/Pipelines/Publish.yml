@@ -6,6 +6,7 @@ trigger:
       - master
       - ci/init
 
+# SetVersion
 # BuildPlatform
 # BuildVersion
 # AppName
@@ -141,13 +142,14 @@ jobs:
         inputs:
           targetType: filePath
           filePath: $(Build.SourcesDirectory)\Source\Scripts\Tfs\Update-Version.ps1
-          arguments: |
+          arguments:
             -VariableName BuildVersion
             -Organization $(Organization)
             -VariableGroupId $(BuildVarGroupId)
             -User $(TfsUser)
             -Value $(BuildVersion)
             -Token $(VarGroupPass)
+        condition: and(succeeded(), eq(variables['SetVersion'], 'true'))
 
       - task: FtpUpload@2
         displayName: Deploy ZIP
