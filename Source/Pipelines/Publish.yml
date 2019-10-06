@@ -38,7 +38,7 @@ jobs:
         displayName: Increment build revision
         inputs:
           targetType: filePath
-          filePath: $(Build.SourcesDirectory)\Source\Scripts\Tfs\Inc-Revision
+          filePath: $(Build.SourcesDirectory)\Source\Scripts\Tfs\Inc-Revision.ps1
           arguments: -VariableName BuildVersion -Value $(BuildVersion)
 
       - task: CopyFiles@2
