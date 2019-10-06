@@ -10,7 +10,6 @@ trigger:
 # BuildVersion
 # AppName
 # BuildVarGroupId
-# BuildVersion
 # ClickOnceProviderUrlBase
 # Organization
 # TfsUser
@@ -113,7 +112,7 @@ jobs:
         inputs:
           targetType: filePath
           filePath: $(Build.SourcesDirectory)\Source\Scripts\Generate-ClickOnce.ps1
-          arguments: |
+          arguments:
             -AppName $(AppName)
             -StagingDir $(Build.ArtifactStagingDirectory)\clickonce\ci
             -ProviderUrlBase $(ClickOnceProviderUrlBase)
