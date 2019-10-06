@@ -23,6 +23,10 @@ indent_size = 2
 [*.sln]
 end_of_line = crlf
 
+[*.yml]
+indent_size = 2
+indent_style = space
+
 # Project64-specific
 [/modules/project64/**.{c,h,cpp,hpp,ipp}]
 indent_style = space

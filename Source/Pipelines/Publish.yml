@@ -1,0 +1,163 @@
+name: $(BuildId)
+
+trigger:
+  branches:
+    include:
+      - master
+      - ci/init
+
+# BuildVersion
+
+variables:
+  - group: 
+
+jobs:
+
+  - job:
+    displayName: Build
+
+    pool:
+      vmImage: windows-2019
+
+    steps:
+      - checkout: self
+        clean: false
+
+      - task: PowerShell@2
+        displayName: Increment build revision
+        inputs:
+          targetType: filePath
+          filePath: $(Build.SourcesDirectory)\Source\Scripts\Tfs\Inc-Revision
+          arguments: -VariableName BuildVersion -Value $(BuildVersion)
+
+      - task: CopyFiles@2
+        displayName: Copy Project64-core Version.h
+        inputs:
+          SourceFolder: $(Build.SourcesDirectory)\Source\Cpp\Project64\Project64-core
+          TargetFolder: $(Build.SourcesDirectory)\modules\project64\Source\Project64-core
+          Contents: |
+            Version.h
+
+      - task: MSBuild@1
+        displayName: Build solution
+        inputs:
+          solution: $(Build.SourcesDirectory)\Project65.sln
+          msbuildArchitecture: x64
+          platform: x86
+          configuration: Release
+          maximumCpuCount: true
+          msbuildArguments:
+            /p:Version=$(BuildVersion)
+
+      - task: PowerShell@2
+        displayName: Layout build artifacts
+        inputs:
+          targetType: filePath
+          filePath: $(Build.SourcesDirectory)\Source\Scripts\Layout.ps1
+          arguments: -Path $(Build.BinariesDirectory)\Install
+
+      - task: PowerShell@2
+        displayName: Download GLideN64
+        inputs:
+          targetType: inline
+          script: |
+            Invoke-WebRequest `
+                -Uri https://github.com/gonetz/GLideN64/releases/download/Public_Release_4_0/GLideN64_Public_Release_4.0.7z `
+                -OutFile $(Build.BinariesDirectory)\gliden.7z
+
+      - task: ExtractFiles@1
+        displayName: Extract GlideN64
+        inputs:
+          destinationFolder: $(Build.BinariesDirectory)
+          archiveFilePatterns: $(Build.BinariesDirectory)\gliden.7z
+          cleanDestinationFolder: false
+
+      - task: CopyFiles@2
+        displayName: Copy GLideN64
+        inputs:
+          SourceFolder: $(Build.BinariesDirectory)\GLideN64_Public_Release_4.0\bin\Zilmar-specs
+          TargetFolder: $(Build.BinariesDirectory)\Install\Plugin\GFX
+          Contents: '**'
+
+      - task: PowerShell@2
+        displayName: Layout ClickOnce artifacts
+        inputs:
+          targetType: inline
+          script: |
+            New-Item -ItemType Directory -Force ${env:BUILD_ARTIFACTSTAGINGDIRECTORY}\clickonce\ci
+            Copy-Item `
+                -Force `
+                -Recurse `
+                -Path ${env:BUILD_BINARIESDIRECTORY}\Install\* `
+                -Destination ${env:BUILD_ARTIFACTSTAGINGDIRECTORY}\clickonce\ci\ `
+                -Exclude *.pdb
+            Copy-Item `
+                -Path ${env:BUILD_SOURCESDIRECTORY}\Target\x86\Release\Project65.ClickOnce\Project65.ClickOnce.exe `
+                -Destination ${env:BUILD_ARTIFACTSTAGINGDIRECTORY}\clickonce\ci\
+
+      - task: PowerShell@2
+        displayName: Generate ClickOnce
+        inputs:
+          targetType: filePath
+          filePath: $(Build.SourcesDirectory)\Source\Scripts\Generate-ClickOnce.ps1
+          arguments: |
+            -AppName $(AppName)
+            -StagingDir $(Build.ArtifactStagingDirectory)\clickonce\ci
+            -ProviderUrlBase $(ClickOnceProviderUrlBase)
+            -Version $(BuildVersion)
+
+      - task: ArchiveFiles@2
+        displayName: Archive ZIP distribution
+        inputs:
+          rootFolderOrFile: $(Build.BinariesDirectory)\Install
+          includeRootFolder: false
+          archiveType: zip
+          archiveFile: $(Build.ArtifactStagingDirectory)/ci/$(BuildVersion)/$(Build.BuildPlatform).zip
+          replaceExistingArchive: true
+          verbose: false
+          quiet: false
+
+      - task: PublishBuildArtifacts@1
+        displayName: 'Publish Artifact: drop'
+        inputs:
+          PathtoPublish: $(Build.ArtifactStagingDirectory)
+          ArtifactName: drop
+          publishLocation: Container
+
+      # - task: PowerShell@2
+      #   displayName: Commit revision update
+      #   inputs:
+      #     targetType: filePath
+      #     filePath: $(Build.SourcesDirectory)\Source\Scripts\Tfs\Update-Version.ps1
+      #     arguments: |
+      #       -VariableName BuildVersion
+      #       -Organization $(Organization)
+      #       -VariableGroupId $(BuildVarGroupId)
+      #       -User $(TfsUser)
+      #       -Value $(BuildVersion)
+      #       -Token $(VarGroupPass)
+
+      # - task: FtpUpload@2
+      #   displayName: Deploy ZIP
+      #   inputs:
+      #     credentialsOption: inputs
+      #     serverUrl: $(FtpHost)
+      #     username: $(FtpUser)
+      #     password: $(FtpPassword)
+      #     rootDirectory: $(Build.ArtifactStagingDirectory)\ci
+      #     remoteDirectory: /ci/
+      #     filePatterns: '**'
+      #     preservePaths: true
+
+      # - task: FtpUpload@2
+      #   displayName: Deploy ClickOnce
+      #   inputs:
+      #     credentialsOption: inputs
+      #     serverUrl: $(FtpHost)
+      #     username: $(FtpUser)
+      #     password: $(FtpPassword)
+      #     rootDirectory: $(Build.ArtifactStagingDirectory)\clickonce\ci
+      #     remoteDirectory: /clickonce/ci/
+      #     filePatterns: '**'
+      #     preservePaths: true
+      #     cleanContents: true
