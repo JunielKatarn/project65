@@ -33,6 +33,7 @@ jobs:
 
     steps:
       - checkout: self
+        submodules: true
         clean: false
 
       - task: PowerShell@2
