@@ -6,6 +6,7 @@ trigger:
       - master
       - ci/init
 
+# BuildPlatform
 # BuildVersion
 # AppName
 # BuildVarGroupId
@@ -53,7 +54,7 @@ jobs:
         displayName: Build solution
         inputs:
           solution: $(Build.SourcesDirectory)\Project65.sln
-          msbuildArchitecture: x64
+          msbuildArchitecture: $(BuildPlatform)
           platform: x86
           configuration: Release
           maximumCpuCount: true
@@ -123,7 +124,7 @@ jobs:
           rootFolderOrFile: $(Build.BinariesDirectory)\Install
           includeRootFolder: false
           archiveType: zip
-          archiveFile: $(Build.ArtifactStagingDirectory)/ci/$(BuildVersion)/$(Build.BuildPlatform).zip
+          archiveFile: $(Build.ArtifactStagingDirectory)/ci/$(BuildVersion)/$(BuildPlatform).zip
           replaceExistingArchive: true
           verbose: false
           quiet: false
