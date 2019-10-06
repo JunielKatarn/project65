@@ -7,9 +7,20 @@ trigger:
       - ci/init
 
 # BuildVersion
-
+# AppName
+# BuildVarGroupId
+# BuildVersion
+# ClickOnceProviderUrlBase
+# Organization
+# TfsUser
+# VarGroupPass
+# Pj64FtpHost
+# Pj64FtpUser
+# pj64ftppass
 variables:
-  - group: 
+  - group: Project65 Alpha
+  - group: Project Admin
+  - group: Hyvart Release
 
 jobs:
 
@@ -143,7 +154,7 @@ jobs:
       #     credentialsOption: inputs
       #     serverUrl: $(FtpHost)
       #     username: $(FtpUser)
-      #     password: $(FtpPassword)
+      #     password: $(pj64ftppass)
       #     rootDirectory: $(Build.ArtifactStagingDirectory)\ci
       #     remoteDirectory: /ci/
       #     filePatterns: '**'
@@ -155,7 +166,7 @@ jobs:
       #     credentialsOption: inputs
       #     serverUrl: $(FtpHost)
       #     username: $(FtpUser)
-      #     password: $(FtpPassword)
+      #     password: $(pj64ftppass)
       #     rootDirectory: $(Build.ArtifactStagingDirectory)\clickonce\ci
       #     remoteDirectory: /clickonce/ci/
       #     filePatterns: '**'
