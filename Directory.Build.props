@@ -5,10 +5,9 @@
     <Platform      Condition="'$(Platform)'      == ''">x86</Platform>
     <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
 
-    <SolutionDir Condition="'$(SolutionDir)' == ''">$(MSBuildThisFileDirectory)</SolutionDir>
-    <SourceRoot  Condition="'$(SourceRoot)'  == ''">$(SolutionDir)modules\project64\Source\</SourceRoot>
-    <BuildRoot   Condition="'$(BuildRoot)'   == ''">$(SolutionDir)Build</BuildRoot>
-    <TargetRoot  Condition="'$(TargetRoot)'  == ''">$(SolutionDir)Target</TargetRoot>
+    <SourceRoot>$(MSBuildThisFileDirectory)Source</SourceRoot>
+    <BuildRoot   Condition="'$(BuildRoot)'   == ''">$(MSBuildThisFileDirectory)Build</BuildRoot>
+    <TargetRoot  Condition="'$(TargetRoot)'  == ''">$(MSBuildThisFileDirectory)Target</TargetRoot>
 
     <Pj64SourceRoot Condition="'$(Pj64SourceRoot)'  == ''">$(SolutionDir)modules\project64\Source</Pj64SourceRoot>
   </PropertyGroup>
@@ -16,14 +15,19 @@
   <PropertyGroup Label="Configuration">
     <ProjectName Condition="'$(ProjectName)'==''">$(MSBuildProjectName)</ProjectName>
 
+    <RootIntDir>$(MSBuildThisFileDirectory)Build</RootIntDir>
+    <RootOutDir>$(MSBuildThisFileDirectory)Target</RootOutDir>
+
     <!-- Visual Studio forces using 'Win32' for the 'x86' platform. -->
-    <BaseIntDir Condition="'$(Platform)' != 'Win32'">$(MSBuildThisFileDirectory)Build\$(Platform)\$(Configuration)</BaseIntDir>
-    <BaseIntDir Condition="'$(Platform)' == 'Win32'">$(MSBuildThisFileDirectory)Build\x86\$(Configuration)</BaseIntDir>
-    <BaseOutDir Condition="'$(Platform)' != 'Win32'">$(MSBuildThisFileDirectory)Target\$(Platform)\$(Configuration)</BaseOutDir>
-    <BaseOutDir Condition="'$(Platform)' == 'Win32'">$(MSBuildThisFileDirectory)Target\x86\$(Configuration)</BaseOutDir>
+    <BaseIntDir Condition="'$(Platform)' != 'Win32'">$(BuildRoot)\$(Platform)\$(Configuration)</BaseIntDir>
+    <BaseIntDir Condition="'$(Platform)' == 'Win32'">$(BuildRoot)\x86\$(Configuration)</BaseIntDir>
+    <BaseOutDir Condition="'$(Platform)' != 'Win32'">$(TargetRoot)\$(Platform)\$(Configuration)</BaseOutDir>
+    <BaseOutDir Condition="'$(Platform)' == 'Win32'">$(TargetRoot)\x86\$(Configuration)</BaseOutDir>
 
     <IntDir>$(BaseIntDir)\$(ProjectName)\</IntDir>
     <OutDir>$(BaseOutDir)\$(ProjectName)\</OutDir>
+
+    <GeneratedFilesDir>$(IntDir)Generated Files\</GeneratedFilesDir>
   </PropertyGroup>
 
 </Project>
