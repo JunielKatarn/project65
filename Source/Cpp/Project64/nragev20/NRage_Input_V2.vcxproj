@@ -49,4 +49,9 @@
     <None Include="$(Pj64SourceRoot)\nragev20\configs\Controller1.cpf" />
     <None Include="$(Pj64SourceRoot)\nragev20\configs\Shortcuts.sc" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.vcxproj">
+      <Project>{4323124b-b676-404e-bb9d-d6c301dc8fb5}</Project>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

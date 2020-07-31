@@ -48,6 +48,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdParty", "3rdParty", "{1B
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7zip", "Source\Cpp\Project64\3rdParty\7zip\7zip.vcxproj", "{7158D420-5764-4D5F-ACA9-2E5807C2E691}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "discord-rpc", "Source\Cpp\Project64\3rdParty\discord-rpc\discord-rpc.vcxproj", "{A5A32FA2-C031-4140-91CB-7FBDBF38A6E4"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "duktape", "Source\Cpp\Project64\3rdParty\duktape\duktape.vcxproj", "{9986B3BF-032F-465E-BBAA-05197036DA9C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "png", "Source\Cpp\Project64\3rdParty\png\png.vcxproj", "{F00AD871-4BB1-4368-B82E-D635961F54CF}"

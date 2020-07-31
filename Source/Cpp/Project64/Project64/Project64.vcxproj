@@ -65,6 +65,9 @@
     <None Include="$(Pj64SourceRoot)\Project64\UserInterface\icons\javascri.bin" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\3rdParty\discord-rpc\discord-rpc.vcxproj">
+      <Project>{a5a32fa2-c031-4140-91cb-7fbdbf38a6e4}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\3rdParty\7zip\7zip.vcxproj">
       <Project>{7158d420-5764-4d5f-aca9-2e5807c2e691}</Project>
     </ProjectReference>

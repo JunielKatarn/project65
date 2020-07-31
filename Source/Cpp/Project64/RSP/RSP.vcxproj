@@ -36,7 +36,7 @@
     <ClInclude Include="Version.h" />
   </ItemGroup>
   <ItemGroup Label="Imported">
-    <ResourceCompile Include="$(Pj64SourceRoot)RSP\RSP.rc" />
+    <ResourceCompile Include="$(Pj64SourceRoot)\RSP\RSP.rc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.vcxproj">
