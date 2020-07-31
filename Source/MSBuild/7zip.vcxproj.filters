@@ -15,207 +15,207 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7z.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\7z.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zAlloc.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\7zAlloc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zBuf.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\7zBuf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zCrc.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\7zCrc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zFile.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\7zFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zTypes.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\7zTypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\7zVersion.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\7zVersion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Alloc.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Alloc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Bcj2.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Bcj2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Bra.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Bra.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\CpuArch.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\CpuArch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Delta.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Delta.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzFind.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\LzFind.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzFindMt.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\LzFindMt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzHash.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\LzHash.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Lzma2Dec.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Lzma2Dec.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Lzma2Enc.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Lzma2Enc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Lzma86.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Lzma86.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzmaDec.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\LzmaDec.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzmaEnc.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\LzmaEnc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\LzmaLib.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\LzmaLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\MtCoder.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\MtCoder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Ppmd.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Ppmd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Ppmd7.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Ppmd7.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\RotateDefs.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\RotateDefs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Sha256.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Sha256.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Threads.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Threads.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Types.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\Xz.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\Xz.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\XzCrc64.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\XzCrc64.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\7zip\XzEnc.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\7zip\XzEnc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zAlloc.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\7zAlloc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zBuf.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\7zBuf.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zBuf2.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\7zBuf2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zCrc.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\7zCrc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zCrcOpt.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\7zCrcOpt.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zDec.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\7zDec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zFile.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\7zFile.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zIn.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\7zIn.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\7zStream.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\7zStream.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Alloc.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Alloc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Bcj2.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Bcj2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Bra.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Bra.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Bra86.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Bra86.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\BraIA64.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\BraIA64.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\CpuArch.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\CpuArch.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Delta.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Delta.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzFind.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\LzFind.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzFindMt.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\LzFindMt.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma2Dec.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Lzma2Dec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma2Enc.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Lzma2Enc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma86Dec.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Lzma86Dec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Lzma86Enc.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Lzma86Enc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzmaDec.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\LzmaDec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzmaEnc.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\LzmaEnc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\LzmaLib.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\LzmaLib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\MtCoder.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\MtCoder.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Ppmd7.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Ppmd7.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Ppmd7Dec.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Ppmd7Dec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Ppmd7Enc.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Ppmd7Enc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Sha256.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Sha256.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Threads.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Threads.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\Xz.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\Xz.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzCrc64.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\XzCrc64.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzDec.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\XzDec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzEnc.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\XzEnc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\7zip\XzIn.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\7zip\XzIn.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

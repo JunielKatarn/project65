@@ -9,7 +9,7 @@
     <BuildRoot   Condition="'$(BuildRoot)'   == ''">$(MSBuildThisFileDirectory)Build</BuildRoot>
     <TargetRoot  Condition="'$(TargetRoot)'  == ''">$(MSBuildThisFileDirectory)Target</TargetRoot>
 
-    <Pj64SourceRoot Condition="'$(Pj64SourceRoot)'  == ''">$(SolutionDir)modules\project64\Source</Pj64SourceRoot>
+    <Pj64SourceRoot Condition="'$(Pj64SourceRoot)'  == ''">$(MSBuildThisFileDirectory)modules\project64\Source</Pj64SourceRoot>
   </PropertyGroup>
 
   <PropertyGroup Label="Configuration">

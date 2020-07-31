@@ -4,6 +4,7 @@
   <Target Name="Vars">
     <Message Text="================== Project65 macros ===================" />
     <Message Text="SourceRoot        [$(SourceRoot)]" />
+    <Message Text="Pj64SourceRoot    [$(Pj64SourceRoot)]" />
     <Message Text="BuildRoot         [$(BuildRoot)]" />
     <Message Text="TargetRoot        [$(TargetRoot)]" />
     <Message Text="BaseIntDir        [$(BaseIntDir)]" />

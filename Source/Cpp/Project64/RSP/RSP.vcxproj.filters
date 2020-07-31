@@ -43,7 +43,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(SourceRoot)RSP\RSP.rc" />
+    <ResourceCompile Include="$(Pj64SourceRoot)RSP\RSP.rc" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">

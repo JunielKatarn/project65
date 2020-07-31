@@ -15,123 +15,123 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)Common\CriticalSection.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\CriticalSection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\DateTimeClass.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\DateTimeClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\FileClass.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\FileClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\HighResTimeStamp.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\HighResTimeStamp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\IniFileClass.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\IniFileClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\LogClass.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\LogClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\md5.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\md5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\MemoryManagement.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\MemoryManagement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\MemTest.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\MemTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\path.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\path.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\Platform.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\Platform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\Random.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\Random.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\stdafx.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\StdString.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\StdString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\SyncEvent.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\SyncEvent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\Thread.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\Thread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\Trace.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\Trace.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Common\Util.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Common\Util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)Common\CriticalSection.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\CriticalSection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\DateTimeClass.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\DateTimeClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\FileClass.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\FileClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\HighResTimeStamp.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\HighResTimeStamp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\IniFileClass.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\IniFileClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\LogClass.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\LogClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\md5.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\md5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\MemoryManagement.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\MemoryManagement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\MemTest.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\MemTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\path.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\path.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\Platform.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\Platform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\Random.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\Random.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\SmartPointer.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\SmartPointer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\stdafx.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\StdString.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\StdString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\stdtypes.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\stdtypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\SyncEvent.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\SyncEvent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\Thread.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\Thread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\Trace.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\Trace.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\TraceModulesCommon.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\TraceModulesCommon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Common\Util.h">
+    <ClInclude Include="$(Pj64SourceRoot)Common\Util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

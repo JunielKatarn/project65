@@ -69,415 +69,415 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)Project64\main.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\Multilanguage\LanguageSelector.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\Multilanguage\LanguageSelector.cpp">
       <Filter>Source Files\Multilanguage</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\Plugins\PluginList.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\Plugins\PluginList.cpp">
       <Filter>Source Files\Plugins</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\Settings\GuiSettings.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\Settings\GuiSettings.cpp">
       <Filter>Source Files\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\Settings\NotificationSettings.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\Settings\NotificationSettings.cpp">
       <Filter>Source Files\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\Settings\UISettings.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\Settings\UISettings.cpp">
       <Filter>Source Files\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\stdafx.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\CheatClassUI.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\CheatClassUI.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Assembler.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Assembler.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Breakpoints.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Breakpoints.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\CPULog.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\CPULog.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddBreakpoint.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-AddBreakpoint.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddSymbol.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-AddSymbol.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Commands.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-Commands.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-CPULogView.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-CPULogView.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-DMALogView.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-DMALogView.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemoryDump.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-MemoryDump.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemorySearch.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-MemorySearch.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-RegisterTabs.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-RegisterTabs.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Scripts.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-Scripts.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-StackTrace.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-StackTrace.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-StackView.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-StackView.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Symbols.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-Symbols.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-TLB.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-TLB.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-ViewMemory.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-ViewMemory.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\DMALog.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\DMALog.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\MemoryScanner.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\MemoryScanner.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptHook.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\ScriptHook.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptInstance.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\ScriptInstance.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptSystem.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\ScriptSystem.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Debugger\Symbols.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Symbols.cpp">
       <Filter>Source Files\UserInterface\Debugger</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\EnhancementConfig.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\EnhancementConfig.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\LoggingUI.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\LoggingUI.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\MainMenu.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\MainMenu.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\MainWindow.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\MainWindow.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\MenuClass.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\MenuClass.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\MenuShortCuts.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\MenuShortCuts.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Notification.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Notification.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\RomBrowserClass.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\RomBrowserClass.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\RomInformationClass.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\RomInformationClass.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\SettingsConfig.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\SettingsConfig.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-AdvancedOptions.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-AdvancedOptions.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Defaults.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Defaults.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Directories.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Directories.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-General.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-General.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Plugin.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Plugin.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Recompiler.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Recompiler.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Status.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Status.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-GameBrowser.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-GameBrowser.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-KeyboardShortcuts.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-KeyboardShortcuts.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Options.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Options.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Plugin.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Plugin.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage.cpp">
       <Filter>Source Files\UserInterface\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\SupportEnterCode.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\SupportEnterCode.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\SupportWindow.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\SupportWindow.cpp">
       <Filter>Source Files\UserInterface</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\WTLControls\EditNumber32.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\WTLControls\EditNumber32.cpp">
       <Filter>Source Files\UserInterface\WTLControls</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\WTLControls\ModifiedEditBox.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\WTLControls\ModifiedEditBox.cpp">
       <Filter>Source Files\UserInterface\WTLControls</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64\UserInterface\WTLControls\PartialGroupBox.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64\UserInterface\WTLControls\PartialGroupBox.cpp">
       <Filter>Source Files\UserInterface\WTLControls</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)Project64\Multilanguage\LanguageSelector.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\Multilanguage\LanguageSelector.h">
       <Filter>Header Files\Multilanguage</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\N64System.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\N64System.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\N64System\Debugger\OpInfo.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\N64System\Debugger\OpInfo.h">
       <Filter>Header Files\N64System\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\Settings\GuiSettings.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\Settings\GuiSettings.h">
       <Filter>Header Files\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\Settings\NotificationSettings.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\Settings\NotificationSettings.h">
       <Filter>Header Files\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\Settings\UISettings.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\Settings\UISettings.h">
       <Filter>Header Files\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\stdafx.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\Support.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\Support.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\CheatClassUI.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\CheatClassUI.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Assembler.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Assembler.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Breakpoints.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Breakpoints.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\CPULog.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\CPULog.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\DebugDialog.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\DebugDialog.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddBreakpoint.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-AddBreakpoint.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-AddSymbol.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-AddSymbol.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Commands.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-Commands.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-CPULogView.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-CPULogView.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-DMALogView.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-DMALogView.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemoryDump.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-MemoryDump.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-MemorySearch.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-MemorySearch.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-RegisterTabs.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-RegisterTabs.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Scripts.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-Scripts.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-StackTrace.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-StackTrace.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-StackView.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-StackView.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-Symbols.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-Symbols.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-TLB.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-TLB.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Debugger-ViewMemory.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Debugger-ViewMemory.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\debugger.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\debugger.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\DebuggerUI.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\DebuggerUI.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\DMALog.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\DMALog.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\OpInfo.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\OpInfo.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptHook.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\ScriptHook.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptInstance.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\ScriptInstance.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\ScriptSystem.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\ScriptSystem.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\stdafx.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\stdafx.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Debugger\Symbols.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Debugger\Symbols.h">
       <Filter>Header Files\UserInterface\Debugger</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\LoggingUI.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\LoggingUI.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\EnhancementConfig.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\EnhancementConfig.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\MainMenu.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\MainMenu.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\MainWindow.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\MainWindow.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\MenuClass.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\MenuClass.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\MenuShortCuts.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\MenuShortCuts.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Notification.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Notification.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\resource.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\resource.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\RomBrowser.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\RomBrowser.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\RomInformationClass.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\RomInformationClass.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\SettingsConfig.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\SettingsConfig.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-AdvancedOptions.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-AdvancedOptions.h">
       <Filter>Header Files\UserInterface\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Directories.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Directories.h">
       <Filter>Header Files\UserInterface\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-General.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-General.h">
       <Filter>Header Files\UserInterface\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Plugin.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Plugin.h">
       <Filter>Header Files\UserInterface\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Recompiler.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Recompiler.h">
       <Filter>Header Files\UserInterface\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Status.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Game-Status.h">
       <Filter>Header Files\UserInterface\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-GameBrowser.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-GameBrowser.h">
       <Filter>Header Files\UserInterface\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-KeyboardShortcuts.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-KeyboardShortcuts.h">
       <Filter>Header Files\UserInterface\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Options.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Options.h">
       <Filter>Header Files\UserInterface\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage-Plugin.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage-Plugin.h">
       <Filter>Header Files\UserInterface\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\Settings\SettingsPage.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\Settings\SettingsPage.h">
       <Filter>Header Files\UserInterface\Settings</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\SupportEnterCode.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\SupportEnterCode.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\SupportWindow.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\SupportWindow.h">
       <Filter>Header Files\UserInterface</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\EditNumber32.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\WTLControls\EditNumber32.h">
       <Filter>Header Files\UserInterface\WTLControls</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\ModifiedCheckBox.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\WTLControls\ModifiedCheckBox.h">
       <Filter>Header Files\UserInterface\WTLControls</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\ModifiedComboBox.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\WTLControls\ModifiedComboBox.h">
       <Filter>Header Files\UserInterface\WTLControls</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\ModifiedEditBox.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\WTLControls\ModifiedEditBox.h">
       <Filter>Header Files\UserInterface\WTLControls</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\PartialGroupBox.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\WTLControls\PartialGroupBox.h">
       <Filter>Header Files\UserInterface\WTLControls</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\UserInterface\WTLControls\TooltipDialog.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\UserInterface\WTLControls\TooltipDialog.h">
       <Filter>Header Files\UserInterface\WTLControls</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64\WTLApp.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64\WTLApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(SourceRoot)Project64\res\divider.cur">
+    <None Include="$(Pj64SourceRoot)Project64\res\divider.cur">
       <Filter>Resource Files\res</Filter>
     </None>
-    <None Include="$(SourceRoot)Project64\res\hand.cur">
+    <None Include="$(Pj64SourceRoot)Project64\res\hand.cur">
       <Filter>Resource Files\res</Filter>
     </None>
-    <None Include="$(SourceRoot)Project64\UserInterface\API.js">
+    <None Include="$(Pj64SourceRoot)Project64\UserInterface\API.js">
       <Filter>Resource Files\UserInterface</Filter>
     </None>
-    <None Include="$(SourceRoot)Project64\UserInterface\icons\bin00001.bin">
+    <None Include="$(Pj64SourceRoot)Project64\UserInterface\icons\bin00001.bin">
       <Filter>Resource Files\UserInterface\icons</Filter>
     </None>
-    <None Include="$(SourceRoot)Project64\UserInterface\Icons\divider.cur">
+    <None Include="$(Pj64SourceRoot)Project64\UserInterface\Icons\divider.cur">
       <Filter>Resource Files\UserInterface\Icons</Filter>
     </None>
-    <None Include="$(SourceRoot)Project64\UserInterface\Icons\hand.cur">
+    <None Include="$(Pj64SourceRoot)Project64\UserInterface\Icons\hand.cur">
       <Filter>Resource Files\UserInterface\Icons</Filter>
     </None>
-    <None Include="$(SourceRoot)Project64\UserInterface\icons\javascri.bin">
+    <None Include="$(Pj64SourceRoot)Project64\UserInterface\icons\javascri.bin">
       <Filter>Resource Files\UserInterface\icons</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(SourceRoot)Project64\UserInterface\UIResources.rc">
+    <ResourceCompile Include="$(Pj64SourceRoot)Project64\UserInterface\UIResources.rc">
       <Filter>Resource Files\UserInterface</Filter>
     </ResourceCompile>
   </ItemGroup>

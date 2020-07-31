@@ -21,65 +21,65 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)Project64-audio\AudioMain.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\AudioMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64-audio\AudioSettings.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\AudioSettings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64-audio\ConfigUI.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\ConfigUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64-audio\Driver\DirectSound.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\Driver\DirectSound.cpp">
       <Filter>Source Files\Driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64-audio\Driver\OpenSLES.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\Driver\OpenSLES.cpp">
       <Filter>Source Files\Driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64-audio\Driver\SoundBase.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\Driver\SoundBase.cpp">
       <Filter>Source Files\Driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)Project64-audio\trace.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\trace.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)Project64-audio\AudioMain.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\AudioMain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64-audio\AudioSettings.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\AudioSettings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64-audio\Audio_1.1.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\Audio_1.1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64-audio\ConfigUI.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\ConfigUI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64-audio\Driver\DirectSound.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\Driver\DirectSound.h">
       <Filter>Header Files\Driver</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64-audio\Driver\OpenSLES.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\Driver\OpenSLES.h">
       <Filter>Header Files\Driver</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64-audio\Driver\SoundBase.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\Driver\SoundBase.h">
       <Filter>Header Files\Driver</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64-audio\resource.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64-audio\SettingsID.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\SettingsID.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64-audio\trace.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\trace.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)Project64-audio\Version.h">
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\Version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(SourceRoot)Project64-audio\Project64-audio.rc">
+    <ResourceCompile Include="$(Pj64SourceRoot)Project64-audio\Project64-audio.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>

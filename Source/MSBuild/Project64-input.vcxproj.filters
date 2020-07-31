@@ -21,88 +21,88 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)nragev20\Debug.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)nragev20\DirectInput.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\DirectInput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)nragev20\FileAccess.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\FileAccess.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)nragev20\GBCart.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\GBCart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)nragev20\Interface.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\Interface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)nragev20\International.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\International.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)nragev20\NRagePluginV2.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\NRagePluginV2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)nragev20\PakIO.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\PakIO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)nragev20\XInputController.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\XInputController.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)nragev20\commonIncludes.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\commonIncludes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\ControllerSpecs\Controller #1.1.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\ControllerSpecs\Controller #1.1.h">
       <Filter>Header Files\ControllerSpecs</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\Debug.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\Debug.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\DirectInput.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\DirectInput.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\FileAccess.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\FileAccess.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\GBCart.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\GBCart.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\Interface.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\Interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\International.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\International.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\NRagePluginV2.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\NRagePluginV2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\PakIO.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\PakIO.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\resource.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\settings.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\settings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\Version.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\Version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)nragev20\XInputController.h">
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\XInputController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(SourceRoot)nragev20\configs\Controller1.cpf">
+    <None Include="$(Pj64SourceRoot)nragev20\configs\Controller1.cpf">
       <Filter>Resource Files\configs</Filter>
     </None>
-    <None Include="$(SourceRoot)nragev20\configs\Shortcuts.sc">
+    <None Include="$(Pj64SourceRoot)nragev20\configs\Shortcuts.sc">
       <Filter>Resource Files\configs</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(SourceRoot)nragev20\NRagePluginV2.rc">
+    <ResourceCompile Include="$(Pj64SourceRoot)nragev20\NRagePluginV2.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>

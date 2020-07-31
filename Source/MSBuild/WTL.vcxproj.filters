@@ -15,64 +15,64 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlapp.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlapp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlcrack.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlcrack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlctrls.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlctrls.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlctrlw.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlctrlw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlctrlx.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlctrlx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlddx.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlddx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atldlgs.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atldlgs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlfind.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlfind.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlframe.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlframe.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlgdi.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlgdi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlmisc.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlmisc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlprint.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlprint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlres.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlres.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlresce.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlresce.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlscrl.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlscrl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlsplit.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlsplit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atltheme.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atltheme.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atluser.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atluser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlwince.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlwince.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\WTL\atlwinx.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\WTL\atlwinx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -27,29 +27,29 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)Project64-audio\AudioMain.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)Project64-audio\AudioSettings.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)Project64-audio\ConfigUI.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)Project64-audio\Driver\DirectSound.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)Project64-audio\Driver\OpenSLES.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)Project64-audio\Driver\SoundBase.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)Project64-audio\trace.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\AudioMain.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\AudioSettings.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\ConfigUI.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\Driver\DirectSound.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\Driver\OpenSLES.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\Driver\SoundBase.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)Project64-audio\trace.cpp" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)Project64-audio\AudioMain.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)Project64-audio\AudioSettings.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)Project64-audio\Audio_1.1.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)Project64-audio\ConfigUI.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)Project64-audio\Driver\DirectSound.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)Project64-audio\Driver\OpenSLES.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)Project64-audio\Driver\SoundBase.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)Project64-audio\resource.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)Project64-audio\SettingsID.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)Project64-audio\trace.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)Project64-audio\Version.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\AudioMain.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\AudioSettings.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\Audio_1.1.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\ConfigUI.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\Driver\DirectSound.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\Driver\OpenSLES.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\Driver\SoundBase.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\resource.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\SettingsID.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\trace.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)Project64-audio\Version.h" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(SourceRoot)Project64-audio\Project64-audio.rc" Label="Imported" />
+    <ResourceCompile Include="$(Pj64SourceRoot)Project64-audio\Project64-audio.rc" Label="Imported" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{73F4F256-E6D5-4DAD-A843-BD59A67E51E7}</ProjectGuid>
@@ -60,12 +60,12 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.props" />
+    <Import Project="$(SourceRoot)\MSBuild\PropertySheets\Project65.Cpp.props" />
   </ImportGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <PropertyGroup>
-    <IncludePath>$(SourceRoot);$(SourceRoot)3rdParty;$(SourceRoot)$(MSBuildProjectName);$(SolutionDir)Source\Cpp\$(MSBuildProjectName);$(IncludePath)</IncludePath>
+    <IncludePath>$(Pj64SourceRoot);$(Pj64SourceRoot)3rdParty;$(Pj64SourceRoot)$(MSBuildProjectName);$(SourceRoot)\Cpp\$(MSBuildProjectName);$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>

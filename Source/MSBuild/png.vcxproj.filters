@@ -15,60 +15,60 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\png.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\png.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngerror.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngerror.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngget.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngget.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngmem.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngmem.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngpread.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngpread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngread.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrio.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngrio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrtran.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngrtran.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngrutil.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngrutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngset.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngset.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngtrans.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngtrans.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwio.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngwio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwrite.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngwrite.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwtran.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngwtran.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)3rdParty\png\pngwutil.c">
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\png\pngwutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)3rdParty\png\png.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\png\png.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\png\pngconf.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\png\pngconf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)3rdParty\png\pngpriv.h">
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\png\pngpriv.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

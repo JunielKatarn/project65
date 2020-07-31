@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)Settings\Settings.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)Settings\Settings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)Settings\Settings.h">
+    <ClInclude Include="$(Pj64SourceRoot)Settings\Settings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

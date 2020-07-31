@@ -27,47 +27,47 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)RSP\breakpoint.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\Cpu.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\dma.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\Interpreter CPU.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\Interpreter Ops.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\log.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\Main.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\memory.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\Mmx.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\Profiling.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\Recompiler Analysis.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\Recompiler CPU.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\Recompiler Ops.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\Recompiler Sections.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\RSP Command.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\RSP Register.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\Sse.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)RSP\X86.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\breakpoint.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Cpu.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\dma.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Interpreter CPU.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Interpreter Ops.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\log.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Main.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\memory.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Mmx.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Profiling.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Recompiler Analysis.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Recompiler CPU.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Recompiler Ops.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Recompiler Sections.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\RSP Command.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\RSP Register.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Sse.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)RSP\X86.c" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)RSP\breakpoint.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\Cpu.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\dma.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\Interpreter CPU.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\Interpreter Ops.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\log.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\memory.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\OpCode.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\Profiling.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\Recompiler CPU.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\Recompiler Ops.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\resource.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\RSP Command.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\RSP Registers.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\Rsp.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\Types.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\Version.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)RSP\X86.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\breakpoint.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Cpu.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\dma.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Interpreter CPU.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Interpreter Ops.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\log.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\memory.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\OpCode.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Profiling.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Recompiler CPU.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Recompiler Ops.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\resource.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\RSP Command.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\RSP Registers.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Rsp.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Types.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Version.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)RSP\X86.h" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(SourceRoot)RSP\RSP.rc" Label="Imported" />
+    <ResourceCompile Include="$(Pj64SourceRoot)RSP\RSP.rc" Label="Imported" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4013585D-A956-42C2-87B4-A7CB89642BBD}</ProjectGuid>
@@ -78,12 +78,12 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.props" />
+    <Import Project="$(SourceRoot)\MSBuild\PropertySheets\Project65.Cpp.props" />
   </ImportGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <PropertyGroup>
-    <IncludePath>$(SourceRoot);$(SolutionDir)Source\Cpp\$(MSBuildProjectName);$(IncludePath)</IncludePath>
+    <IncludePath>$(Pj64SourceRoot);$(SourceRoot)\Cpp\$(MSBuildProjectName);$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <!-- <Bscmake>

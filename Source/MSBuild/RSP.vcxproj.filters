@@ -15,119 +15,119 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)RSP\breakpoint.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\breakpoint.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\Cpu.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Cpu.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\dma.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\dma.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\Interpreter CPU.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Interpreter CPU.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\Interpreter Ops.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Interpreter Ops.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\log.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\Main.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\memory.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\memory.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\Mmx.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Mmx.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\Profiling.cpp">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Profiling.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\Recompiler Analysis.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Recompiler Analysis.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\Recompiler CPU.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Recompiler CPU.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\Recompiler Ops.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Recompiler Ops.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\Recompiler Sections.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Recompiler Sections.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\RSP Command.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\RSP Command.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\RSP Register.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\RSP Register.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\Sse.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\Sse.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SourceRoot)RSP\X86.c">
+    <ClCompile Include="$(Pj64SourceRoot)RSP\X86.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)RSP\breakpoint.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\breakpoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\Cpu.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Cpu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\dma.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\dma.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\Interpreter CPU.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Interpreter CPU.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\Interpreter Ops.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Interpreter Ops.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\log.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\memory.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\memory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\OpCode.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\OpCode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\Profiling.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Profiling.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\Recompiler CPU.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Recompiler CPU.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\Recompiler Ops.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Recompiler Ops.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\resource.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\RSP Command.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\RSP Command.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\RSP Registers.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\RSP Registers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\Rsp.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Rsp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\Types.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\Version.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\Version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="$(SourceRoot)RSP\X86.h">
+    <ClInclude Include="$(Pj64SourceRoot)RSP\X86.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(SourceRoot)RSP\RSP.rc">
+    <ResourceCompile Include="$(Pj64SourceRoot)RSP\RSP.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>

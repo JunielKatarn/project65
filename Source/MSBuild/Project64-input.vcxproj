@@ -19,38 +19,38 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)nragev20\Debug.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)nragev20\DirectInput.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)nragev20\FileAccess.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)nragev20\GBCart.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)nragev20\Interface.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)nragev20\International.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)nragev20\NRagePluginV2.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)nragev20\PakIO.cpp" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)nragev20\XInputController.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\Debug.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\DirectInput.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\FileAccess.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\GBCart.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\Interface.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\International.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\NRagePluginV2.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\PakIO.cpp" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)nragev20\XInputController.cpp" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)nragev20\commonIncludes.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\ControllerSpecs\Controller #1.1.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\Debug.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\DirectInput.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\FileAccess.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\GBCart.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\Interface.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\International.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\NRagePluginV2.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\PakIO.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\resource.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\settings.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\Version.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)nragev20\XInputController.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\commonIncludes.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\ControllerSpecs\Controller #1.1.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\Debug.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\DirectInput.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\FileAccess.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\GBCart.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\Interface.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\International.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\NRagePluginV2.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\PakIO.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\resource.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\settings.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\Version.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)nragev20\XInputController.h" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(SourceRoot)nragev20\configs\Controller1.cpf" Label="Imported" />
-    <None Include="$(SourceRoot)nragev20\configs\Shortcuts.sc" Label="Imported" />
+    <None Include="$(Pj64SourceRoot)nragev20\configs\Controller1.cpf" Label="Imported" />
+    <None Include="$(Pj64SourceRoot)nragev20\configs\Shortcuts.sc" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(SourceRoot)nragev20\NRagePluginV2.rc" Label="Imported" />
+    <ResourceCompile Include="$(Pj64SourceRoot)nragev20\NRagePluginV2.rc" Label="Imported" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{289FD7C9-CA61-4458-8D67-09DDA726F95D}</ProjectGuid>
@@ -61,12 +61,12 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.props" />
+    <Import Project="$(SourceRoot)\MSBuild\PropertySheets\Project65.Cpp.props" />
   </ImportGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <PropertyGroup>
-    <IncludePath>$(SourceRoot);$(SolutionDir)Source\Cpp\$(MSBuildProjectName);$(IncludePath)</IncludePath>
+    <IncludePath>$(Pj64SourceRoot);$(SourceRoot)\Cpp\$(MSBuildProjectName);$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>

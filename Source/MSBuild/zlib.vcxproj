@@ -19,47 +19,47 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\adler32.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\compress.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\ioapi.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\iowin32.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\miniunz.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\minizip.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\mztools.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\unzip.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\zip.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\crc32.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\deflate.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\gzclose.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\gzlib.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\gzread.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\gzwrite.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\infback.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\inffast.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\inflate.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\inftrees.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\trees.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\uncompr.c" Label="Imported" />
-    <ClCompile Include="$(SourceRoot)3rdParty\zlib\zutil.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\adler32.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\compress.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\ioapi.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\iowin32.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\miniunz.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\minizip.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\mztools.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\unzip.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\zip.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\crc32.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\deflate.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\gzclose.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\gzlib.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\gzread.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\gzwrite.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\infback.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\inffast.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\inflate.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\inftrees.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\trees.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\uncompr.c" Label="Imported" />
+    <ClCompile Include="$(Pj64SourceRoot)3rdParty\zlib\zutil.c" Label="Imported" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\crypt.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\ioapi.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\iowin32.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\mztools.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\unzip.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\contrib\minizip\zip.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\crc32.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\deflate.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\gzguts.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\inffast.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\inffixed.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\inflate.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\inftrees.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\trees.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\zconf.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\zlib.h" Label="Imported" />
-    <ClInclude Include="$(SourceRoot)3rdParty\zlib\zutil.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\crypt.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\ioapi.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\iowin32.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\mztools.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\unzip.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\contrib\minizip\zip.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\crc32.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\deflate.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\gzguts.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\inffast.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\inffixed.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\inflate.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\inftrees.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\trees.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\zconf.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\zlib.h" Label="Imported" />
+    <ClInclude Include="$(Pj64SourceRoot)3rdParty\zlib\zutil.h" Label="Imported" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8E9DE926-B469-4773-9E2C-5399AA571671}</ProjectGuid>
@@ -70,11 +70,11 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(SolutionDir)Source\MSBuild\PropertySheets\Project65.Cpp.props" />
+    <Import Project="$(SourceRoot)\MSBuild\PropertySheets\Project65.Cpp.props" />
   </ImportGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <PropertyGroup>
-    <IncludePath>$(SourceRoot);$(SourceRoot)3rdParty\zlib;$(IncludePath)</IncludePath>
+    <IncludePath>$(Pj64SourceRoot);$(Pj64SourceRoot)3rdParty\zlib;$(IncludePath)</IncludePath>
   </PropertyGroup>
 </Project>
