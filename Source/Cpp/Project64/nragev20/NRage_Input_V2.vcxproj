@@ -27,7 +27,7 @@
   <PropertyGroup>
     <!-- <TargetName>PJ64_NRage</TargetName>
     <TargetName Condition="'$(Configuration)'=='Debug'">PJ64_NRage_d</TargetName> -->
-    <IncludePath>$(MSBuildThisFileDirectory);$(IncludePath)</IncludePath>
+    <IncludePath>$(Pj64SourceRoot);$(MSBuildThisFileDirectory);$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
