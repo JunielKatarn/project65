@@ -7,9 +7,9 @@
 	</PropertyGroup>
 
 	<PropertyGroup Label="Configuration">
-		<PlatformToolset>v142</PlatformToolset>
+		<PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
 		<GenerateProjectSpecificOutputFolder>false</GenerateProjectSpecificOutputFolder>
-		<CharacterSet>MultiByte</CharacterSet>
+		<CharacterSet>Unicode</CharacterSet>
 	</PropertyGroup>
 
 	<ImportGroup Label="Defaults">
@@ -26,6 +26,7 @@
 		<ClCompile>
 			<LanguageStandard>stdcpp14</LanguageStandard>
 			<WarningLevel>Level3</WarningLevel>
+			<ConformanceMode>false</ConformanceMode>
 			<!--
 				_CRT_SECURE_NO_WARNINGS - C4996: ... This function or variable may be unsafe.
 			-->
