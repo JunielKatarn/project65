@@ -26,7 +26,7 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <Import Project="$(SourceRoot)\MSBuild\PropertySheets\Project65.Cpp.targets" />
   <PropertyGroup>
-    <IncludePath>$(MSBuildThisFileDirectory)..;$(Pj64SourceRoot);$(Pj64SourceRoot)\$(MSBuildProjectName);$(Pj64SourceRoot)\3rdParty;$(IncludePath)</IncludePath>
+    <IncludePath>$(MSBuildThisFileDirectory)..;$(Pj64SourceRoot);$(Pj64SourceRoot)\$(MSBuildProjectName);$(SourceRoot)\Cpp\Project64\Project64-core;$(Pj64SourceRoot)\Project64\UserInterface;$(Pj64SourceRoot)\3rdParty;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -53,7 +53,9 @@
     <ClInclude Include="$(Pj64SourceRoot)\Project64\**\*.h" />
   </ItemGroup>
   <ItemGroup Label="Imported">
-    <ResourceCompile Include="$(Pj64SourceRoot)\Project64\UserInterface\UIResources.rc" />
+    <ResourceCompile Include="$(Pj64SourceRoot)\Project64\UserInterface\UIResources.rc">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ResourceCompile>
   </ItemGroup>
   <ItemGroup Label="Imported">
     <None Include="$(Pj64SourceRoot)\Project64\res\divider.cur" />
@@ -63,6 +65,9 @@
     <None Include="$(Pj64SourceRoot)\Project64\UserInterface\Icons\divider.cur" />
     <None Include="$(Pj64SourceRoot)\Project64\UserInterface\Icons\hand.cur" />
     <None Include="$(Pj64SourceRoot)\Project64\UserInterface\icons\javascri.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UserInterface\UIResources.rc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\3rdParty\discord-rpc\discord-rpc.vcxproj">
