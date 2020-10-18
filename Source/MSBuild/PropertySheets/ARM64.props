@@ -9,6 +9,10 @@
 
   <ItemDefinitionGroup>
     <ClCompile>
+      <PreprocessorDefinitions>
+        RAPIDJSON_ENDIAN=RAPIDJSON_LITTLEENDIAN;
+        %(PreprocessorDefinitions)
+      </PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
 
