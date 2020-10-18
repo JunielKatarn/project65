@@ -8,6 +8,13 @@
     <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
     <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
     <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
@@ -23,8 +30,19 @@
     <ClInclude Include="Version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\Project64-audio\**\*.h" />
   </ItemGroup>
   <ItemGroup>
+    <ResourceCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.rc" />
     <ResourceCompile Include="$(Pj64SourceRoot)\Project64-audio\**\*.rc" />
   </ItemGroup>
   <ItemGroup>

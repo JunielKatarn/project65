@@ -10,6 +10,15 @@
     <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
     <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
     <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
+    <ClCompile Include="$(Pj64SourceRoot)\nragev20\**\*.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
@@ -28,8 +37,22 @@
     <ClInclude Include="Version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
+    <ClInclude Include="$(Pj64SourceRoot)\nragev20\**\*.h" />
   </ItemGroup>
   <ItemGroup>
+    <ResourceCompile Include="$(Pj64SourceRoot)\nragev20\**\*.rc" />
     <ResourceCompile Include="$(Pj64SourceRoot)\nragev20\**\*.rc" />
   </ItemGroup>
   <ItemGroup>
