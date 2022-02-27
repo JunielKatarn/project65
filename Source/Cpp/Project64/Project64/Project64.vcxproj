@@ -49,7 +49,7 @@
   <ItemGroup Label="Imported">
     <ClCompile Include="$(Pj64SourceRoot)\Project64\**\*.cpp" />
   </ItemGroup>
-  <ItemGroup  Label="Imported">
+  <ItemGroup Label="Imported">
     <ClInclude Include="$(Pj64SourceRoot)\Project64\**\*.h" />
   </ItemGroup>
   <ItemGroup Label="Imported">
@@ -70,6 +70,9 @@
     <ResourceCompile Include="UserInterface\UIResources.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\WinApiStubs\WinApiStubs.vcxproj">
+      <Project>{b82ba248-f68a-4902-bfa7-087a506db17a}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\3rdParty\discord-rpc\discord-rpc.vcxproj">
       <Project>{a5a32fa2-c031-4140-91cb-7fbdbf38a6e4}</Project>
     </ProjectReference>
