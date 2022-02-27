@@ -11,7 +11,7 @@ LPVOID sessionStubVoid = static_cast<LPVOID>(sessionStubChars); //(LPVOID)lpb;
 
 } //namespace
 
-EXTERN_C /*__declspec(dllexport)*/ HINTERNET STDAPICALLTYPE InternetOpenW(
+/*EXTERN_C*/ /*__declspec(dllexport)*/ HINTERNET STDAPICALLTYPE InternetOpenW(
 	_In_opt_ LPCWSTR lpszAgent,
 	_In_ DWORD dwAccessType,
 	_In_opt_ LPCWSTR lpszProxy,
