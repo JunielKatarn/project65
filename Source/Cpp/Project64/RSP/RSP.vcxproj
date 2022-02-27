@@ -27,6 +27,11 @@
   <PropertyGroup>
     <IncludePath>$(MSBuildThisFileDirectory);$(Pj64SourceRoot);$(IncludePath)</IncludePath>
   </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <UndefinePreprocessorDefinitions>UNICODE;_UNICODE</UndefinePreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
   <ItemGroup Label="Imported">
     <ClCompile Include="$(Pj64SourceRoot)\RSP\**\*.c" />
     <ClCompile Include="$(Pj64SourceRoot)\RSP\**\*.cpp" />
