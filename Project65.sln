@@ -72,6 +72,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSP", "Source\Cpp\Project64
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Settings", "Source\Cpp\Project64\Settings\Settings.vcxproj", "{00CA748C-B8C4-4246-8D6A-96E21F8FA4DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StubWinInet", "Source\Cpp\StubWinInet\StubWinInet.vcxproj", "{0BBA0663-ED0B-43C1-9FEA-85BDF3ABC2A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -138,6 +140,10 @@ Global
 		{00CA748C-B8C4-4246-8D6A-96E21F8FA4DC}.Debug|x86.Build.0 = Debug|Win32
 		{00CA748C-B8C4-4246-8D6A-96E21F8FA4DC}.Release|x86.ActiveCfg = Release|Win32
 		{00CA748C-B8C4-4246-8D6A-96E21F8FA4DC}.Release|x86.Build.0 = Release|Win32
+		{0BBA0663-ED0B-43C1-9FEA-85BDF3ABC2A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{0BBA0663-ED0B-43C1-9FEA-85BDF3ABC2A9}.Debug|x86.Build.0 = Debug|Win32
+		{0BBA0663-ED0B-43C1-9FEA-85BDF3ABC2A9}.Release|x86.ActiveCfg = Release|Win32
+		{0BBA0663-ED0B-43C1-9FEA-85BDF3ABC2A9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
