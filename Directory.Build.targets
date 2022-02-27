@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
 
+  <!--https://stackoverflow.com/questions/17461175-->
+  <UsingTask
+    TaskName="ListMeta"
+    TaskFactory="CodeTaskFactory"
+    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >
+    <ParameterGroup>
+      <MyItemGroup ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />
+      <!--<MetadataString Output="true" />-->
+    </ParameterGroup>
+    <Task>
+      <!--<Reference Include="" />-->
+      <!--<Using Namespace="" />-->
+      <Code Type="Fragment" Language="cs">
+        <![CDATA[
+          StringBuilder command = new StringBuilder();
+          foreach (ITaskItem item in MyItemGroup)
+          {
+              command.AppendFormat("ItemName={0}\r\n", item);
+              foreach (string parameter in item.MetadataNames)
+              {
+                  command.AppendFormat("  {0}\t\t\t={1}\r\n", parameter, item.GetMetadata(parameter));
+              }
+              command.AppendFormat("\r\n");
+          }
+          //MetadataString = command.ToString();
+          Console.WriteLine(command.ToString());
+        ]]>
+      </Code>
+    </Task>
+  </UsingTask>
+
+  <Target Name="SetCopyLocalPaths" AfterTargets="Link" Condition="'$(MSBuildProjectExtension)' == '.vcxproj'">
+    <XmlPeek XmlInputPath="@(ReferencedVCProjectsInfo)"
+             Query="Project/ProjectOutputs/ProjectOutput/FullPath/text()"
+             Condition="$([System.String]::Copy('%(Identity)').EndsWith('.dll.recipe'))">
+      <Output TaskParameter="Result" ItemName="ReferenceCopyLocalPaths" />
+    </XmlPeek>
+  </Target>
+
   <Target Name="Vars">
     <Message Text="================== Project65 macros ===================" />
     <Message Text="SourceRoot        [$(SourceRoot)]" />
