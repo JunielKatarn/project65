@@ -145,7 +145,6 @@
     <ProjectReference Include="..\WinApiStubs\WinApiStubs.vcxproj">
       <Project>{b82ba248-f68a-4902-bfa7-087a506db17a}</Project>
       <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
-      <CopyLocals>true</CopyLocals>
       <Private>false</Private>
     </ProjectReference>
   </ItemGroup>
