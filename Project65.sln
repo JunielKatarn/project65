@@ -76,7 +76,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StubWinInet", "Source\Cpp\S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{5028C920-353F-4300-9DA5-3BA02B6445CE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinApiStubs", "WinApiStubs\WinApiStubs.vcxproj", "{B82BA248-F68A-4902-BFA7-087A506DB17A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinApiStubs", "Source\Cpp\WinApiStubs\WinApiStubs.vcxproj", "{B82BA248-F68A-4902-BFA7-087A506DB17A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -222,12 +222,12 @@ Global
 		{5028C920-353F-4300-9DA5-3BA02B6445CE}.Release|x64.Build.0 = Release|x64
 		{5028C920-353F-4300-9DA5-3BA02B6445CE}.Release|x86.ActiveCfg = Release|Win32
 		{5028C920-353F-4300-9DA5-3BA02B6445CE}.Release|x86.Build.0 = Release|Win32
-		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Debug|x64.ActiveCfg = Debug|x64
-		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Debug|x64.Build.0 = Debug|x64
+		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Debug|x64.ActiveCfg = Debug|Win32
+		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Debug|x64.Build.0 = Debug|Win32
 		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Debug|x86.ActiveCfg = Debug|Win32
 		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Debug|x86.Build.0 = Debug|Win32
-		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Release|x64.ActiveCfg = Release|x64
-		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Release|x64.Build.0 = Release|x64
+		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Release|x64.ActiveCfg = Release|Win32
+		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Release|x64.Build.0 = Release|Win32
 		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Release|x86.ActiveCfg = Release|Win32
 		{B82BA248-F68A-4902-BFA7-087A506DB17A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection

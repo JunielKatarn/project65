@@ -145,7 +145,7 @@
     <ProjectReference Include="..\Source\Cpp\StubWinInet\StubWinInet.vcxproj">
       <Project>{0bba0663-ed0b-43c1-9fea-85bdf3abc2a9}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\WinApiStubs\WinApiStubs.vcxproj">
+    <ProjectReference Include="..\Source\Cpp\WinApiStubs\WinApiStubs.vcxproj">
       <Project>{b82ba248-f68a-4902-bfa7-087a506db17a}</Project>
     </ProjectReference>
   </ItemGroup>
